@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kaohsiung Culture — Schedule</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#020617; --panel:#0a1120; --panel2:#0d1526; --line:#1e293b; --line2:#27354b;
+    --txt:#e2e8f0; --mute:#7c8aa3; --dim:#4d5b73; --accent:#22d3ee; --accentdim:#0e7490;
+    --film:#22d3ee; --perf:#f0abfc; --art:#fbbf24; --warn:#f87171;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--txt);
+    font-family:'JetBrains Mono',monospace;font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased}
+  a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+  .wrap{max-width:1080px;margin:0 auto;padding:28px 20px 80px}
+  header{border:1px solid var(--line);background:var(--panel);padding:22px 22px 20px}
+  h1{font-family:'Syne',sans-serif;font-weight:800;font-size:25px;letter-spacing:-.5px;margin:0 0 4px;line-height:1.1}
+  h1 .ac{color:var(--accent)}
+  .sub{color:var(--mute);font-size:11.5px;letter-spacing:.3px;margin-bottom:16px}
+  .barrow{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+  .filters{display:flex;flex-wrap:wrap;gap:6px}
+  .chip{font-size:11px;letter-spacing:.5px;text-transform:uppercase;padding:6px 11px;border:1px solid var(--line2);
+    background:transparent;color:var(--mute);cursor:pointer;font-family:inherit}
+  .chip:hover{border-color:var(--accentdim);color:var(--txt)}
+  .chip.on{border-color:var(--accent);color:var(--accent)}
+  .ctrls{display:flex;gap:8px;align-items:center}
+  button.act{font-family:inherit;font-size:11.5px;letter-spacing:.5px;text-transform:uppercase;
+    padding:8px 14px;border:1px solid var(--accent);background:transparent;color:var(--accent);cursor:pointer}
+  button.act:hover{background:rgba(34,211,238,.08)} button.act:disabled{opacity:.4;cursor:wait}
+  .updated{font-size:10.5px;color:var(--dim);letter-spacing:.3px;white-space:nowrap}
+  .note{margin-top:14px;border:1px solid var(--line);border-left:2px solid var(--accentdim);
+    background:var(--panel2);padding:9px 12px;font-size:10.5px;color:var(--mute);letter-spacing:.2px}
+  .agenda{margin-top:8px}
+  .sectionhead{font-family:'Syne',sans-serif;font-weight:800;font-size:17px;letter-spacing:.3px;color:var(--txt);
+    margin:34px 0 4px;display:flex;align-items:baseline;gap:10px}
+  .sectionhead .bar{flex:1;height:1px;background:var(--accentdim)}
+  .sectionsub{font-size:10.5px;color:var(--dim);letter-spacing:.3px;margin-bottom:14px}
+  .daygroup{margin-bottom:20px;opacity:0;animation:fade .5s forwards}
+  @keyframes fade{to{opacity:1}}
+  .dayhdr{display:flex;align-items:baseline;gap:10px;border-bottom:1px solid var(--line);padding-bottom:6px;margin-bottom:10px}
+  .dnum{font-family:'Syne',sans-serif;font-weight:800;font-size:18px;color:var(--txt)}
+  .dwk{font-size:10.5px;letter-spacing:1px;text-transform:uppercase;color:var(--mute)}
+  .dtag{margin-left:auto;font-size:10px;color:var(--dim);letter-spacing:.5px}
+  .film{padding:9px 0;border-bottom:1px solid #131c2e} .film:last-child{border-bottom:none}
+  .film .fti{font-family:'Syne',sans-serif;font-weight:600;font-size:14.5px;color:var(--txt);line-height:1.25;margin-bottom:5px}
+  .screen{display:grid;grid-template-columns:78px 1fr auto;gap:10px;align-items:start;padding:2px 0}
+  .screen .ci{font-size:9px;letter-spacing:.5px;text-transform:uppercase;padding:2px 5px;border:1px solid var(--line2);color:var(--mute);justify-self:start}
+  .times{display:flex;flex-wrap:wrap;gap:4px 8px}
+  .tm{font-size:12px;color:var(--film);letter-spacing:.3px}
+  .fmt{font-size:9px;color:var(--art);border:1px solid #3a2f12;padding:0 4px;margin-left:2px}
+  .ev{display:grid;grid-template-columns:74px 1fr;gap:14px;padding:10px 0;border-bottom:1px solid #131c2e} .ev:last-child{border-bottom:none}
+  .evL{display:flex;flex-direction:column;gap:5px;align-items:flex-start}
+  .vtag{font-size:9px;letter-spacing:.6px;text-transform:uppercase;padding:2px 5px;border:1px solid var(--line2);color:var(--mute)}
+  .ttag{font-size:9px;letter-spacing:.6px;text-transform:uppercase;color:var(--dim)}
+  .ttag.perf{color:var(--perf)} .ttag.art{color:var(--art)} .ttag.film{color:var(--film)}
+  .sbadge{font-size:8.5px;letter-spacing:.5px;padding:1px 5px;border:1px solid var(--line);color:var(--dim)}
+  .sbadge.live{border-color:var(--accentdim);color:var(--accent)}
+  .evR .ti{font-family:'Syne',sans-serif;font-weight:600;font-size:15px;color:var(--txt);line-height:1.25}
+  .evR .nt{font-size:11.5px;color:var(--mute);margin-top:3px}
+  .evR .src{font-size:10px;color:var(--dim);margin-top:4px}
+  .range{display:inline-block;font-size:10px;color:var(--art);border:1px solid #3a2f12;padding:1px 5px;margin-top:4px}
+  .section-lbl{font-family:'Syne',sans-serif;font-weight:700;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mute);margin:18px 0 10px}
+  .mini{font-size:10.5px;color:var(--dim);padding:8px 0}
+  .legend{margin-top:34px;border-top:1px solid var(--line);padding-top:14px;display:flex;flex-wrap:wrap;gap:14px;font-size:10.5px;color:var(--dim)}
+  .legend b{color:var(--mute);font-weight:500}
+  .vlist{margin-top:10px;font-size:10.5px;color:var(--dim);line-height:1.9} .vlist a{color:var(--mute)}
+  @media(max-width:560px){
+    .ev{grid-template-columns:62px 1fr;gap:10px}
+    .screen{grid-template-columns:70px 1fr;grid-template-rows:auto auto}
+    h1{font-size:20px} .barrow{flex-direction:column;align-items:flex-start}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Kaohsiung Culture <span class="ac">/</span> Schedule</h1>
+    <div class="sub">in89 ENGLISH-LANGUAGE SHOWTIMES · PERFORMANCE · ART — auto-updated daily</div>
+    <div class="barrow">
+      <div class="filters" id="filters">
+        <button class="chip on" data-cat="all">All</button>
+        <button class="chip" data-cat="film">in89</button>
+        <button class="chip" data-cat="perf">Performance</button>
+        <button class="chip" data-cat="art">Art</button>
+      </div>
+      <div class="ctrls">
+        <span class="updated" id="updated">loading…</span>
+        <button class="act" id="refresh">Refresh</button>
+      </div>
+    </div>
+    <div class="note">Data is published once a day by an automated job and read straight from GitHub on load — no buttons needed. <b>in89</b> = rolling ~3-day board of English-audio films &amp; times. <b>Performance &amp; Art</b> = 30-day window. Always confirm exact times/tickets on the official page (linked); performance tickets via OPENTIX.</div>
+  </header>
+  <div id="agenda" class="agenda"></div>
+  <div class="legend">
+    <span><b>Type:</b></span>
+    <span class="tm">● showtime</span>
+    <span class="ttag perf">● concert / opera / theater / dance</span>
+    <span class="ttag art">● exhibition / event</span>
+  </div>
+  <div class="vlist" id="vlist"></div>
+</div>
+
+<script>
+// ====== CONFIG ======
+const DATA_URL = "https://raw.githubusercontent.com/whyuwanna69-blip/kh-schedule/main/schedule.json";
+
+// ====== embedded offline fallback (mirrors the seed schedule.json) ======
+const SEED = {
+ updatedAt:"2026-05-31T12:00:00+08:00", label:"offline fallback · 31 May 2026",
+ cinema:{IN89:[
+   {film:"The Backrooms",date:"2026-05-31",times:["10:00","12:10","14:20","16:30","18:40","20:50","23:00"],format:"",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"The Mandalorian and Grogu",date:"2026-05-31",times:["10:00","11:50","12:30","15:00","16:20","17:30","20:00","22:30","23:20"],format:"",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"Top Gun: Maverick",date:"2026-05-31",times:["09:50"],format:"re-release",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"The Devil Wears Prada 2",date:"2026-05-31",times:["10:00","14:30","19:00"],format:"",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"Michael (Michael Jackson biopic)",date:"2026-05-31",times:["19:00","20:50"],format:"",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"Mortal Kombat II",date:"2026-05-31",times:["23:20"],format:"R",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"狸想世界 (English-dubbed animation)",date:"2026-05-31",times:["18:00"],format:"Eng dub",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"The Backrooms",date:"2026-06-01",times:["10:00","12:10","14:20","16:30","18:40","20:50","23:00"],format:"",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"The Mandalorian and Grogu",date:"2026-06-01",times:["10:00","11:50","12:30","15:00","16:20","17:30","20:00","22:30","23:20"],format:"",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"Top Gun (1986, re-release)",date:"2026-06-01",times:["10:00"],format:"re-release",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"The Devil Wears Prada 2",date:"2026-06-01",times:["10:00","14:40","19:20"],format:"",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"Michael (Michael Jackson biopic)",date:"2026-06-01",times:["18:40","20:50"],format:"",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"Mortal Kombat II",date:"2026-06-01",times:["23:10"],format:"R",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"The Super Mario Galaxy Movie — English ver.",date:"2026-06-01",times:["16:20"],format:"English",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"狸想世界 (English-dubbed animation)",date:"2026-06-01",times:["18:20"],format:"Eng dub",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"The Backrooms",date:"2026-06-02",times:["10:00","12:10","14:20","16:30","18:40","20:50","23:00"],format:"",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"The Mandalorian and Grogu",date:"2026-06-02",times:["10:00","11:50","12:30","15:00","16:20","17:30","20:00","22:30","23:20"],format:"",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"Top Gun (1986, re-release)",date:"2026-06-02",times:["10:00"],format:"re-release",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"The Devil Wears Prada 2",date:"2026-06-02",times:["10:00","14:40","19:20"],format:"",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"Michael (Michael Jackson biopic)",date:"2026-06-02",times:["18:40","20:50"],format:"",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"Mortal Kombat II",date:"2026-06-02",times:["23:10"],format:"R",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"The Super Mario Galaxy Movie — English ver.",date:"2026-06-02",times:["16:20"],format:"English",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {film:"狸想世界 (English-dubbed animation)",date:"2026-06-02",times:["18:20"],format:"Eng dub",srcs:["seed"],source:"https://www.atmovies.com.tw/showtime/t07728/a07/"}
+ ]},
+ culture:{
+  KMFA:[
+   {title:"Moments — A Journey Through Painting & Photography (瞬間)",date:"2026-05-09",end:"2026-09-06",type:"exhibition",note:"Special show linking painting and photography",srcs:["seed"],source:"https://www.kmfa.gov.tw/Exhibition",venueId:"KMFA",cat:"art"},
+   {title:"2026 Kaohsiung Award (高雄獎, 30th edition)",date:"",end:"",type:"exhibition",note:"Contemporary Taiwanese art — confirm dates on official site",srcs:["seed"],source:"https://www.kmfa.gov.tw/Exhibition",venueId:"KMFA",cat:"art"}
+  ],
+  WWY:[
+   {title:"Mountain Dog Band — Voices from the Land (山狗大後生樂團)",date:"2026-06-10",end:"",type:"concert",note:"Weiwuying \"Showtime\" Wed-evening series",srcs:["seed"],source:"https://www.opentix.life/o/weiwuying",venueId:"WWY",cat:"perf"},
+   {title:"Offenbach — The Tales of Hoffmann (opera concert)",date:"",end:"",type:"opera",note:"2026 season — check OPENTIX for the date",srcs:["seed"],source:"https://www.opentix.life/o/weiwuying",venueId:"WWY",cat:"perf"}
+  ],
+  NEIWEI:[{title:"Neiwei Theater — curated film programme",date:"",end:"",type:"film",note:"Arthouse/Taiwanese screenings & exhibitions — see official (closed Mon)",srcs:["seed"],source:"https://www.nwac.org.tw/tw/activity-list",venueId:"NEIWEI",cat:"art"}],
+  KFA:[{title:"Kaohsiung Film Archive — programme & retrospectives",date:"",end:"",type:"film",note:"Repertory, festivals, Taiwanese cinema — see official (closed Mon)",srcs:["seed"],source:"https://kfa.kcg.gov.tw/",venueId:"KFA",cat:"art"}]
+ }
+};
+
+// ====== venue meta (labels + official links) ======
+const VENUES=[
+  {id:"IN89",code:"IN89",cat:"film",name:"in89 (Dali) Cinema",url:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+  {id:"VIESHOW",code:"VIESHOW",cat:"film",name:"Vie Show FE21 Cinema",url:"https://www.vscinemas.com.tw/"},
+  {id:"WWY",code:"WWY",cat:"perf",name:"Weiwuying (Nat. Kaohsiung Center for the Arts)",url:"https://www.npac-weiwuying.org/programs?lang=en"},
+  {id:"MUSIC",code:"MUSIC",cat:"perf",name:"Kaohsiung City Music Hall",url:"https://kaohsiungmusichall.kcg.gov.tw/"},
+  {id:"CULT",code:"CULT",cat:"perf",name:"Kaohsiung Cultural Center (Jhih-De / Jhih-Shan)",url:"https://www.opentix.life/"},
+  {id:"DADONG",code:"DADONG",cat:"perf",name:"Dadong Arts Center",url:"https://dadongcenter.kcg.gov.tw/"},
+  {id:"KMFA",code:"KMFA",cat:"art",name:"Kaohsiung Museum of Fine Arts",url:"https://www.kmfa.gov.tw/english/index.htm"},
+  {id:"ALIEN",code:"ALIEN",cat:"art",name:"ALIEN Art Centre",url:"https://www.alien.com.tw/"},
+  {id:"PIER2",code:"PIER-2",cat:"art",name:"Pier-2 Art Center",url:"https://pier2.org/"},
+  {id:"NEIWEI",code:"NEIWEI",cat:"art",name:"Neiwei Theater / Arts Center",url:"https://www.nwac.org.tw/tw/activity-list"},
+  {id:"KFA",code:"FILM-ARC",cat:"art",name:"Kaohsiung Film Archive",url:"https://kfa.kcg.gov.tw/"}
+];
+const VMAP=Object.fromEntries(VENUES.map(v=>[v.id,v]));
+
+// reference date = today (real). Cinema/culture render shows whatever dates the data carries.
+const pad=n=>String(n).padStart(2,"0");
+const ymd=d=>`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
+const addDays=(d,n)=>{const x=new Date(d);x.setDate(x.getDate()+n);return x;};
+const WK=["SUN","MON","TUE","WED","THU","FRI","SAT"];
+const MO=["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
+function refDate(){
+  // anchor to the earliest cinema date in the data so the board always shows,
+  // regardless of the device clock; fall back to today.
+  let min=null;
+  Object.values(STATE.cinema||{}).forEach(l=>(l||[]).forEach(e=>{ if(isDate(e.date)&&(!min||e.date<min))min=e.date; }));
+  return min || ymd(new Date());
+}
+let TODAY_S, END_S;
+function setWindow(){ TODAY_S=refDate(); END_S=ymd(addDays(new Date(TODAY_S+"T00:00:00"),29)); }
+
+let STATE={cinema:{},culture:{},updatedAt:null,label:""};
+let activeCat="all";
+
+function isDate(s){return /^\d{4}-\d{2}-\d{2}$/.test(s||"");}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));}
+function srcBadge(srcs){const s=srcs||[]; if(s.includes("auto"))return '<span class="sbadge live">live</span>'; if(s.includes("seed"))return '<span class="sbadge">seed</span>'; return "";}
+function dayHeader(d){const dt=new Date(d+"T00:00:00");
+  return `<div class="dayhdr"><span class="dnum">${MO[dt.getMonth()]} ${pad(dt.getDate())}</span><span class="dwk">${WK[dt.getDay()]}</span><span class="dtag"></span></div>`;}
+
+function renderCinema(){
+  const byDate={};
+  Object.entries(STATE.cinema||{}).forEach(([vid,list])=>(list||[]).forEach(e=>{
+    if(!isDate(e.date))return;
+    const films=byDate[e.date]=byDate[e.date]||{};
+    const fk=String(e.film||"").toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff]/g,"").slice(0,28);
+    const f=films[fk]=films[fk]||{film:e.film,screens:[]};
+    f.screens.push({vid,times:e.times||[],format:e.format||"",srcs:e.srcs||[],source:e.source});
+  }));
+  const dates=Object.keys(byDate).sort();
+  let html=`<div class="sectionhead">in89 — English-language films &amp; times (next 3 days)<span class="bar"></span></div>
+    <div class="sectionsub">English-audio films only (live-action in original English + English-dub animation). Capped at ~3 days — the furthest cinemas publish.</div>`;
+  if(!dates.length){ html+=`<div class="mini">No in89 showtimes in the current data — see <a href="${VMAP.IN89.url}" target="_blank" rel="noopener">official ↗</a>.</div>`; return html; }
+  dates.forEach(d=>{
+    html+=`<div class="daygroup">${dayHeader(d)}`;
+    Object.values(byDate[d]).sort((a,b)=>String(a.film).localeCompare(b.film)).forEach(f=>{
+      html+=`<div class="film"><div class="fti">${esc(f.film)}</div>`;
+      f.screens.forEach(sc=>{
+        const v=VMAP[sc.vid]||{code:"?",url:"#"};
+        const src=sc.source&&/^https?:/.test(sc.source)?sc.source:v.url;
+        const times=(sc.times||[]).map(t=>`<a class="tm" href="${src}" target="_blank" rel="noopener">${esc(t)}</a>`).join("") || `<span class="tm" style="color:var(--dim)">times on site ↗</span>`;
+        html+=`<div class="screen"><span class="ci">${v.code}</span>
+          <span class="times">${times}${sc.format?`<span class="fmt">${esc(sc.format)}</span>`:""}</span>
+          ${srcBadge(sc.srcs)}</div>`;
+      });
+      html+=`</div>`;
+    });
+    html+=`</div>`;
+  });
+  return html;
+}
+
+function withinWindow(e){const s=e.date,en=e.end||e.date;
+  if(!isDate(s))return{ok:true,bucket:"tba"};
+  if(s<=TODAY_S&&en>=TODAY_S)return{ok:true,bucket:"now"};
+  if(s>=TODAY_S&&s<=END_S)return{ok:true,bucket:"up"};
+  if(en>=TODAY_S&&s<=END_S)return{ok:true,bucket:"now"};
+  return{ok:true,bucket:"up"};}
+
+function renderCulture(cat){
+  const all=[];
+  Object.entries(STATE.culture||{}).forEach(([vid,list])=>(list||[]).forEach(e=>{e.venueId=e.venueId||vid;e.cat=e.cat||(VMAP[vid]||{}).cat;all.push(e);}));
+  const filtered=all.filter(e=>cat==="all"||e.cat===cat);
+  const now=[],tba=[],byDay={};
+  filtered.forEach(e=>{const w=withinWindow(e);if(!w.ok)return;
+    if(w.bucket==="now")now.push(e);else if(w.bucket==="tba")tba.push(e);else (byDay[e.date]=byDay[e.date]||[]).push(e);});
+  function evHTML(e){const v=VMAP[e.venueId]||{code:"?",url:"#"};
+    const isRange=e.end&&e.end!==e.date&&isDate(e.end);
+    const rng=isRange?`<span class="range">until ${e.end}</span>`:"";
+    const src=e.source&&/^https?:/.test(e.source)?e.source:v.url;
+    return `<div class="ev"><div class="evL"><span class="vtag">${v.code}</span><span class="ttag ${e.cat}">${e.type||"event"}</span>${srcBadge(e.srcs)}</div>
+      <div class="evR"><div class="ti">${esc(e.title||"(untitled)")}</div>${e.note?`<div class="nt">${esc(e.note)}</div>`:""}${rng}
+      <div class="src"><a href="${src}" target="_blank" rel="noopener">official ↗</a></div></div></div>`;}
+  let html=`<div class="sectionhead">Performance &amp; Art — next 30 days<span class="bar"></span></div>
+    <div class="sectionsub">Concerts, opera, theatre, dance and exhibitions (incl. Neiwei &amp; the Film Archive).</div>`;
+  let body="";
+  if(now.length){body+=`<div class="section-lbl">Now on</div>`;now.sort((a,b)=>(a.end||a.date).localeCompare(b.end||b.date));body+=now.map(evHTML).join("");}
+  const days=Object.keys(byDay).sort();
+  if(days.length){body+=`<div class="section-lbl">Upcoming</div>`;days.forEach(d=>{body+=`<div class="daygroup">${dayHeader(d)}${byDay[d].map(evHTML).join("")}</div>`;});}
+  if(tba.length){body+=`<div class="section-lbl">Dates to confirm</div>`+tba.map(evHTML).join("");}
+  if(!body)body=`<div class="mini">Nothing loaded for this filter.</div>`;
+  return html+body;
+}
+
+function render(){
+  setWindow();
+  document.getElementById("updated").textContent = STATE.label || (STATE.updatedAt?("updated "+new Date(STATE.updatedAt).toLocaleString()):"");
+  const ag=document.getElementById("agenda");
+  let html="";
+  if(activeCat==="all"||activeCat==="film") html+=renderCinema();
+  if(activeCat==="all"||activeCat==="perf"||activeCat==="art") html+=renderCulture(activeCat==="film"?"all":activeCat);
+  ag.innerHTML=html;
+}
+
+async function loadData(){
+  const btn=document.getElementById("refresh"); btn.disabled=true; btn.textContent="Loading…";
+  try{
+    const res=await fetch(DATA_URL,{cache:"no-store"});
+    if(!res.ok) throw new Error("http "+res.status);
+    const data=await res.json();
+    STATE={cinema:data.cinema||{},culture:data.culture||{},updatedAt:data.updatedAt||null,label:data.label||""};
+  }catch(err){
+    STATE={cinema:SEED.cinema,culture:SEED.culture,updatedAt:SEED.updatedAt,label:SEED.label+" (couldn't reach GitHub)"};
+  }
+  render();
+  btn.disabled=false; btn.textContent="Refresh";
+}
+
+// footer venue links
+document.getElementById("vlist").innerHTML='<b style="color:var(--mute)">Venues &amp; official sources:</b><br>'+
+  VENUES.map(v=>`<a href="${v.url}" target="_blank" rel="noopener">${v.code} · ${v.name} ↗</a>`).join(" &nbsp;·&nbsp; ");
+
+document.getElementById("filters").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;
+  activeCat=b.dataset.cat;document.querySelectorAll(".chip").forEach(c=>c.classList.toggle("on",c===b));render();});
+document.getElementById("refresh").addEventListener("click",loadData);
+
+// show seed immediately, then pull the live JSON
+STATE={cinema:SEED.cinema,culture:SEED.culture,updatedAt:SEED.updatedAt,label:SEED.label};
+render();
+loadData();
+</script>
+</body>
+</html>

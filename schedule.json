@@ -1,0 +1,47 @@
+{
+ "updatedAt": "2026-05-31T12:00:00+08:00",
+ "label": "seed snapshot · 31 May 2026 (auto-updates once the Action runs)",
+ "cinema": {
+  "IN89": [
+   {"film": "The Backrooms", "date": "2026-05-31", "times": ["10:00","12:10","14:20","16:30","18:40","20:50","23:00"], "format": "", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "The Mandalorian and Grogu", "date": "2026-05-31", "times": ["10:00","11:50","12:30","15:00","16:20","17:30","20:00","22:30","23:20"], "format": "", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "Top Gun: Maverick", "date": "2026-05-31", "times": ["09:50"], "format": "re-release", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "The Devil Wears Prada 2", "date": "2026-05-31", "times": ["10:00","14:30","19:00"], "format": "", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "Michael (Michael Jackson biopic)", "date": "2026-05-31", "times": ["19:00","20:50"], "format": "", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "Mortal Kombat II", "date": "2026-05-31", "times": ["23:20"], "format": "R", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "狸想世界 (English-dubbed animation)", "date": "2026-05-31", "times": ["18:00"], "format": "Eng dub", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "The Backrooms", "date": "2026-06-01", "times": ["10:00","12:10","14:20","16:30","18:40","20:50","23:00"], "format": "", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "The Mandalorian and Grogu", "date": "2026-06-01", "times": ["10:00","11:50","12:30","15:00","16:20","17:30","20:00","22:30","23:20"], "format": "", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "Top Gun (1986, re-release)", "date": "2026-06-01", "times": ["10:00"], "format": "re-release", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "The Devil Wears Prada 2", "date": "2026-06-01", "times": ["10:00","14:40","19:20"], "format": "", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "Michael (Michael Jackson biopic)", "date": "2026-06-01", "times": ["18:40","20:50"], "format": "", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "Mortal Kombat II", "date": "2026-06-01", "times": ["23:10"], "format": "R", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "The Super Mario Galaxy Movie — English ver.", "date": "2026-06-01", "times": ["16:20"], "format": "English", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "狸想世界 (English-dubbed animation)", "date": "2026-06-01", "times": ["18:20"], "format": "Eng dub", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "The Backrooms", "date": "2026-06-02", "times": ["10:00","12:10","14:20","16:30","18:40","20:50","23:00"], "format": "", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "The Mandalorian and Grogu", "date": "2026-06-02", "times": ["10:00","11:50","12:30","15:00","16:20","17:30","20:00","22:30","23:20"], "format": "", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "Top Gun (1986, re-release)", "date": "2026-06-02", "times": ["10:00"], "format": "re-release", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "The Devil Wears Prada 2", "date": "2026-06-02", "times": ["10:00","14:40","19:20"], "format": "", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "Michael (Michael Jackson biopic)", "date": "2026-06-02", "times": ["18:40","20:50"], "format": "", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "Mortal Kombat II", "date": "2026-06-02", "times": ["23:10"], "format": "R", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "The Super Mario Galaxy Movie — English ver.", "date": "2026-06-02", "times": ["16:20"], "format": "English", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"},
+   {"film": "狸想世界 (English-dubbed animation)", "date": "2026-06-02", "times": ["18:20"], "format": "Eng dub", "srcs": ["seed"], "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"}
+  ]
+ },
+ "culture": {
+  "KMFA": [
+   {"title": "Moments — A Journey Through Painting & Photography (瞬間)", "date": "2026-05-09", "end": "2026-09-06", "type": "exhibition", "note": "Special show linking painting and photography", "srcs": ["seed"], "source": "https://www.kmfa.gov.tw/Exhibition", "venueId": "KMFA", "cat": "art"},
+   {"title": "2026 Kaohsiung Award (高雄獎, 30th edition)", "date": "", "end": "", "type": "exhibition", "note": "Contemporary Taiwanese art — confirm dates on official site", "srcs": ["seed"], "source": "https://www.kmfa.gov.tw/Exhibition", "venueId": "KMFA", "cat": "art"}
+  ],
+  "WWY": [
+   {"title": "Mountain Dog Band — Voices from the Land (山狗大後生樂團)", "date": "2026-06-10", "end": "", "type": "concert", "note": "Weiwuying \"Showtime\" Wed-evening series", "srcs": ["seed"], "source": "https://www.opentix.life/o/weiwuying", "venueId": "WWY", "cat": "perf"},
+   {"title": "Offenbach — The Tales of Hoffmann (opera concert)", "date": "", "end": "", "type": "opera", "note": "2026 season — check OPENTIX for the date", "srcs": ["seed"], "source": "https://www.opentix.life/o/weiwuying", "venueId": "WWY", "cat": "perf"}
+  ],
+  "NEIWEI": [
+   {"title": "Neiwei Theater — curated film programme", "date": "", "end": "", "type": "film", "note": "Arthouse/Taiwanese screenings & exhibitions — see official (closed Mon)", "srcs": ["seed"], "source": "https://www.nwac.org.tw/tw/activity-list", "venueId": "NEIWEI", "cat": "art"}
+  ],
+  "KFA": [
+   {"title": "Kaohsiung Film Archive — programme & retrospectives", "date": "", "end": "", "type": "film", "note": "Repertory, festivals, Taiwanese cinema — see official (closed Mon)", "srcs": ["seed"], "source": "https://kfa.kcg.gov.tw/", "venueId": "KFA", "cat": "art"}
+  ]
+ }
+}
