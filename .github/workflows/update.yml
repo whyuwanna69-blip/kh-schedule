@@ -1,0 +1,32 @@
+name: Update schedule
+
+on:
+  schedule:
+    - cron: "0 22 * * *"   # 22:00 UTC = 06:00 Taipei, daily
+  workflow_dispatch:        # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run scraper
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scrape.py
+
+      - name: Commit updated schedule
+        run: |
+          git config user.name  "schedule-bot"
+          git config user.email "schedule-bot@users.noreply.github.com"
+          git add schedule.json
+          git commit -m "Update schedule $(date -u +%Y-%m-%dT%H:%MZ)" || echo "no changes"
+          git push
