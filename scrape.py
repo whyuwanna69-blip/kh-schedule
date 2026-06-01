@@ -1,229 +1,112 @@
 #!/usr/bin/env python3
 """
-Kaohsiung culture schedule scraper.
-Runs in GitHub Actions (server-side, no CORS), calls Gemini with Google Search
-grounding to pull current listings, and writes schedule.json.
+Kaohsiung schedule updater — CINEMA half (definitive, no API key).
 
-- CINEMA: in89 only, English-language films + times, next ~3 days.
-- PERFORMANCE/ART: 30-day window across the venues.
+Reads in89 showtimes straight from atmovies (server-side, no CORS, no quotas),
+keeps only ENGLISH-AUDIO films, and writes them into schedule.json.
+The PERFORMANCE & ART half of schedule.json is left untouched (curated snapshot).
 
-Non-destructive: if a venue returns nothing this run, its previous data is kept.
-Needs env var GEMINI_API_KEY (set as a GitHub repo Secret).
+No GEMINI key, no rate limits, nothing to run out. Pure standard library.
 """
-import os, json, re, sys, time, datetime, urllib.request, urllib.error
+import re, json, os, sys, datetime, urllib.request, urllib.error
 
-KEY   = os.environ.get("GEMINI_API_KEY", "").strip()
-MODEL = "gemini-2.5-flash"   # free-tier eligible model
-OUT   = "schedule.json"
+THEATER   = "t07728"          # 大立 in89
+AREA      = "a07"             # Kaohsiung
+OUT       = "schedule.json"
+DAYS      = 3                 # rolling 3-day board (the furthest cinemas publish)
+TZ        = datetime.timezone(datetime.timedelta(hours=8))   # Taipei
+UA        = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
 
-TZ       = datetime.timezone(datetime.timedelta(hours=8))   # Asia/Taipei
-TODAY    = datetime.datetime.now(TZ).date()
-TODAY_S  = TODAY.isoformat()
-END_S    = (TODAY + datetime.timedelta(days=29)).isoformat()
-CINE_END = (TODAY + datetime.timedelta(days=3)).isoformat()
-
-# in89 (commercial multiplex) — the only daily-showtime board
-IN89 = {
-    "id": "IN89",
-    "name": "in89 (Dali) Cinema",
-    "zh": "大立in89豪華影城",
-    "url": "https://www.atmovies.com.tw/showtime/t07728/a07/",
-    "hint": "大立in89豪華影城 高雄 時刻表 atmovies showtimes",
+# English title for known films, keyed by the stable atmovies code.
+# Unknown codes fall back to the Chinese title; add new ones here over time.
+TITLE_DICT = {
+    "fben26657236": "The Backrooms",
+    "fmen30825738": "The Mandalorian and Grogu",
+    "ften51745960": "Top Gun: Maverick",
+    "fTatm0754001": "Top Gun (1986 re-release)",
+    "fmen17490712": "Mortal Kombat II",
+    "fden33612209": "The Devil Wears Prada 2",
+    "fmen11378946": "Michael (Michael Jackson biopic)",
+    "fsen28650488": "The Super Mario Galaxy Movie",
+    "fhen26443616": "Tanuki World (狸想世界) - animation",
 }
+EN_LABELS  = ("英文版", "英語版")
+DUB_LABELS = ("中文版", "國語版", "日文版", "韓文版", "粵語版", "台語版")
 
-# 30-day venues  (cat: perf or art)
-CULTURE = [
-    ("WWY",   "perf", "Weiwuying (Nat. Kaohsiung Center for the Arts)", "衛武營",
-     "https://www.npac-weiwuying.org/programs?lang=en",
-     "Weiwuying National Kaohsiung Center for the Arts upcoming concerts opera theatre dance program"),
-    ("MUSIC", "perf", "Kaohsiung City Music Hall", "高雄市音樂館",
-     "https://kaohsiungmusichall.kcg.gov.tw/", "高雄市音樂館 近期 演出 音樂會 節目表"),
-    ("CULT",  "perf", "Kaohsiung Cultural Center (Jhih-De / Jhih-Shan Hall)", "高雄市文化中心 至德堂 至善廳",
-     "https://www.opentix.life/", "高雄市文化中心 至德堂 至善廳 演出 節目 OPENTIX 高雄"),
-    ("DADONG","perf", "Dadong Arts Center", "大東文化藝術中心",
-     "https://dadongcenter.kcg.gov.tw/", "大東文化藝術中心 演出 展覽 節目 近期"),
-    ("KMFA",  "art",  "Kaohsiung Museum of Fine Arts", "高雄市立美術館",
-     "https://www.kmfa.gov.tw/english/index.htm", "Kaohsiung Museum of Fine Arts KMFA current and upcoming exhibitions dates"),
-    ("ALIEN", "art",  "ALIEN Art Centre", "金馬賓館當代美術館",
-     "https://www.alien.com.tw/", "金馬賓館當代美術館 ALIEN Art Centre Kaohsiung current exhibition dates"),
-    ("PIER2", "art",  "Pier-2 Art Center", "駁二藝術特區",
-     "https://pier2.org/", "駁二藝術特區 Pier-2 Art Center Kaohsiung 展覽 活動 exhibitions events"),
-    ("NEIWEI","art",  "Neiwei Theater / Neiwei Arts Center", "內惟藝術中心 內惟戲院",
-     "https://www.nwac.org.tw/tw/activity-list", "內惟藝術中心 內惟戲院 放映 展覽 活動 節目"),
-    ("KFA",   "art",  "Kaohsiung Film Archive", "高雄市電影館",
-     "https://kfa.kcg.gov.tw/", "高雄市電影館 節目 放映 影展 近期"),
-]
+def country(code):
+    m = re.match(r"f.([a-z]{2})", code)
+    return m.group(1) if m else ""
 
+def fetch(url):
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        return r.read().decode("utf-8", "replace")
 
-def gemini(prompt, search=True, retries=5):
-    if not KEY:
-        raise RuntimeError("GEMINI_API_KEY is not set")
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
-    body = {"contents": [{"parts": [{"text": prompt}]}]}
-    if search:
-        body["tools"] = [{"google_search": {}}]
-    payload = json.dumps(body).encode("utf-8")
-    for attempt in range(retries):
-        req = urllib.request.Request(
-            url, data=payload,
-            headers={"x-goog-api-key": KEY, "Content-Type": "application/json"},
-        )
-        try:
-            with urllib.request.urlopen(req, timeout=180) as r:
-                data = json.loads(r.read().decode("utf-8"))
-            parts = (data.get("candidates") or [{}])[0].get("content", {}).get("parts", [])
-            return "".join(p.get("text", "") for p in parts if "text" in p)
-        except urllib.error.HTTPError as e:
-            # 429 = rate limit, 500/502/503 = temporary server busy -> wait & retry
-            if e.code in (429, 500, 502, 503) and attempt < retries - 1:
-                wait = 12 * (attempt + 1)
-                print(f"  HTTP {e.code} (temporary); waiting {wait}s then retrying...")
-                time.sleep(wait)
-                continue
-            raise
-        except urllib.error.URLError as e:
-            if attempt < retries - 1:
-                print(f"  network blip ({e.reason}); waiting 12s then retrying...")
-                time.sleep(12)
-                continue
-            raise
-    return ""
-
-
-def extract_array(text):
-    """Pull the first balanced JSON array out of an LLM response."""
-    if not text:
-        return []
-    t = re.sub(r"```json|```", "", text)
-    start = t.find("[")
-    if start < 0:
-        return []
-    depth = 0; instr = False; esc = False
-    for i in range(start, len(t)):
-        c = t[i]
-        if instr:
-            if esc: esc = False
-            elif c == "\\": esc = True
-            elif c == '"': instr = False
+def parse_day(html, date_s, url):
+    """Return list of English-audio film entries for one day's showtime page."""
+    matches = list(re.finditer(
+        r'href="[^"]*?/movie/(f[A-Za-z]{1,5}\d+)/?"[^>]*>\s*([^<>]{1,60}?)\s*</a>', html))
+    out = {}
+    for i, m in enumerate(matches):
+        code, title_zh = m.group(1), m.group(2).strip()
+        if not title_zh or title_zh.startswith("其他"):
+            continue
+        seg = html[m.end(): matches[i + 1].start() if i + 1 < len(matches) else len(html)]
+        cut = seg.find("其他戲院")
+        if cut != -1:
+            seg = seg[:cut]
+        version = next((lab for lab in EN_LABELS + DUB_LABELS if lab in seg), "")
+        if version in DUB_LABELS:
+            continue                                   # dubbed / non-English audio
+        english = (version in EN_LABELS) or (code in TITLE_DICT) or (country(code) == "en")
+        if not english:
+            continue
+        times = sorted({f"{int(h):02d}:{mn}" for h, mn in re.findall(r"(\d{1,2})[:：](\d{2})", seg)})
+        if not times:
+            continue
+        title = TITLE_DICT.get(code, title_zh)
+        fmt = "English dub" if version in EN_LABELS else ""
+        key = title + "|" + date_s
+        if key in out:
+            out[key]["times"] = sorted(set(out[key]["times"]) | set(times))
         else:
-            if c == '"': instr = True
-            elif c == "[": depth += 1
-            elif c == "]":
-                depth -= 1
-                if depth == 0:
-                    js = t[start:i + 1]
-                    try:
-                        return json.loads(js)
-                    except Exception:
-                        last = js.rfind("}")
-                        if last > 0:
-                            try:
-                                return json.loads(js[:last + 1] + "]")
-                            except Exception:
-                                return []
-                        return []
-    return []
+            out[key] = {"film": title, "date": date_s, "times": times,
+                        "format": fmt, "srcs": ["atmovies"], "source": url}
+    return list(out.values())
 
-
-CINEMA_PROMPT = f"""Use web search (atmovies.com.tw per-cinema showtime pages, and the cinema's own site) to find the ENGLISH-LANGUAGE films screening at this cinema in Kaohsiung, Taiwan, day by day from {TODAY_S} through {CINE_END}, WITH showtimes.
-CINEMA: {IN89['name']} ({IN89['zh']})
-HINTS: {IN89['hint']}
-OFFICIAL: {IN89['url']}
-INCLUDE ONLY English-audio films: live-action Hollywood / Western films (in Taiwan these play in original English with Chinese subtitles), and the English-dub (英語版/英文版) version of animated films.
-EXCLUDE Mandarin / Chinese / Japanese / Korean-language films, and any Mandarin-dubbed (國語版/中文版) screening.
-Return ONLY a JSON array, no prose/fences. One object per film per day:
-{{"film":"English title","date":"YYYY-MM-DD","times":["HH:MM","HH:MM"],"format":"2D|IMAX|4DX|Gold Class or empty","source":"https url"}}
-Use 24-hour zero-padded HH:MM. Only days/times actually published. If none, return []."""
-
-
-def culture_prompt(v):
-    return f"""Use web search to find scheduled public events at this venue in Kaohsiung, Taiwan, between {TODAY_S} and {END_S} (30-day window).
-VENUE: {v[2]} ({v[3]})
-HINTS: {v[5]}
-OFFICIAL: {v[4]}
-Return ONLY a JSON array, no prose/fences. Up to 12 items, soonest first:
-{{"date":"YYYY-MM-DD","end":"YYYY-MM-DD or empty","title":"English title","type":"concert|opera|theater|dance|exhibition|event","note":"<=12 word English detail","source":"https url"}}
-Rules: only verifiable dated events overlapping the window; translate Chinese to natural English; museums/Pier-2 = exhibitions with full date range in "end"; performance venues = concert/opera/theatre/dance with date. If none, []."""
-
-
-def norm_time(t):
-    m = re.search(r"(\d{1,2})[:：](\d{2})", str(t))
-    return f"{int(m.group(1)):02d}:{m.group(2)}" if m else str(t).strip()
-
+def scrape_cinema():
+    today = datetime.datetime.now(TZ).date()
+    entries = []
+    for d in range(DAYS):
+        day = today + datetime.timedelta(days=d)
+        ymd = day.strftime("%Y%m%d")
+        url = f"https://www.atmovies.com.tw/showtime/{THEATER}/{AREA}/{ymd}/"
+        try:
+            html = fetch(url)
+            got = parse_day(html, day.isoformat(), url)
+            entries.extend(got)
+            print(f"{day.isoformat()}: {len(got)} English-language showings")
+        except Exception as ex:
+            print(f"{day.isoformat()}: fetch/parse failed ({ex})", file=sys.stderr)
+    return entries
 
 def main():
-    # load previous (non-destructive)
-    prev = {"cinema": {}, "culture": {}}
+    data = {"cinema": {}, "culture": {}}
     if os.path.exists(OUT):
         try:
-            prev = json.load(open(OUT, encoding="utf-8"))
+            data = json.load(open(OUT, encoding="utf-8"))
         except Exception:
             pass
-    cinema = dict(prev.get("cinema") or {})
-    culture = dict(prev.get("culture") or {})
-
-    # --- cinema: in89 ---
-    try:
-        arr = extract_array(gemini(CINEMA_PROMPT, search=True))
-        out = []
-        for e in arr:
-            if not re.match(r"^\d{4}-\d{2}-\d{2}$", str(e.get("date", ""))):
-                continue
-            out.append({
-                "film": e.get("film", "").strip(),
-                "date": e["date"],
-                "times": sorted({norm_time(x) for x in (e.get("times") or []) if x}),
-                "format": e.get("format", ""),
-                "srcs": ["auto"],
-                "source": e.get("source") or IN89["url"],
-            })
-        if out:
-            cinema["IN89"] = out
-            print(f"IN89: {len(out)} film-day entries")
-        else:
-            print("IN89: no data this run (keeping previous)")
-    except Exception as ex:
-        print(f"IN89 failed: {ex} (keeping previous)", file=sys.stderr)
-
-    # --- culture: 30-day venues ---
-    for v in CULTURE:
-        time.sleep(6)   # stay under the free-tier ~1-request-per-4-6s limit
-        vid, cat = v[0], v[1]
-        try:
-            arr = extract_array(gemini(culture_prompt(v), search=True))
-            out = []
-            for e in arr:
-                title = (e.get("title") or "").strip()
-                if not title:
-                    continue
-                out.append({
-                    "title": title,
-                    "date": e.get("date", ""),
-                    "end": e.get("end", ""),
-                    "type": e.get("type", "event"),
-                    "note": e.get("note", ""),
-                    "srcs": ["auto"],
-                    "source": e.get("source") or v[4],
-                    "venueId": vid,
-                    "cat": cat,
-                })
-            if out:
-                culture[vid] = out
-                print(f"{vid}: {len(out)} events")
-            else:
-                print(f"{vid}: no data this run (keeping previous)")
-        except Exception as ex:
-            print(f"{vid} failed: {ex} (keeping previous)", file=sys.stderr)
-
-    payload = {
-        "updatedAt": datetime.datetime.now(TZ).isoformat(),
-        "label": "auto-updated " + datetime.datetime.now(TZ).strftime("%d %b %Y %H:%M") + " (Taipei)",
-        "cinema": cinema,
-        "culture": culture,
-    }
-    json.dump(payload, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    entries = scrape_cinema()
+    if entries:
+        data.setdefault("cinema", {})["IN89"] = entries
+        print(f"cinema: wrote {len(entries)} entries")
+    else:
+        print("cinema: nothing parsed — keeping previous data", file=sys.stderr)
+    data["updatedAt"] = datetime.datetime.now(TZ).isoformat()
+    data["label"] = "cinema auto-updated " + datetime.datetime.now(TZ).strftime("%d %b %Y %H:%M") + " (Taipei)"
+    json.dump(data, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print("wrote", OUT)
-
 
 if __name__ == "__main__":
     main()
