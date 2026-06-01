@@ -8,7 +8,7 @@ The PERFORMANCE & ART half of schedule.json is left untouched (curated snapshot)
 
 No GEMINI key, no rate limits, nothing to run out. Pure standard library.
 """
-import re, json, os, sys, datetime, urllib.request, urllib.error
+import re, json, os, sys, time, datetime, urllib.request, urllib.error
 
 THEATER   = "t07728"          # 大立 in89
 AREA      = "a07"             # Kaohsiung
@@ -81,13 +81,18 @@ def scrape_cinema():
         day = today + datetime.timedelta(days=d)
         ymd = day.strftime("%Y%m%d")
         url = f"https://www.atmovies.com.tw/showtime/{THEATER}/{AREA}/{ymd}/"
-        try:
-            html = fetch(url)
-            got = parse_day(html, day.isoformat(), url)
-            entries.extend(got)
-            print(f"{day.isoformat()}: {len(got)} English-language showings")
-        except Exception as ex:
-            print(f"{day.isoformat()}: fetch/parse failed ({ex})", file=sys.stderr)
+        got = []
+        for attempt in range(3):                 # retry if a day comes back empty
+            try:
+                got = parse_day(fetch(url), day.isoformat(), url)
+                if got:
+                    break
+            except Exception as ex:
+                print(f"  {day.isoformat()} attempt {attempt+1}: {ex}", file=sys.stderr)
+            if attempt < 2:
+                time.sleep(6)
+        entries.extend(got)
+        print(f"{day.isoformat()}: {len(got)} English-language showings")
     return entries
 
 def main():
