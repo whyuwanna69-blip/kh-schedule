@@ -10,10 +10,10 @@ grounding to pull current listings, and writes schedule.json.
 Non-destructive: if a venue returns nothing this run, its previous data is kept.
 Needs env var GEMINI_API_KEY (set as a GitHub repo Secret).
 """
-import os, json, re, sys, datetime, urllib.request, urllib.error
+import os, json, re, sys, time, datetime, urllib.request, urllib.error
 
 KEY   = os.environ.get("GEMINI_API_KEY", "").strip()
-MODEL = "gemini-3.5-flash"
+MODEL = "gemini-2.5-flash"   # free-tier eligible model
 OUT   = "schedule.json"
 
 TZ       = datetime.timezone(datetime.timedelta(hours=8))   # Asia/Taipei
@@ -55,21 +55,32 @@ CULTURE = [
 ]
 
 
-def gemini(prompt, search=True):
+def gemini(prompt, search=True, retries=3):
     if not KEY:
         raise RuntimeError("GEMINI_API_KEY is not set")
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
     body = {"contents": [{"parts": [{"text": prompt}]}]}
     if search:
         body["tools"] = [{"google_search": {}}]
-    req = urllib.request.Request(
-        url, data=json.dumps(body).encode("utf-8"),
-        headers={"x-goog-api-key": KEY, "Content-Type": "application/json"},
-    )
-    with urllib.request.urlopen(req, timeout=180) as r:
-        data = json.loads(r.read().decode("utf-8"))
-    parts = (data.get("candidates") or [{}])[0].get("content", {}).get("parts", [])
-    return "".join(p.get("text", "") for p in parts if "text" in p)
+    payload = json.dumps(body).encode("utf-8")
+    for attempt in range(retries):
+        req = urllib.request.Request(
+            url, data=payload,
+            headers={"x-goog-api-key": KEY, "Content-Type": "application/json"},
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=180) as r:
+                data = json.loads(r.read().decode("utf-8"))
+            parts = (data.get("candidates") or [{}])[0].get("content", {}).get("parts", [])
+            return "".join(p.get("text", "") for p in parts if "text" in p)
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < retries - 1:
+                wait = 25 * (attempt + 1)
+                print(f"  429 rate-limited; waiting {wait}s then retrying...")
+                time.sleep(wait)
+                continue
+            raise
+    return ""
 
 
 def extract_array(text):
@@ -169,6 +180,7 @@ def main():
 
     # --- culture: 30-day venues ---
     for v in CULTURE:
+        time.sleep(6)   # stay under the free-tier ~1-request-per-4-6s limit
         vid, cat = v[0], v[1]
         try:
             arr = extract_array(gemini(culture_prompt(v), search=True))
