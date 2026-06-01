@@ -80,11 +80,13 @@
 <div class="wrap">
   <header>
     <h1>Kaohsiung Culture <span class="ac">/</span> Schedule</h1>
-    <div class="sub">in89 ENGLISH-LANGUAGE SHOWTIMES · PERFORMANCE · ART — auto-updated daily</div>
+    <div class="sub">FOUR CINEMAS · ENGLISH-LANGUAGE SHOWTIMES · PERFORMANCE · ART — auto-updated daily</div>
     <div class="barrow">
       <div class="filters" id="filters">
-        <button class="chip on" data-cat="all">All</button>
-        <button class="chip" data-cat="film">in89</button>
+        <button class="chip on" data-cat="IN89">in89 Dali</button>
+        <button class="chip" data-cat="IN89P2">Pier-2</button>
+        <button class="chip" data-cat="VIESHOW">Vie Show</button>
+        <button class="chip" data-cat="DREAM">Dream Mall</button>
         <button class="chip" data-cat="perf">Performance</button>
         <button class="chip" data-cat="art">Art</button>
       </div>
@@ -93,7 +95,7 @@
         <button class="act" id="refresh">Refresh</button>
       </div>
     </div>
-    <div class="note"><b>in89</b> showtimes auto-update every morning straight from atmovies (English-audio films only — live-action in original English + English-dub animation), a rolling ~3-day board. <b>Performance &amp; Art</b> is a curated 30-day snapshot (those change monthly, not daily). Read on load from GitHub — no buttons needed. Always confirm exact times/tickets on the official page (linked); performance tickets via OPENTIX.</div>
+    <div class="note">Four cinemas — <b>in89 Dali · in89 Pier-2 · Vie Show FE21 · Showtime Dream Mall</b> — each its own tab, auto-updated every morning straight from atmovies. English-audio films only (live-action in original English + English-dub animation); premium formats (<b>IMAX · 4DX · ScreenX · Gold Class</b>) and restored classics are tagged. Rolling ~3-day board. <b>Performance &amp; Art</b> is a curated 30-day snapshot. Always confirm exact times/tickets on the official page (linked); performance tickets via OPENTIX.</div>
   </header>
   <div id="agenda" class="agenda"></div>
   <div class="legend">
@@ -153,19 +155,22 @@ const SEED = {
 
 // ====== venue meta (labels + official links) ======
 const VENUES=[
-  {id:"IN89",code:"IN89",cat:"film",name:"in89 (Dali) Cinema",url:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
-  {id:"VIESHOW",code:"VIESHOW",cat:"film",name:"Vie Show FE21 Cinema",url:"https://www.vscinemas.com.tw/"},
+  {id:"IN89",code:"IN89 DALI",cat:"film",name:"in89 Dali Cinema (大立)",url:"https://www.atmovies.com.tw/showtime/t07728/a07/"},
+  {id:"IN89P2",code:"IN89 P2",cat:"film",name:"in89 Pier-2 Cinema (駁二)",url:"https://www.atmovies.com.tw/showtime/t07702/a07/"},
+  {id:"VIESHOW",code:"VIE FE21",cat:"film",name:"Vie Show FE21 (大遠百威秀)",url:"https://www.atmovies.com.tw/showtime/t07703/a07/"},
+  {id:"DREAM",code:"DREAM",cat:"film",name:"Showtime Dream Mall (夢時代秀泰)",url:"https://www.atmovies.com.tw/showtime/t07707/a07/"},
   {id:"WWY",code:"WWY",cat:"perf",name:"Weiwuying (Nat. Kaohsiung Center for the Arts)",url:"https://www.npac-weiwuying.org/programs?lang=en"},
   {id:"MUSIC",code:"MUSIC",cat:"perf",name:"Kaohsiung City Music Hall",url:"https://kaohsiungmusichall.kcg.gov.tw/"},
   {id:"CULT",code:"CULT",cat:"perf",name:"Kaohsiung Cultural Center (Jhih-De / Jhih-Shan)",url:"https://www.opentix.life/"},
   {id:"DADONG",code:"DADONG",cat:"perf",name:"Dadong Arts Center",url:"https://dadongcenter.kcg.gov.tw/"},
   {id:"KMFA",code:"KMFA",cat:"art",name:"Kaohsiung Museum of Fine Arts",url:"https://www.kmfa.gov.tw/english/index.htm"},
   {id:"ALIEN",code:"ALIEN",cat:"art",name:"ALIEN Art Centre",url:"https://www.alien.com.tw/"},
-  {id:"PIER2",code:"PIER-2",cat:"art",name:"Pier-2 Art Center",url:"https://pier2.org/"},
+  {id:"PIER2",code:"PIER-2 ART",cat:"art",name:"Pier-2 Art Center",url:"https://pier2.org/"},
   {id:"NEIWEI",code:"NEIWEI",cat:"art",name:"Neiwei Theater / Arts Center",url:"https://www.nwac.org.tw/tw/activity-list"},
   {id:"KFA",code:"FILM-ARC",cat:"art",name:"Kaohsiung Film Archive",url:"https://kfa.kcg.gov.tw/"}
 ];
 const VMAP=Object.fromEntries(VENUES.map(v=>[v.id,v]));
+const CINEMA_IDS=["IN89","IN89P2","VIESHOW","DREAM"];
 
 // reference date = today (real). Cinema/culture render shows whatever dates the data carries.
 const pad=n=>String(n).padStart(2,"0");
@@ -184,37 +189,39 @@ let TODAY_S, END_S;
 function setWindow(){ TODAY_S=refDate(); END_S=ymd(addDays(new Date(TODAY_S+"T00:00:00"),29)); }
 
 let STATE={cinema:{},culture:{},updatedAt:null,label:""};
-let activeCat="all";
+let activeCat="IN89";
 
 function isDate(s){return /^\d{4}-\d{2}-\d{2}$/.test(s||"");}
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));}
-function srcBadge(srcs){const s=srcs||[]; if(s.includes("auto"))return '<span class="sbadge live">live</span>'; if(s.includes("seed"))return '<span class="sbadge">seed</span>'; return "";}
+function srcBadge(srcs){const s=srcs||[]; if(s.includes("atmovies")||s.includes("auto"))return '<span class="sbadge live">live</span>'; if(s.includes("seed"))return '<span class="sbadge">seed</span>'; return "";}
 function dayHeader(d){const dt=new Date(d+"T00:00:00");
   return `<div class="dayhdr"><span class="dnum">${MO[dt.getMonth()]} ${pad(dt.getDate())}</span><span class="dwk">${WK[dt.getDay()]}</span><span class="dtag"></span></div>`;}
 
-function renderCinema(){
+function renderCinema(vid){
+  const v=VMAP[vid]||{code:"?",url:"#",name:vid};
+  const list=(STATE.cinema||{})[vid]||[];
   const byDate={};
-  Object.entries(STATE.cinema||{}).forEach(([vid,list])=>(list||[]).forEach(e=>{
+  list.forEach(e=>{
     if(!isDate(e.date))return;
     const films=byDate[e.date]=byDate[e.date]||{};
     const fk=String(e.film||"").toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff]/g,"").slice(0,28);
     const f=films[fk]=films[fk]||{film:e.film,screens:[]};
-    f.screens.push({vid,times:e.times||[],format:e.format||"",srcs:e.srcs||[],source:e.source});
-  }));
+    f.screens.push({times:e.times||[],format:e.format||"",srcs:e.srcs||[],source:e.source});
+  });
   const dates=Object.keys(byDate).sort();
-  let html=`<div class="sectionhead">in89 — English-language films &amp; times (next 3 days)<span class="bar"></span></div>
-    <div class="sectionsub">English-audio films only (live-action in original English + English-dub animation). Capped at ~3 days — the furthest cinemas publish.</div>`;
-  if(!dates.length){ html+=`<div class="mini">No in89 showtimes in the current data — see <a href="${VMAP.IN89.url}" target="_blank" rel="noopener">official ↗</a>.</div>`; return html; }
+  let html=`<div class="sectionhead">${esc(v.name)} — English-language films &amp; times<span class="bar"></span></div>
+    <div class="sectionsub">English-audio only (live-action in original English + English-dub animation). Premium formats tagged. Rolling ~3 days. <a href="${v.url}" target="_blank" rel="noopener">official ↗</a></div>`;
+  if(!dates.length){ html+=`<div class="mini">No English-language showtimes currently listed for ${esc(v.name)} — check the <a href="${v.url}" target="_blank" rel="noopener">official page ↗</a>.</div>`; return html; }
   dates.forEach(d=>{
     html+=`<div class="daygroup">${dayHeader(d)}`;
     Object.values(byDate[d]).sort((a,b)=>String(a.film).localeCompare(b.film)).forEach(f=>{
       html+=`<div class="film"><div class="fti">${esc(f.film)}</div>`;
+      f.screens.sort((a,b)=>(a.format?1:0)-(b.format?1:0)||String(a.format).localeCompare(b.format));
       f.screens.forEach(sc=>{
-        const v=VMAP[sc.vid]||{code:"?",url:"#"};
         const src=sc.source&&/^https?:/.test(sc.source)?sc.source:v.url;
         const times=(sc.times||[]).map(t=>`<a class="tm" href="${src}" target="_blank" rel="noopener">${esc(t)}</a>`).join("") || `<span class="tm" style="color:var(--dim)">times on site ↗</span>`;
-        html+=`<div class="screen"><span class="ci">${v.code}</span>
-          <span class="times">${times}${sc.format?`<span class="fmt">${esc(sc.format)}</span>`:""}</span>
+        html+=`<div class="screen"><span class="ci">${sc.format?esc(sc.format):"standard"}</span>
+          <span class="times">${times}</span>
           ${srcBadge(sc.srcs)}</div>`;
       });
       html+=`</div>`;
@@ -261,8 +268,8 @@ function render(){
   document.getElementById("updated").textContent = STATE.label || (STATE.updatedAt?("updated "+new Date(STATE.updatedAt).toLocaleString()):"");
   const ag=document.getElementById("agenda");
   let html="";
-  if(activeCat==="all"||activeCat==="film") html+=renderCinema();
-  if(activeCat==="all"||activeCat==="perf"||activeCat==="art") html+=renderCulture(activeCat==="film"?"all":activeCat);
+  if(CINEMA_IDS.includes(activeCat)) html+=renderCinema(activeCat);
+  else if(activeCat==="perf"||activeCat==="art") html+=renderCulture(activeCat);
   ag.innerHTML=html;
 }
 
