@@ -1,111 +1,10 @@
 {
- "updatedAt": "2026-06-01T16:46:35.393489+08:00",
- "label": "auto-updated 01 Jun 2026 16:46 (Taipei)",
+ "updatedAt": "2026-06-01T17:30:43.736879+08:00",
+ "label": "auto-updated 01 Jun 2026 17:30 (Taipei)",
  "cinema": {
   "IN89": [
    {
-    "film": "The Backrooms",
-    "date": "2026-05-31",
-    "times": [
-     "10:00",
-     "12:10",
-     "14:20",
-     "16:30",
-     "18:40",
-     "20:50",
-     "23:00"
-    ],
-    "format": "",
-    "srcs": [
-     "seed"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "The Mandalorian and Grogu",
-    "date": "2026-05-31",
-    "times": [
-     "10:00",
-     "11:50",
-     "12:30",
-     "15:00",
-     "16:20",
-     "17:30",
-     "20:00",
-     "22:30",
-     "23:20"
-    ],
-    "format": "",
-    "srcs": [
-     "seed"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "Top Gun: Maverick",
-    "date": "2026-05-31",
-    "times": [
-     "09:50"
-    ],
-    "format": "re-release",
-    "srcs": [
-     "seed"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "The Devil Wears Prada 2",
-    "date": "2026-05-31",
-    "times": [
-     "10:00",
-     "14:30",
-     "19:00"
-    ],
-    "format": "",
-    "srcs": [
-     "seed"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "Michael (Michael Jackson biopic)",
-    "date": "2026-05-31",
-    "times": [
-     "19:00",
-     "20:50"
-    ],
-    "format": "",
-    "srcs": [
-     "seed"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "Mortal Kombat II",
-    "date": "2026-05-31",
-    "times": [
-     "23:20"
-    ],
-    "format": "R",
-    "srcs": [
-     "seed"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "狸想世界 (English-dubbed animation)",
-    "date": "2026-05-31",
-    "times": [
-     "18:00"
-    ],
-    "format": "Eng dub",
-    "srcs": [
-     "seed"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "The Backrooms",
+    "film": "Backrooms",
     "date": "2026-06-01",
     "times": [
      "10:00",
@@ -116,43 +15,79 @@
      "20:50",
      "23:00"
     ],
-    "format": "",
+    "format": "2D",
     "srcs": [
-     "seed"
+     "auto"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
+    "source": "http://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
-    "film": "The Mandalorian and Grogu",
-    "date": "2026-06-01",
-    "times": [
-     "10:00",
-     "11:50",
-     "12:30",
-     "15:00",
-     "16:20",
-     "17:30",
-     "20:00",
-     "22:30",
-     "23:20"
-    ],
-    "format": "",
-    "srcs": [
-     "seed"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "Top Gun (1986, re-release)",
+    "film": "Top Gun",
     "date": "2026-06-01",
     "times": [
      "10:00"
     ],
-    "format": "re-release",
+    "format": "2D",
     "srcs": [
-     "seed"
+     "auto"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
+    "source": "http://www.atmovies.com.tw/showtime/t07728/a07/"
+   },
+   {
+    "film": "Mortal Kombat II",
+    "date": "2026-06-01",
+    "times": [
+     "23:10"
+    ],
+    "format": "2D",
+    "srcs": [
+     "auto"
+    ],
+    "source": "http://www.atmovies.com.tw/showtime/t07728/a07/"
+   },
+   {
+    "film": "The Super Mario Galaxy Movie",
+    "date": "2026-06-01",
+    "times": [
+     "16:20"
+    ],
+    "format": "2D",
+    "srcs": [
+     "auto"
+    ],
+    "source": "http://www.atmovies.com.tw/showtime/t07728/a07/"
+   },
+   {
+    "film": "The Imaginary",
+    "date": "2026-06-01",
+    "times": [
+     "18:20"
+    ],
+    "format": "2D",
+    "srcs": [
+     "auto"
+    ],
+    "source": "http://www.atmovies.com.tw/showtime/t07728/a07/"
+   },
+   {
+    "film": "The Mandalorian And Grogu",
+    "date": "2026-06-01",
+    "times": [
+     "10:00",
+     "11:50",
+     "12:30",
+     "15:00",
+     "16:20",
+     "17:30",
+     "20:00",
+     "22:30",
+     "23:20"
+    ],
+    "format": "2D",
+    "srcs": [
+     "auto"
+    ],
+    "source": "http://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "The Devil Wears Prada 2",
@@ -162,173 +97,48 @@
      "14:40",
      "19:20"
     ],
-    "format": "",
+    "format": "2D",
     "srcs": [
-     "seed"
+     "auto"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
+    "source": "http://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
-    "film": "Michael (Michael Jackson biopic)",
+    "film": "Michael",
     "date": "2026-06-01",
     "times": [
      "18:40",
      "20:50"
     ],
-    "format": "",
+    "format": "2D",
     "srcs": [
-     "seed"
+     "auto"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
+    "source": "http://www.atmovies.com.tw/showtime/t07728/a07/"
+   },
+   {
+    "film": "The Super Mario Galaxy Movie",
+    "date": "2026-06-02",
+    "times": [
+     "16:50"
+    ],
+    "format": "2D",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.in89.com.tw/cinema.aspx?cid=2"
    },
    {
     "film": "Mortal Kombat II",
-    "date": "2026-06-01",
-    "times": [
-     "23:10"
-    ],
-    "format": "R",
-    "srcs": [
-     "seed"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "The Super Mario Galaxy Movie — English ver.",
-    "date": "2026-06-01",
-    "times": [
-     "16:20"
-    ],
-    "format": "English",
-    "srcs": [
-     "seed"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "狸想世界 (English-dubbed animation)",
-    "date": "2026-06-01",
-    "times": [
-     "18:20"
-    ],
-    "format": "Eng dub",
-    "srcs": [
-     "seed"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "The Backrooms",
     "date": "2026-06-02",
     "times": [
-     "10:00",
-     "12:10",
-     "14:20",
-     "16:30",
-     "18:40",
-     "20:50",
-     "23:00"
-    ],
-    "format": "",
-    "srcs": [
-     "seed"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "The Mandalorian and Grogu",
-    "date": "2026-06-02",
-    "times": [
-     "10:00",
-     "11:50",
-     "12:30",
-     "15:00",
-     "16:20",
-     "17:30",
-     "20:00",
-     "22:30",
      "23:20"
     ],
-    "format": "",
+    "format": "2D",
     "srcs": [
-     "seed"
+     "auto"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "Top Gun (1986, re-release)",
-    "date": "2026-06-02",
-    "times": [
-     "10:00"
-    ],
-    "format": "re-release",
-    "srcs": [
-     "seed"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "The Devil Wears Prada 2",
-    "date": "2026-06-02",
-    "times": [
-     "10:00",
-     "14:40",
-     "19:20"
-    ],
-    "format": "",
-    "srcs": [
-     "seed"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "Michael (Michael Jackson biopic)",
-    "date": "2026-06-02",
-    "times": [
-     "18:40",
-     "20:50"
-    ],
-    "format": "",
-    "srcs": [
-     "seed"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "Mortal Kombat II",
-    "date": "2026-06-02",
-    "times": [
-     "23:10"
-    ],
-    "format": "R",
-    "srcs": [
-     "seed"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "The Super Mario Galaxy Movie — English ver.",
-    "date": "2026-06-02",
-    "times": [
-     "16:20"
-    ],
-    "format": "English",
-    "srcs": [
-     "seed"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "狸想世界 (English-dubbed animation)",
-    "date": "2026-06-02",
-    "times": [
-     "18:20"
-    ],
-    "format": "Eng dub",
-    "srcs": [
-     "seed"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
+    "source": "https://www.in89.com.tw/cinema.aspx?cid=2"
    }
   ]
  },
@@ -363,28 +173,158 @@
   ],
   "WWY": [
    {
-    "title": "Mountain Dog Band — Voices from the Land (山狗大後生樂團)",
-    "date": "2026-06-10",
+    "title": "Kaohsiung Medical University Vocal Society 35th Anniversary Concert",
+    "date": "2026-06-01",
     "end": "",
     "type": "concert",
-    "note": "Weiwuying \"Showtime\" Wed-evening series",
+    "note": "Vocal society anniversary concert",
     "srcs": [
-     "seed"
+     "auto"
     ],
-    "source": "https://www.opentix.life/o/weiwuying",
+    "source": "https://www.npac-weiwuying.org/programs?lang=en",
     "venueId": "WWY",
     "cat": "perf"
    },
    {
-    "title": "Offenbach — The Tales of Hoffmann (opera concert)",
-    "date": "",
+    "title": "Kaohsiung Youth Symphony Orchestra & XinXing High School Music Class 2026 Annual Concert",
+    "date": "2026-06-02",
     "end": "",
-    "type": "opera",
-    "note": "2026 season — check OPENTIX for the date",
+    "type": "concert",
+    "note": "High school orchestra and music class performance",
     "srcs": [
-     "seed"
+     "auto"
     ],
-    "source": "https://www.opentix.life/o/weiwuying",
+    "source": "https://www.npac-weiwuying.org/programs?lang=en",
+    "venueId": "WWY",
+    "cat": "perf"
+   },
+   {
+    "title": "2026 Weiwuying Dance (Jan-Jun Series)",
+    "date": "2026-06-03",
+    "end": "",
+    "type": "dance",
+    "note": "Part of a dance series",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.npac-weiwuying.org/programs?lang=en",
+    "venueId": "WWY",
+    "cat": "perf"
+   },
+   {
+    "title": "Music Expedition: Searching for the Lost Kingdom - Nanzi Junior High School Wind Band Annual Concert",
+    "date": "2026-06-03",
+    "end": "",
+    "type": "concert",
+    "note": "Junior high wind band annual concert",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.npac-weiwuying.org/programs?lang=en",
+    "venueId": "WWY",
+    "cat": "perf"
+   },
+   {
+    "title": "2026 Orchestra Concert \"After the Overture: Symphony of Love and Destiny\"",
+    "date": "2026-06-04",
+    "end": "",
+    "type": "concert",
+    "note": "Orchestra performance",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.npac-weiwuying.org/programs?lang=en",
+    "venueId": "WWY",
+    "cat": "perf"
+   },
+   {
+    "title": "NTSO 2025/26 Season Concert - Mei-Ann Chen, Kai-Min Chang & NTSO",
+    "date": "2026-06-05",
+    "end": "",
+    "type": "concert",
+    "note": "National Taiwan Symphony Orchestra concert",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.npac-weiwuying.org/programs?lang=en",
+    "venueId": "WWY",
+    "cat": "perf"
+   },
+   {
+    "title": "Detective Piglet's Small Theater \"The Squirrel Tycoon's Scare\" (Matinee)",
+    "date": "2026-06-06",
+    "end": "",
+    "type": "theater",
+    "note": "Children's puppet theater",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.npac-weiwuying.org/programs?lang=en",
+    "venueId": "WWY",
+    "cat": "perf"
+   },
+   {
+    "title": "I am Your Dish (Matinee)",
+    "date": "2026-06-06",
+    "end": "",
+    "type": "theater",
+    "note": "Theatre performance",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.npac-weiwuying.org/programs?lang=en",
+    "venueId": "WWY",
+    "cat": "perf"
+   },
+   {
+    "title": "Yan Huarong 2026 Piano Recital I - Glimmer",
+    "date": "2026-06-06",
+    "end": "",
+    "type": "concert",
+    "note": "Piano solo recital",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.npac-weiwuying.org/programs?lang=en",
+    "venueId": "WWY",
+    "cat": "perf"
+   },
+   {
+    "title": "Lecture: Raging Fire, Love and Hatred: Verdi's Opera Il Trovatore",
+    "date": "2026-06-06",
+    "end": "",
+    "type": "event",
+    "note": "Lecture on Verdi's opera",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.npac-weiwuying.org/programs?lang=en",
+    "venueId": "WWY",
+    "cat": "perf"
+   },
+   {
+    "title": "Detective Piglet's Small Theater \"The Squirrel Tycoon's Scare\" (Afternoon)",
+    "date": "2026-06-06",
+    "end": "",
+    "type": "theater",
+    "note": "Children's puppet theater",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.npac-weiwuying.org/programs?lang=en",
+    "venueId": "WWY",
+    "cat": "perf"
+   },
+   {
+    "title": "I am Your Dish (Evening)",
+    "date": "2026-06-06",
+    "end": "",
+    "type": "theater",
+    "note": "Theatre performance",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.npac-weiwuying.org/programs?lang=en",
     "venueId": "WWY",
     "cat": "perf"
    }
@@ -551,6 +491,34 @@
     "source": "https://www.alien.com.tw/",
     "venueId": "ALIEN",
     "cat": "art"
+   }
+  ],
+  "MUSIC": [
+   {
+    "title": "2026 David Chen Piano Recital",
+    "date": "2026-06-05",
+    "end": "",
+    "type": "concert",
+    "note": "Piano solo concert by David Chen.",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.ticket.com.tw/",
+    "venueId": "MUSIC",
+    "cat": "perf"
+   },
+   {
+    "title": "One Song Orchestra: Music Towards Wealth - A Guide to a Prosperous Life",
+    "date": "2026-06-27",
+    "end": "",
+    "type": "concert",
+    "note": "Concert by One Song Orchestra.",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://kaohsiungmusichall.kcg.gov.tw/",
+    "venueId": "MUSIC",
+    "cat": "perf"
    }
   ]
  }
