@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-05-31T21:18:05.774856+08:00",
- "label": "auto-updated 31 May 2026 21:18 (Taipei)",
+ "updatedAt": "2026-06-01T16:46:35.393489+08:00",
+ "label": "auto-updated 01 Jun 2026 16:46 (Taipei)",
  "cinema": {
   "IN89": [
    {
@@ -406,16 +406,150 @@
   ],
   "KFA": [
    {
-    "title": "Kaohsiung Film Archive — programme & retrospectives",
-    "date": "",
-    "end": "",
-    "type": "film",
-    "note": "Repertory, festivals, Taiwanese cinema — see official (closed Mon)",
+    "title": "2026 Taiwan International Ethnographic Film Festival Tour",
+    "date": "2026-06-19",
+    "end": "2026-06-21",
+    "type": "event",
+    "note": "Touring program of the film festival.",
     "srcs": [
-     "seed"
+     "auto"
     ],
-    "source": "https://kfa.kcg.gov.tw/",
+    "source": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDmT7F9XLsLluKJvi-dgNTDZb_oId1FH5EkrfJtCO2GAGiMZIQIUqumoYYd58C-G8bkC4Qcgq5-Sce5XZn5dunufBXNfol4RtFTcIF2PARVU-vsxsn",
     "venueId": "KFA",
+    "cat": "art"
+   }
+  ],
+  "CULT": [
+   {
+    "title": "Yangming Junior High Chinese Orchestra Annual Concert: Melodies Resound, Classics Endure",
+    "date": "2026-06-01",
+    "end": "2026-06-01",
+    "type": "concert",
+    "note": "Annual performance by Yangming Junior High Chinese Orchestra.",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.khcc.gov.tw/",
+    "venueId": "CULT",
+    "cat": "perf"
+   },
+   {
+    "title": "114 Academic Year Kaohsiung Junior High School Hakka Language Singing and Storytelling Competition",
+    "date": "2026-06-03",
+    "end": "2026-06-03",
+    "type": "event",
+    "note": "Hakka language singing and storytelling competition for junior high students.",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.khcc.gov.tw/",
+    "venueId": "CULT",
+    "cat": "perf"
+   }
+  ],
+  "ALIEN": [
+   {
+    "title": "Video Sandbox III-VI: Substitute Relationships — The Companionship of AI Lovers",
+    "date": "2026-05-05",
+    "end": "2026-06-07",
+    "type": "exhibition",
+    "note": "Video installation by Lin Ting Yu.",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.alien.com.tw/",
+    "venueId": "ALIEN",
+    "cat": "art"
+   },
+   {
+    "title": "Stories of the Everyday — Within the Realm of Jianghu",
+    "date": "2026-01-01",
+    "end": "2026-06-30",
+    "type": "exhibition",
+    "note": "Exhibition by artist Tsung-Hsuan, Hsu.",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.alien.com.tw/",
+    "venueId": "ALIEN",
+    "cat": "art"
+   },
+   {
+    "title": "Dust and Gold — The Formative Chapter",
+    "date": "2026-04-15",
+    "end": "2026-08-30",
+    "type": "exhibition",
+    "note": "Contemporary abstract expressionist Makoto Fujimura and ceramic sculptor Shozo Michikawa.",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.alien.com.tw/what-s-on/dust-and-gold",
+    "venueId": "ALIEN",
+    "cat": "art"
+   },
+   {
+    "title": "The Bards of Time and Space",
+    "date": "2025-11-23",
+    "end": "2026-11-01",
+    "type": "exhibition",
+    "note": "Exhibition by Ho Kan and Soonik Kwon.",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.alien.com.tw/",
+    "venueId": "ALIEN",
+    "cat": "art"
+   },
+   {
+    "title": "Celestial Eyes",
+    "date": "2025-01-10",
+    "end": "2027-04-30",
+    "type": "exhibition",
+    "note": "Exhibition by Jiro Kamata.",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.alien.com.tw/",
+    "venueId": "ALIEN",
+    "cat": "art"
+   },
+   {
+    "title": "Celestial Eyes | Crossover",
+    "date": "2025-01-10",
+    "end": "2027-04-30",
+    "type": "exhibition",
+    "note": "Exhibition by Hailing Wang.",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.alien.com.tw/",
+    "venueId": "ALIEN",
+    "cat": "art"
+   },
+   {
+    "title": "Crossing",
+    "date": "2020-03-24",
+    "end": "",
+    "type": "exhibition",
+    "note": "Permanent exhibition by Kingsley Ng and Stephanie Cheung.",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.alien.com.tw/",
+    "venueId": "ALIEN",
+    "cat": "art"
+   },
+   {
+    "title": "Corinth Canal",
+    "date": "2020-03-24",
+    "end": "",
+    "type": "exhibition",
+    "note": "Permanent exhibition by James Turrell.",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://www.alien.com.tw/",
+    "venueId": "ALIEN",
     "cat": "art"
    }
   ]
