@@ -55,7 +55,7 @@ CULTURE = [
 ]
 
 
-def gemini(prompt, search=True, retries=3):
+def gemini(prompt, search=True, retries=5):
     if not KEY:
         raise RuntimeError("GEMINI_API_KEY is not set")
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
@@ -74,10 +74,17 @@ def gemini(prompt, search=True, retries=3):
             parts = (data.get("candidates") or [{}])[0].get("content", {}).get("parts", [])
             return "".join(p.get("text", "") for p in parts if "text" in p)
         except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < retries - 1:
-                wait = 25 * (attempt + 1)
-                print(f"  429 rate-limited; waiting {wait}s then retrying...")
+            # 429 = rate limit, 500/502/503 = temporary server busy -> wait & retry
+            if e.code in (429, 500, 502, 503) and attempt < retries - 1:
+                wait = 12 * (attempt + 1)
+                print(f"  HTTP {e.code} (temporary); waiting {wait}s then retrying...")
                 time.sleep(wait)
+                continue
+            raise
+        except urllib.error.URLError as e:
+            if attempt < retries - 1:
+                print(f"  network blip ({e.reason}); waiting 12s then retrying...")
+                time.sleep(12)
                 continue
             raise
     return ""
