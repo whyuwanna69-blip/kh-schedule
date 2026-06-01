@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-06-01T17:30:43.736879+08:00",
- "label": "auto-updated 01 Jun 2026 17:30 (Taipei)",
+ "updatedAt": "2026-06-01T17:52:32.005640+08:00",
+ "label": "auto-updated 01 Jun 2026 17:52 (Taipei)",
  "cinema": {
   "IN89": [
    {
-    "film": "Backrooms",
+    "film": "The Backrooms",
     "date": "2026-06-01",
     "times": [
      "10:00",
@@ -19,46 +19,24 @@
     "srcs": [
      "auto"
     ],
-    "source": "http://www.atmovies.com.tw/showtime/t07728/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
-    "film": "Top Gun",
+    "film": "I Swear",
     "date": "2026-06-01",
     "times": [
-     "10:00"
+     "12:10",
+     "16:30",
+     "20:50"
     ],
     "format": "2D",
     "srcs": [
      "auto"
     ],
-    "source": "http://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "Mortal Kombat II",
-    "date": "2026-06-01",
-    "times": [
-     "23:10"
-    ],
-    "format": "2D",
-    "srcs": [
-     "auto"
-    ],
-    "source": "http://www.atmovies.com.tw/showtime/t07728/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "The Super Mario Galaxy Movie",
-    "date": "2026-06-01",
-    "times": [
-     "16:20"
-    ],
-    "format": "2D",
-    "srcs": [
-     "auto"
-    ],
-    "source": "http://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "The Imaginary",
     "date": "2026-06-01",
     "times": [
      "18:20"
@@ -67,78 +45,7 @@
     "srcs": [
      "auto"
     ],
-    "source": "http://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "The Mandalorian And Grogu",
-    "date": "2026-06-01",
-    "times": [
-     "10:00",
-     "11:50",
-     "12:30",
-     "15:00",
-     "16:20",
-     "17:30",
-     "20:00",
-     "22:30",
-     "23:20"
-    ],
-    "format": "2D",
-    "srcs": [
-     "auto"
-    ],
-    "source": "http://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "The Devil Wears Prada 2",
-    "date": "2026-06-01",
-    "times": [
-     "10:00",
-     "14:40",
-     "19:20"
-    ],
-    "format": "2D",
-    "srcs": [
-     "auto"
-    ],
-    "source": "http://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "Michael",
-    "date": "2026-06-01",
-    "times": [
-     "18:40",
-     "20:50"
-    ],
-    "format": "2D",
-    "srcs": [
-     "auto"
-    ],
-    "source": "http://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "The Super Mario Galaxy Movie",
-    "date": "2026-06-02",
-    "times": [
-     "16:50"
-    ],
-    "format": "2D",
-    "srcs": [
-     "auto"
-    ],
-    "source": "https://www.in89.com.tw/cinema.aspx?cid=2"
-   },
-   {
-    "film": "Mortal Kombat II",
-    "date": "2026-06-02",
-    "times": [
-     "23:20"
-    ],
-    "format": "2D",
-    "srcs": [
-     "auto"
-    ],
-    "source": "https://www.in89.com.tw/cinema.aspx?cid=2"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    }
   ]
  },
@@ -361,28 +268,41 @@
   ],
   "CULT": [
    {
-    "title": "Yangming Junior High Chinese Orchestra Annual Concert: Melodies Resound, Classics Endure",
-    "date": "2026-06-01",
-    "end": "2026-06-01",
+    "title": "2026 Siwei Orchestra Music Magic",
+    "date": "2026-06-05",
+    "end": "",
     "type": "concert",
-    "note": "Annual performance by Yangming Junior High Chinese Orchestra.",
+    "note": "Orchestra performance.",
     "srcs": [
      "auto"
     ],
-    "source": "https://www.khcc.gov.tw/",
+    "source": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8yVTZMByXD8diYqr9uta9PS29V02hwFSOc--gUg0tKKrNyaBby414zpVttSfmvZEyaSUed_sn41rh2JUZ7ulzBjN2JTfd0Ce8rMjelrN_ak9Q4zwrRdBAhMPreg3845LzwFac8u6JshmaUhvOt-os_AxG4u54yMGNHMg4VwN5Ih0eYuAXrb7zmqevRQ66nZbf7Hcn9IYsu-EgFXLMRWdGIKU",
     "venueId": "CULT",
     "cat": "perf"
    },
    {
-    "title": "114 Academic Year Kaohsiung Junior High School Hakka Language Singing and Storytelling Competition",
-    "date": "2026-06-03",
-    "end": "2026-06-03",
-    "type": "event",
-    "note": "Hakka language singing and storytelling competition for junior high students.",
+    "title": "2026 Fengxiang Elementary School String Orchestra Concert",
+    "date": "2026-06-06",
+    "end": "",
+    "type": "concert",
+    "note": "Elementary school string orchestra performance.",
     "srcs": [
      "auto"
     ],
-    "source": "https://www.khcc.gov.tw/",
+    "source": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFW0l7nQQRuO87bxY7g4y_8VLFp4zR0xb87Cns9JqWUDz-rlAQjYgt5HdgAbAc9uWH-2YE1qDAbDEQCWNV3Zhh8u92_mzXeYiwQmfT0G4kvzVmGZ9SJjHI5kiaIbBKt0ElANZCFsQwpnJrwjRF5IAiRNGpIjzL64hTwdybk0VgXXPUqgnZVq3q6RvRwiDarIEPIf7spjgW1tJ6eET4YxnPSLwP",
+    "venueId": "CULT",
+    "cat": "perf"
+   },
+   {
+    "title": "Miyazaki Anime Music Concert",
+    "date": "2026-06-27",
+    "end": "",
+    "type": "concert",
+    "note": "Animated film soundtrack performance.",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZjGKjEhuHUz3MTwntuRH0QIi6W4U4iuCpz1MPfqsmXyW17cCnmUIJpcliWht_U9HCceAmfz3RCkEhb-GZsquiyT3j12rI0dHNebQlVlfo3YFD3ZANV4oLS-uQFwmC0AHDgOxEz8JV6QZf6vEg",
     "venueId": "CULT",
     "cat": "perf"
    }
@@ -495,24 +415,89 @@
   ],
   "MUSIC": [
    {
-    "title": "2026 David Chen Piano Recital",
-    "date": "2026-06-05",
+    "title": "Selections from The Magic Flute Night",
+    "date": "2026-06-20",
     "end": "",
     "type": "concert",
-    "note": "Piano solo concert by David Chen.",
+    "note": "A night featuring selections from the opera The Magic Flute.",
     "srcs": [
      "auto"
     ],
-    "source": "https://www.ticket.com.tw/",
+    "source": "https://kaohsiungmusichall.kcg.gov.tw/",
     "venueId": "MUSIC",
     "cat": "perf"
    },
    {
-    "title": "One Song Orchestra: Music Towards Wealth - A Guide to a Prosperous Life",
+    "title": "Huang Yi-ping Flute Recital",
+    "date": "2026-06-23",
+    "end": "",
+    "type": "concert",
+    "note": "Flute solo recital by Huang Yi-ping.",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://kaohsiungmusichall.kcg.gov.tw/",
+    "venueId": "MUSIC",
+    "cat": "perf"
+   },
+   {
+    "title": "I-Shou X Southern Shih Chien End-of-Semester Concert",
+    "date": "2026-06-26",
+    "end": "",
+    "type": "concert",
+    "note": "Joint end-of-semester concert by I-Shou and Southern Shih Chien.",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://kaohsiungmusichall.kcg.gov.tw/",
+    "venueId": "MUSIC",
+    "cat": "perf"
+   },
+   {
+    "title": "One Sound Orchestra: Music Towards Prosperity – A Guide to a Happy and Prosperous Life",
     "date": "2026-06-27",
     "end": "",
     "type": "concert",
-    "note": "Concert by One Song Orchestra.",
+    "note": "Performance by One Sound Orchestra.",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://kaohsiungmusichall.kcg.gov.tw/",
+    "venueId": "MUSIC",
+    "cat": "perf"
+   },
+   {
+    "title": "Liu Yi-han Percussion Recital",
+    "date": "2026-06-28",
+    "end": "",
+    "type": "concert",
+    "note": "Percussion solo recital by Liu Yi-han.",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://kaohsiungmusichall.kcg.gov.tw/",
+    "venueId": "MUSIC",
+    "cat": "perf"
+   },
+   {
+    "title": "Bo-Zheng Children's Development Center Event",
+    "date": "2026-06-29",
+    "end": "",
+    "type": "event",
+    "note": "Special event by Bo-Zheng Children's Development Center.",
+    "srcs": [
+     "auto"
+    ],
+    "source": "https://kaohsiungmusichall.kcg.gov.tw/",
+    "venueId": "MUSIC",
+    "cat": "perf"
+   },
+   {
+    "title": "Dragon's Roar String Movement, Chinese Music Soaring",
+    "date": "2026-06-30",
+    "end": "",
+    "type": "concert",
+    "note": "Chinese music performance titled 'Dragon's Roar String Movement, Chinese Music Soaring'.",
     "srcs": [
      "auto"
     ],
