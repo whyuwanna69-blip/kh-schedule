@@ -1,11 +1,11 @@
 {
- "updatedAt": "2026-06-13T17:48:20.410280+08:00",
- "label": "cinemas auto-updated 13 Jun 2026 17:48 (Taipei)",
+ "updatedAt": "2026-06-14T18:34:58.941605+08:00",
+ "label": "cinemas auto-updated 14 Jun 2026 18:34 (Taipei)",
  "cinema": {
   "IN89": [
    {
     "film": "揭密日",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "times": [
      "10:00",
      "12:00",
@@ -27,154 +27,6 @@
    },
    {
     "film": "太空超人",
-    "date": "2026-06-13",
-    "times": [
-     "09:50",
-     "15:00",
-     "20:10",
-     "22:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "驚聲尖笑6",
-    "date": "2026-06-13",
-    "times": [
-     "12:40",
-     "14:40",
-     "19:00",
-     "21:00",
-     "23:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "神奇數字馬戲團：最終章",
-    "date": "2026-06-13",
-    "times": [
-     "09:50",
-     "16:20"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "The Backrooms",
-    "date": "2026-06-13",
-    "times": [
-     "09:50",
-     "12:00",
-     "14:10",
-     "16:20",
-     "18:30",
-     "20:40",
-     "22:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "出口成髒",
-    "date": "2026-06-13",
-    "times": [
-     "22:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "The Mandalorian and Grogu",
-    "date": "2026-06-13",
-    "times": [
-     "11:20",
-     "21:40"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "The Devil Wears Prada 2",
-    "date": "2026-06-13",
-    "times": [
-     "10:20",
-     "14:00",
-     "18:10",
-     "20:30"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "Michael (Michael Jackson biopic)",
-    "date": "2026-06-13",
-    "times": [
-     "15:45"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "Tanuki World (狸想世界) - animation",
-    "date": "2026-06-13",
-    "times": [
-     "16:10"
-    ],
-    "format": "English",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "揭密日",
-    "date": "2026-06-14",
-    "times": [
-     "10:00",
-     "12:00",
-     "12:40",
-     "14:40",
-     "15:20",
-     "17:20",
-     "18:00",
-     "20:00",
-     "20:40",
-     "22:40",
-     "23:20"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260614/"
-   },
-   {
-    "film": "太空超人",
     "date": "2026-06-14",
     "times": [
      "09:50",
@@ -186,7 +38,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "驚聲尖笑6",
@@ -202,7 +54,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "神奇數字馬戲團：最終章",
@@ -215,7 +67,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "The Backrooms",
@@ -233,7 +85,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "出口成髒",
@@ -245,7 +97,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "The Mandalorian and Grogu",
@@ -258,7 +110,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "The Devil Wears Prada 2",
@@ -273,7 +125,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "Michael (Michael Jackson biopic)",
@@ -285,7 +137,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "Tanuki World (狸想世界) - animation",
@@ -297,7 +149,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "揭密日",
@@ -460,149 +312,169 @@
      "atmovies"
     ],
     "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260615/"
-   }
-  ],
-  "IN89P2": [
+   },
    {
     "film": "揭密日",
-    "date": "2026-06-13",
+    "date": "2026-06-16",
     "times": [
-     "10:30",
-     "13:10",
-     "15:50",
-     "18:30",
-     "21:10"
+     "10:00",
+     "12:00",
+     "12:40",
+     "14:00",
+     "15:20",
+     "17:00",
+     "18:00",
+     "19:40",
+     "20:40",
+     "22:20",
+     "23:20"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260616/"
    },
    {
     "film": "太空超人",
-    "date": "2026-06-13",
+    "date": "2026-06-16",
     "times": [
-     "14:10",
-     "18:40"
+     "09:50",
+     "15:00",
+     "20:10",
+     "22:50"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260616/"
    },
    {
     "film": "驚聲尖笑6",
-    "date": "2026-06-13",
+    "date": "2026-06-16",
     "times": [
-     "12:20",
-     "16:50"
+     "10:30",
+     "12:30",
+     "14:30",
+     "16:30",
+     "18:30",
+     "20:30",
+     "22:30"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260616/"
    },
    {
-    "film": "寶貝對不起",
-    "date": "2026-06-13",
+    "film": "神奇數字馬戲團：最終章",
+    "date": "2026-06-16",
     "times": [
-     "12:30"
+     "09:50",
+     "19:00"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260616/"
    },
    {
     "film": "The Backrooms",
-    "date": "2026-06-13",
+    "date": "2026-06-16",
     "times": [
-     "15:40",
-     "19:00",
-     "21:10"
+     "09:50",
+     "12:00",
+     "14:10",
+     "16:20",
+     "18:30",
+     "20:40",
+     "22:50"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260616/"
    },
    {
     "film": "出口成髒",
-    "date": "2026-06-13",
+    "date": "2026-06-16",
     "times": [
-     "10:30"
+     "23:10"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260616/"
    },
    {
     "film": "The Mandalorian and Grogu",
-    "date": "2026-06-13",
+    "date": "2026-06-16",
     "times": [
-     "10:30"
+     "11:20",
+     "22:20"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "The Last Emperor (restored)",
-    "date": "2026-06-13",
-    "times": [
-     "11:40"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260616/"
    },
    {
     "film": "The Devil Wears Prada 2",
-    "date": "2026-06-13",
+    "date": "2026-06-16",
     "times": [
-     "20:40"
+     "13:50",
+     "20:50"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260616/"
    },
    {
-    "film": "綠洲",
-    "date": "2026-06-13",
+    "film": "Michael (Michael Jackson biopic)",
+    "date": "2026-06-16",
     "times": [
-     "21:20"
+     "19:50"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260616/"
    },
    {
-    "film": "Tanuki World (狸想世界) - animation",
-    "date": "2026-06-13",
+    "film": "The Super Mario Galaxy Movie",
+    "date": "2026-06-16",
     "times": [
-     "13:00"
+     "16:30"
     ],
     "format": "English",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260616/"
    },
+   {
+    "film": "Tanuki World (狸想世界) - animation",
+    "date": "2026-06-16",
+    "times": [
+     "18:30"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260616/"
+   }
+  ],
+  "IN89P2": [
    {
     "film": "揭密日",
     "date": "2026-06-14",
@@ -617,7 +489,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "太空超人",
@@ -630,7 +502,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "驚聲尖笑6",
@@ -643,7 +515,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "寶貝對不起",
@@ -655,7 +527,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "The Backrooms",
@@ -669,7 +541,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "The Mandalorian and Grogu",
@@ -681,7 +553,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "The Last Emperor (restored)",
@@ -693,7 +565,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "The Devil Wears Prada 2",
@@ -705,7 +577,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "Tanuki World (狸想世界) - animation",
@@ -717,7 +589,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "揭密日",
@@ -858,192 +730,125 @@
      "atmovies"
     ],
     "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260615/"
-   }
-  ],
-  "VIESHOW": [
-   {
-    "film": "揭密日",
-    "date": "2026-06-13",
-    "times": [
-     "00:15",
-     "10:30",
-     "12:40",
-     "13:15",
-     "14:15",
-     "16:00",
-     "18:45",
-     "19:45",
-     "21:30",
-     "22:30",
-     "23:30"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
-    "film": "The Backrooms",
-    "date": "2026-06-13",
+    "film": "揭密日",
+    "date": "2026-06-16",
     "times": [
-     "10:00",
-     "11:05",
-     "13:15",
-     "15:25",
-     "17:15",
-     "19:25",
-     "21:30",
-     "23:40"
+     "10:30",
+     "13:10",
+     "15:50",
+     "18:30",
+     "21:10"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260616/"
    },
    {
     "film": "太空超人",
-    "date": "2026-06-13",
+    "date": "2026-06-16",
     "times": [
-     "10:00",
-     "10:30",
-     "20:30"
+     "14:10",
+     "18:40"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260616/"
    },
    {
-    "film": "The Devil Wears Prada 2",
-    "date": "2026-06-13",
+    "film": "驚聲尖笑6",
+    "date": "2026-06-16",
     "times": [
-     "00:00",
-     "13:10",
-     "19:20"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "盜音天才",
-    "date": "2026-06-13",
-    "times": [
-     "21:35"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "紐倫堡",
-    "date": "2026-06-13",
-    "times": [
-     "21:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "The Mandalorian and Grogu",
-    "date": "2026-06-13",
-    "times": [
+     "12:20",
      "16:50"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260616/"
    },
    {
-    "film": "Michael (Michael Jackson biopic)",
-    "date": "2026-06-13",
+    "film": "寶貝對不起",
+    "date": "2026-06-16",
     "times": [
-     "21:35"
+     "12:40"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260616/"
    },
    {
-    "film": "揭密日",
-    "date": "2026-06-13",
+    "film": "The Backrooms",
+    "date": "2026-06-16",
     "times": [
-     "09:40",
-     "15:10",
-     "20:45"
+     "14:40",
+     "19:20",
+     "21:30"
     ],
-    "format": "IMAX",
+    "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "太空超人",
-    "date": "2026-06-13",
-    "times": [
-     "12:30"
-    ],
-    "format": "IMAX",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "Michael (Michael Jackson biopic)",
-    "date": "2026-06-13",
-    "times": [
-     "18:00"
-    ],
-    "format": "IMAX",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260616/"
    },
    {
     "film": "The Mandalorian and Grogu",
-    "date": "2026-06-13",
+    "date": "2026-06-16",
     "times": [
-     "23:35"
+     "10:30"
     ],
-    "format": "IMAX",
+    "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260616/"
    },
    {
-    "film": "揭密日",
-    "date": "2026-06-13",
+    "film": "The Last Emperor (restored)",
+    "date": "2026-06-16",
     "times": [
-     "10:30",
-     "13:40",
-     "16:50",
-     "20:00",
-     "23:10"
+     "12:40"
     ],
-    "format": "Gold Class",
+    "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260616/"
    },
+   {
+    "film": "The Devil Wears Prada 2",
+    "date": "2026-06-16",
+    "times": [
+     "20:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260616/"
+   },
+   {
+    "film": "Tanuki World (狸想世界) - animation",
+    "date": "2026-06-16",
+    "times": [
+     "13:00"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260616/"
+   }
+  ],
+  "VIESHOW": [
    {
     "film": "阿嘉莎的四季",
     "date": "2026-06-14",
@@ -1054,7 +859,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "揭密日",
@@ -1076,7 +881,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "The Backrooms",
@@ -1095,7 +900,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "太空超人",
@@ -1110,7 +915,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "The Devil Wears Prada 2",
@@ -1124,7 +929,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "盜音天才",
@@ -1136,7 +941,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "紐倫堡",
@@ -1148,7 +953,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "The Mandalorian and Grogu",
@@ -1160,7 +965,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "Michael (Michael Jackson biopic)",
@@ -1172,7 +977,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "揭密日",
@@ -1186,7 +991,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "太空超人",
@@ -1198,7 +1003,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "Michael (Michael Jackson biopic)",
@@ -1210,7 +1015,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "The Mandalorian and Grogu",
@@ -1222,7 +1027,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "揭密日",
@@ -1238,7 +1043,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "阿嘉莎的四季",
@@ -1433,134 +1238,137 @@
      "atmovies"
     ],
     "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260615/"
-   }
-  ],
-  "DREAM": [
+   },
+   {
+    "film": "阿嘉莎的四季",
+    "date": "2026-06-16",
+    "times": [
+     "19:25"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260616/"
+   },
    {
     "film": "揭密日",
-    "date": "2026-06-13",
+    "date": "2026-06-16",
     "times": [
-     "10:00",
-     "10:30",
-     "11:20",
-     "12:50",
-     "14:10",
-     "15:40",
-     "16:10",
-     "17:00",
-     "18:30",
-     "19:50",
-     "21:20",
+     "10:50",
+     "11:40",
+     "13:35",
+     "14:25",
+     "16:20",
+     "17:10",
+     "19:05",
+     "19:55",
+     "21:50",
      "22:40"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260616/"
    },
    {
     "film": "The Backrooms",
-    "date": "2026-06-13",
+    "date": "2026-06-16",
     "times": [
-     "11:30",
-     "13:40",
-     "15:50",
-     "18:00",
-     "20:10",
-     "22:20"
+     "10:45",
+     "12:45",
+     "14:55",
+     "17:05",
+     "19:15",
+     "21:25",
+     "23:35"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "神奇數字馬戲團：最終章",
-    "date": "2026-06-13",
-    "times": [
-     "10:30",
-     "13:40",
-     "15:40",
-     "17:40",
-     "19:40"
-    ],
-    "format": "English",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "驚聲尖笑6",
-    "date": "2026-06-13",
-    "times": [
-     "13:00",
-     "15:00",
-     "21:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260616/"
    },
    {
     "film": "太空超人",
-    "date": "2026-06-13",
+    "date": "2026-06-16",
     "times": [
-     "12:50",
-     "15:35",
-     "18:20",
-     "21:10"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "Michael (Michael Jackson biopic)",
-    "date": "2026-06-13",
-    "times": [
+     "10:00",
+     "16:40",
      "21:40"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260616/"
    },
    {
     "film": "The Devil Wears Prada 2",
-    "date": "2026-06-13",
+    "date": "2026-06-16",
     "times": [
-     "17:35"
+     "13:10",
+     "19:20",
+     "23:10"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260616/"
+   },
+   {
+    "film": "盜音天才",
+    "date": "2026-06-16",
+    "times": [
+     "21:15"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260616/"
+   },
+   {
+    "film": "紐倫堡",
+    "date": "2026-06-16",
+    "times": [
+     "12:45"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260616/"
    },
    {
     "film": "The Mandalorian and Grogu",
-    "date": "2026-06-13",
+    "date": "2026-06-16",
     "times": [
-     "10:00",
-     "20:00"
+     "21:50"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260616/"
    },
    {
-    "film": "出口成髒",
-    "date": "2026-06-13",
+    "film": "Michael (Michael Jackson biopic)",
+    "date": "2026-06-16",
+    "times": [
+     "10:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260616/"
+   },
+   {
+    "film": "第五步驟 (英國國家劇院現場)",
+    "date": "2026-06-16",
     "times": [
      "19:00"
     ],
@@ -1568,20 +1376,76 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260616/"
    },
    {
-    "film": "綿羊偵探團",
-    "date": "2026-06-13",
+    "film": "揭密日",
+    "date": "2026-06-16",
     "times": [
-     "12:25"
+     "10:00",
+     "15:30",
+     "21:00"
     ],
-    "format": "",
+    "format": "IMAX",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260616/"
    },
+   {
+    "film": "太空超人",
+    "date": "2026-06-16",
+    "times": [
+     "12:50"
+    ],
+    "format": "IMAX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260616/"
+   },
+   {
+    "film": "Michael (Michael Jackson biopic)",
+    "date": "2026-06-16",
+    "times": [
+     "18:30"
+    ],
+    "format": "IMAX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260616/"
+   },
+   {
+    "film": "太空超人",
+    "date": "2026-06-16",
+    "times": [
+     "23:25"
+    ],
+    "format": "4DX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260616/"
+   },
+   {
+    "film": "揭密日",
+    "date": "2026-06-16",
+    "times": [
+     "11:00",
+     "14:00",
+     "17:00",
+     "18:00",
+     "21:20"
+    ],
+    "format": "Gold Class",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260616/"
+   }
+  ],
+  "DREAM": [
    {
     "film": "揭密日",
     "date": "2026-06-14",
@@ -1603,7 +1467,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "The Backrooms",
@@ -1620,7 +1484,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "神奇數字馬戲團：最終章",
@@ -1636,7 +1500,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "驚聲尖笑6",
@@ -1650,7 +1514,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "太空超人",
@@ -1665,7 +1529,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "Michael (Michael Jackson biopic)",
@@ -1677,7 +1541,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "The Devil Wears Prada 2",
@@ -1690,7 +1554,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "The Mandalorian and Grogu",
@@ -1703,7 +1567,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "出口成髒",
@@ -1715,7 +1579,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "綿羊偵探團",
@@ -1727,7 +1591,301 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260614/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
+   },
+   {
+    "film": "揭密日",
+    "date": "2026-06-15",
+    "times": [
+     "10:00",
+     "10:30",
+     "11:20",
+     "12:50",
+     "14:10",
+     "15:40",
+     "16:10",
+     "17:00",
+     "18:30",
+     "19:50",
+     "21:20",
+     "22:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260615/"
+   },
+   {
+    "film": "The Backrooms",
+    "date": "2026-06-15",
+    "times": [
+     "11:30",
+     "13:40",
+     "15:50",
+     "18:00",
+     "20:10",
+     "22:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260615/"
+   },
+   {
+    "film": "神奇數字馬戲團：最終章",
+    "date": "2026-06-15",
+    "times": [
+     "10:30",
+     "13:40",
+     "15:40",
+     "17:40",
+     "19:40"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260615/"
+   },
+   {
+    "film": "驚聲尖笑6",
+    "date": "2026-06-15",
+    "times": [
+     "12:50",
+     "14:50",
+     "19:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260615/"
+   },
+   {
+    "film": "太空超人",
+    "date": "2026-06-15",
+    "times": [
+     "12:50",
+     "15:35",
+     "18:20",
+     "21:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260615/"
+   },
+   {
+    "film": "Michael (Michael Jackson biopic)",
+    "date": "2026-06-15",
+    "times": [
+     "21:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260615/"
+   },
+   {
+    "film": "The Devil Wears Prada 2",
+    "date": "2026-06-15",
+    "times": [
+     "17:35",
+     "22:35"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260615/"
+   },
+   {
+    "film": "The Mandalorian and Grogu",
+    "date": "2026-06-15",
+    "times": [
+     "10:00",
+     "20:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260615/"
+   },
+   {
+    "film": "出口成髒",
+    "date": "2026-06-15",
+    "times": [
+     "19:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260615/"
+   },
+   {
+    "film": "綿羊偵探團",
+    "date": "2026-06-15",
+    "times": [
+     "12:25"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260615/"
+   },
+   {
+    "film": "揭密日",
+    "date": "2026-06-16",
+    "times": [
+     "10:00",
+     "10:30",
+     "11:20",
+     "12:50",
+     "14:10",
+     "15:40",
+     "16:10",
+     "17:00",
+     "18:30",
+     "19:50",
+     "21:20",
+     "22:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260616/"
+   },
+   {
+    "film": "The Backrooms",
+    "date": "2026-06-16",
+    "times": [
+     "11:30",
+     "13:40",
+     "15:50",
+     "18:00",
+     "20:10",
+     "22:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260616/"
+   },
+   {
+    "film": "神奇數字馬戲團：最終章",
+    "date": "2026-06-16",
+    "times": [
+     "10:30",
+     "13:40",
+     "15:40",
+     "17:40",
+     "19:40"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260616/"
+   },
+   {
+    "film": "驚聲尖笑6",
+    "date": "2026-06-16",
+    "times": [
+     "12:50",
+     "14:50",
+     "19:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260616/"
+   },
+   {
+    "film": "太空超人",
+    "date": "2026-06-16",
+    "times": [
+     "12:50",
+     "15:35",
+     "18:20",
+     "21:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260616/"
+   },
+   {
+    "film": "Michael (Michael Jackson biopic)",
+    "date": "2026-06-16",
+    "times": [
+     "21:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260616/"
+   },
+   {
+    "film": "The Devil Wears Prada 2",
+    "date": "2026-06-16",
+    "times": [
+     "17:35",
+     "22:35"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260616/"
+   },
+   {
+    "film": "The Mandalorian and Grogu",
+    "date": "2026-06-16",
+    "times": [
+     "10:00",
+     "20:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260616/"
+   },
+   {
+    "film": "出口成髒",
+    "date": "2026-06-16",
+    "times": [
+     "19:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260616/"
+   },
+   {
+    "film": "綿羊偵探團",
+    "date": "2026-06-16",
+    "times": [
+     "12:25"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260616/"
    }
   ]
  },
