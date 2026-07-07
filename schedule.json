@@ -1,26 +1,20 @@
 {
- "updatedAt": "2026-07-07T07:14:32.739291+08:00",
- "label": "cinemas auto-updated 07 Jul 2026 07:14 (Taipei)",
+ "updatedAt": "2026-07-08T07:08:29.452344+08:00",
+ "label": "cinemas auto-updated 08 Jul 2026 07:08 (Taipei)",
  "cinema": {
   "IN89": [
    {
-    "film": "小小兵&大怪獸",
-    "date": "2026-07-07",
+    "film": "海洋奇緣",
+    "date": "2026-07-08",
     "times": [
-     "10:40",
-     "11:10",
-     "12:30",
-     "13:00",
+     "12:10",
      "14:20",
-     "14:50",
-     "16:10",
-     "16:40",
-     "18:00",
-     "18:30",
-     "19:50",
-     "20:20",
-     "21:40",
-     "22:10"
+     "16:30",
+     "18:40",
+     "20:00",
+     "20:50",
+     "22:20",
+     "23:00"
     ],
     "format": "English",
     "srcs": [
@@ -29,10 +23,10 @@
     "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
-    "film": "超少女",
-    "date": "2026-07-07",
+    "film": "屍變焚場",
+    "date": "2026-07-08",
     "times": [
-     "10:00",
+     "09:50",
      "12:00",
      "14:10",
      "16:20",
@@ -47,16 +41,52 @@
     "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
+    "film": "小小兵&大怪獸",
+    "date": "2026-07-08",
+    "times": [
+     "11:50",
+     "13:40",
+     "15:30",
+     "17:20",
+     "19:10",
+     "19:40",
+     "21:10",
+     "23:00"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
+   },
+   {
+    "film": "超少女",
+    "date": "2026-07-08",
+    "times": [
+     "12:10",
+     "16:00",
+     "20:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
+   },
+   {
     "film": "玩具總動員5",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
      "10:00",
      "12:00",
      "14:00",
      "16:00",
      "18:00",
+     "19:00",
      "20:00",
-     "22:00"
+     "21:00",
+     "22:00",
+     "23:00"
     ],
     "format": "English",
     "srcs": [
@@ -66,7 +96,7 @@
    },
    {
     "film": "鬼上車",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
      "23:30"
     ],
@@ -77,32 +107,8 @@
     "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
-    "film": "揭密日",
-    "date": "2026-07-07",
-    "times": [
-     "13:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
     "film": "The Backrooms",
-    "date": "2026-07-07",
-    "times": [
-     "21:10"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "驚聲尖笑6",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
      "21:20"
     ],
@@ -114,28 +120,217 @@
    },
    {
     "film": "The Devil Wears Prada 2",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
-     "17:40"
+     "12:40"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
     "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
+   },
+   {
+    "film": "揭密日",
+    "date": "2026-07-08",
+    "times": [
+     "09:50"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
+   },
+   {
+    "film": "海洋奇緣",
+    "date": "2026-07-09",
+    "times": [
+     "12:10",
+     "14:20",
+     "16:30",
+     "18:40",
+     "20:00",
+     "20:50",
+     "22:20",
+     "23:00"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260709/"
+   },
+   {
+    "film": "屍變焚場",
+    "date": "2026-07-09",
+    "times": [
+     "09:50",
+     "12:00",
+     "14:10",
+     "16:20",
+     "18:30",
+     "20:40",
+     "22:50"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260709/"
+   },
+   {
+    "film": "小小兵&大怪獸",
+    "date": "2026-07-09",
+    "times": [
+     "10:00",
+     "11:50",
+     "13:40",
+     "15:30",
+     "17:20",
+     "19:10",
+     "19:40",
+     "21:10",
+     "23:00"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260709/"
+   },
+   {
+    "film": "超少女",
+    "date": "2026-07-09",
+    "times": [
+     "12:10",
+     "16:00",
+     "20:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260709/"
+   },
+   {
+    "film": "玩具總動員5",
+    "date": "2026-07-09",
+    "times": [
+     "10:00",
+     "12:00",
+     "14:00",
+     "16:00",
+     "18:00",
+     "19:00",
+     "20:00",
+     "21:00",
+     "22:00",
+     "23:00"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260709/"
+   },
+   {
+    "film": "鬼上車",
+    "date": "2026-07-09",
+    "times": [
+     "23:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260709/"
+   },
+   {
+    "film": "The Backrooms",
+    "date": "2026-07-09",
+    "times": [
+     "21:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260709/"
+   },
+   {
+    "film": "The Devil Wears Prada 2",
+    "date": "2026-07-09",
+    "times": [
+     "12:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260709/"
+   },
+   {
+    "film": "揭密日",
+    "date": "2026-07-09",
+    "times": [
+     "09:50"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260709/"
    }
   ],
   "IN89P2": [
    {
-    "film": "小小兵&大怪獸",
-    "date": "2026-07-07",
+    "film": "海洋奇緣",
+    "date": "2026-07-08",
     "times": [
-     "11:10",
-     "13:00",
+     "10:30",
      "14:50",
-     "16:40",
-     "19:40",
-     "21:30"
+     "17:00",
+     "19:10",
+     "21:20"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+   },
+   {
+    "film": "新浪潮",
+    "date": "2026-07-08",
+    "times": [
+     "11:00",
+     "16:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+   },
+   {
+    "film": "外賣",
+    "date": "2026-07-08",
+    "times": [
+     "12:40",
+     "20:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+   },
+   {
+    "film": "小小兵&大怪獸",
+    "date": "2026-07-08",
+    "times": [
+     "19:40"
     ],
     "format": "English",
     "srcs": [
@@ -145,10 +340,9 @@
    },
    {
     "film": "跟蹤",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
-     "16:20",
-     "20:00"
+     "20:40"
     ],
     "format": "",
     "srcs": [
@@ -158,11 +352,9 @@
    },
    {
     "film": "超少女",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
-     "10:30",
-     "14:50",
-     "17:50"
+     "10:40"
     ],
     "format": "",
     "srcs": [
@@ -172,11 +364,10 @@
    },
    {
     "film": "玩具總動員5",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
-     "15:00",
-     "19:00",
-     "21:00"
+     "16:50",
+     "20:50"
     ],
     "format": "English",
     "srcs": [
@@ -186,9 +377,9 @@
    },
    {
     "film": "寶貝對不起",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
-     "17:10"
+     "16:40"
     ],
     "format": "",
     "srcs": [
@@ -198,10 +389,9 @@
    },
    {
     "film": "The Backrooms",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
-     "14:30",
-     "19:10"
+     "18:30"
     ],
     "format": "",
     "srcs": [
@@ -210,25 +400,162 @@
     "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
-    "film": "The Devil Wears Prada 2",
-    "date": "2026-07-07",
+    "film": "海洋奇緣",
+    "date": "2026-07-09",
     "times": [
-     "19:10"
+     "10:30",
+     "14:50",
+     "17:00",
+     "19:10",
+     "21:20"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260709/"
+   },
+   {
+    "film": "新浪潮",
+    "date": "2026-07-09",
+    "times": [
+     "11:00",
+     "16:40"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260709/"
+   },
+   {
+    "film": "外賣",
+    "date": "2026-07-09",
+    "times": [
+     "12:40",
+     "20:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260709/"
+   },
+   {
+    "film": "小小兵&大怪獸",
+    "date": "2026-07-09",
+    "times": [
+     "19:40"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260709/"
+   },
+   {
+    "film": "跟蹤",
+    "date": "2026-07-09",
+    "times": [
+     "17:00",
+     "20:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260709/"
+   },
+   {
+    "film": "超少女",
+    "date": "2026-07-09",
+    "times": [
+     "10:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260709/"
+   },
+   {
+    "film": "玩具總動員5",
+    "date": "2026-07-09",
+    "times": [
+     "16:50",
+     "20:50"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260709/"
+   },
+   {
+    "film": "寶貝對不起",
+    "date": "2026-07-09",
+    "times": [
+     "16:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260709/"
+   },
+   {
+    "film": "The Backrooms",
+    "date": "2026-07-09",
+    "times": [
+     "18:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260709/"
+   },
+   {
+    "film": "The Devil Wears Prada 2",
+    "date": "2026-07-09",
+    "times": [
+     "12:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260709/"
    }
   ],
   "VIESHOW": [
    {
-    "film": "跟蹤",
-    "date": "2026-07-07",
+    "film": "海洋奇緣",
+    "date": "2026-07-08",
     "times": [
+     "00:00",
+     "10:30",
+     "12:45",
      "15:00",
-     "19:05"
+     "17:15",
+     "18:00",
+     "19:30",
+     "21:45"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+   },
+   {
+    "film": "屍變焚場",
+    "date": "2026-07-08",
+    "times": [
+     "00:10",
+     "10:00",
+     "16:05",
+     "19:45"
     ],
     "format": "",
     "srcs": [
@@ -237,13 +564,24 @@
     "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
-    "film": "絕殺路人甲",
-    "date": "2026-07-07",
+    "film": "新浪潮",
+    "date": "2026-07-08",
     "times": [
-     "12:20",
-     "19:00"
+     "20:20"
     ],
     "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+   },
+   {
+    "film": "外賣",
+    "date": "2026-07-08",
+    "times": [
+     "21:50"
+    ],
+    "format": "4K Restored",
     "srcs": [
      "atmovies"
     ],
@@ -251,19 +589,17 @@
    },
    {
     "film": "小小兵&大怪獸",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
-     "10:30",
-     "12:30",
-     "13:00",
-     "14:30",
+     "00:10",
+     "09:30",
+     "11:20",
+     "13:10",
      "15:00",
-     "16:30",
-     "18:30",
+     "16:50",
+     "18:40",
      "20:30",
-     "21:30",
-     "22:30",
-     "23:30"
+     "22:20"
     ],
     "format": "English",
     "srcs": [
@@ -273,18 +609,16 @@
    },
    {
     "film": "玩具總動員5",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
-     "00:00",
-     "09:30",
-     "11:35",
-     "13:40",
-     "15:50",
-     "17:50",
-     "19:55",
-     "20:55",
-     "21:55",
-     "23:00"
+     "10:40",
+     "12:50",
+     "15:00",
+     "17:10",
+     "19:15",
+     "21:15",
+     "22:15",
+     "23:15"
     ],
     "format": "English",
     "srcs": [
@@ -293,13 +627,12 @@
     "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
-    "film": "超少女",
-    "date": "2026-07-07",
+    "film": "The Backrooms",
+    "date": "2026-07-08",
     "times": [
-     "12:50",
-     "16:50",
-     "19:00",
-     "23:20"
+     "15:10",
+     "19:40",
+     "23:40"
     ],
     "format": "",
     "srcs": [
@@ -309,11 +642,9 @@
    },
    {
     "film": "揭密日",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
-     "16:15",
-     "20:35",
-     "23:25"
+     "09:55"
     ],
     "format": "",
     "srcs": [
@@ -322,50 +653,79 @@
     "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
-    "film": "The Backrooms",
-    "date": "2026-07-07",
+    "film": "跟蹤",
+    "date": "2026-07-08",
     "times": [
+     "12:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+   },
+   {
+    "film": "超少女",
+    "date": "2026-07-08",
+    "times": [
+     "21:55"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+   },
+   {
+    "film": "絕殺路人甲",
+    "date": "2026-07-08",
+    "times": [
+     "22:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+   },
+   {
+    "film": "海洋奇緣",
+    "date": "2026-07-08",
+    "times": [
+     "09:30",
      "14:00",
-     "19:05",
-     "23:20"
+     "18:30",
+     "20:45",
+     "23:00"
     ],
-    "format": "",
+    "format": "English · IMAX",
     "srcs": [
      "atmovies"
     ],
     "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
-    "film": "鬼上車",
-    "date": "2026-07-07",
+    "film": "海洋奇緣",
+    "date": "2026-07-08",
     "times": [
-     "14:20"
+     "11:45",
+     "16:15"
     ],
-    "format": "",
+    "format": "English · IMAX · 3D",
     "srcs": [
      "atmovies"
     ],
     "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
-    "film": "Michael (Michael Jackson biopic)",
-    "date": "2026-07-07",
+    "film": "海洋奇緣",
+    "date": "2026-07-08",
     "times": [
-     "16:30"
+     "10:00",
+     "14:30",
+     "19:00"
     ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "The Devil Wears Prada 2",
-    "date": "2026-07-07",
-    "times": [
-     "11:40"
-    ],
-    "format": "",
+    "format": "English · 4DX · 3D",
     "srcs": [
      "atmovies"
     ],
@@ -373,12 +733,37 @@
    },
    {
     "film": "小小兵&大怪獸",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
+    "times": [
+     "12:40"
+    ],
+    "format": "English · 4DX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+   },
+   {
+    "film": "海洋奇緣",
+    "date": "2026-07-08",
     "times": [
      "11:00",
-     "13:30",
-     "16:00",
-     "19:40"
+     "16:30",
+     "20:20",
+     "23:10"
+    ],
+    "format": "English · Gold Class",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+   },
+   {
+    "film": "小小兵&大怪獸",
+    "date": "2026-07-08",
+    "times": [
+     "13:40",
+     "17:50"
     ],
     "format": "English · Gold Class",
     "srcs": [
@@ -388,11 +773,10 @@
    },
    {
     "film": "玩具總動員5",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
-     "14:40",
-     "18:20",
-     "22:10"
+     "12:20",
+     "19:10"
     ],
     "format": "English · Gold Class",
     "srcs": [
@@ -401,64 +785,264 @@
     "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
-    "film": "小小兵&大怪獸",
-    "date": "2026-07-07",
+    "film": "海洋奇緣",
+    "date": "2026-07-09",
     "times": [
-     "10:00",
-     "14:00",
+     "00:00",
+     "10:30",
+     "12:45",
+     "15:00",
+     "17:15",
      "18:00",
-     "22:00"
+     "19:30",
+     "21:45"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260709/"
+   },
+   {
+    "film": "屍變焚場",
+    "date": "2026-07-09",
+    "times": [
+     "00:10",
+     "10:00",
+     "16:05",
+     "19:45"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260709/"
+   },
+   {
+    "film": "新浪潮",
+    "date": "2026-07-09",
+    "times": [
+     "20:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260709/"
+   },
+   {
+    "film": "外賣",
+    "date": "2026-07-09",
+    "times": [
+     "21:50"
+    ],
+    "format": "4K Restored",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260709/"
+   },
+   {
+    "film": "小小兵&大怪獸",
+    "date": "2026-07-09",
+    "times": [
+     "00:10",
+     "09:30",
+     "11:20",
+     "13:10",
+     "15:00",
+     "16:50",
+     "18:40",
+     "20:30",
+     "22:20"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260709/"
+   },
+   {
+    "film": "玩具總動員5",
+    "date": "2026-07-09",
+    "times": [
+     "10:40",
+     "12:50",
+     "15:00",
+     "17:10",
+     "19:15",
+     "21:15",
+     "22:15",
+     "23:15"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260709/"
+   },
+   {
+    "film": "The Backrooms",
+    "date": "2026-07-09",
+    "times": [
+     "15:10",
+     "23:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260709/"
+   },
+   {
+    "film": "揭密日",
+    "date": "2026-07-09",
+    "times": [
+     "09:55"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260709/"
+   },
+   {
+    "film": "跟蹤",
+    "date": "2026-07-09",
+    "times": [
+     "12:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260709/"
+   },
+   {
+    "film": "超少女",
+    "date": "2026-07-09",
+    "times": [
+     "21:55"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260709/"
+   },
+   {
+    "film": "絕殺路人甲",
+    "date": "2026-07-09",
+    "times": [
+     "22:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260709/"
+   },
+   {
+    "film": "海洋奇緣",
+    "date": "2026-07-09",
+    "times": [
+     "09:30",
+     "14:00",
+     "18:30",
+     "20:45",
+     "23:00"
     ],
     "format": "English · IMAX",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260709/"
    },
    {
-    "film": "超少女",
-    "date": "2026-07-07",
+    "film": "海洋奇緣",
+    "date": "2026-07-09",
     "times": [
-     "15:50"
+     "11:45",
+     "16:15"
     ],
-    "format": "IMAX",
+    "format": "English · IMAX · 3D",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260709/"
+   },
+   {
+    "film": "海洋奇緣",
+    "date": "2026-07-09",
+    "times": [
+     "10:00",
+     "14:30",
+     "19:00"
+    ],
+    "format": "English · 4DX · 3D",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260709/"
    },
    {
     "film": "小小兵&大怪獸",
-    "date": "2026-07-07",
+    "date": "2026-07-09",
     "times": [
-     "00:00",
-     "12:00",
-     "16:00",
-     "20:00"
+     "12:40"
     ],
     "format": "English · 4DX",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260709/"
    },
    {
-    "film": "超少女",
-    "date": "2026-07-07",
+    "film": "海洋奇緣",
+    "date": "2026-07-09",
     "times": [
-     "21:50"
+     "11:00",
+     "16:30",
+     "20:20",
+     "23:10"
     ],
-    "format": "4DX",
+    "format": "English · Gold Class",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260709/"
+   },
+   {
+    "film": "小小兵&大怪獸",
+    "date": "2026-07-09",
+    "times": [
+     "13:40",
+     "17:50"
+    ],
+    "format": "English · Gold Class",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260709/"
+   },
+   {
+    "film": "玩具總動員5",
+    "date": "2026-07-09",
+    "times": [
+     "12:20",
+     "19:10"
+    ],
+    "format": "English · Gold Class",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260709/"
    }
   ],
   "DREAM": [
    {
     "film": "小小兵&大怪獸",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
      "10:30",
      "12:00",
@@ -480,7 +1064,7 @@
    },
    {
     "film": "小小兵&大怪獸",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
      "09:30",
      "19:35"
@@ -493,7 +1077,7 @@
    },
    {
     "film": "超少女",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
      "11:25"
     ],
@@ -505,7 +1089,7 @@
    },
    {
     "film": "超少女",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
      "10:00",
      "12:10",
@@ -524,7 +1108,7 @@
    },
    {
     "film": "玩具總動員5",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
      "09:40",
      "11:50",
@@ -542,7 +1126,7 @@
    },
    {
     "film": "揭密日",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
      "09:50",
      "14:55",
@@ -556,7 +1140,7 @@
    },
    {
     "film": "The Backrooms",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
      "09:50",
      "16:10"
@@ -569,7 +1153,7 @@
    },
    {
     "film": "鬼上車",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
      "17:45"
     ],
@@ -581,7 +1165,7 @@
    },
    {
     "film": "驚聲尖笑6",
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "times": [
      "18:20"
     ],
