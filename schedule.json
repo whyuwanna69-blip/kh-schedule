@@ -1,92 +1,10 @@
 {
- "updatedAt": "2026-08-02T07:01:14.444466+08:00",
- "label": "cinemas auto-updated 02 Aug 2026 07:01 (Taipei)",
+ "updatedAt": "2026-08-03T07:01:22.165718+08:00",
+ "label": "cinemas auto-updated 03 Aug 2026 07:01 (Taipei)",
  "cinema": {
   "IN89": [
    {
     "film": "蜘蛛人：重生日",
-    "date": "2026-08-02",
-    "times": [
-     "10:00",
-     "10:30",
-     "11:00",
-     "11:30",
-     "12:00",
-     "12:20",
-     "12:50",
-     "13:20",
-     "13:50",
-     "14:20",
-     "14:50",
-     "15:10",
-     "15:40",
-     "16:10",
-     "16:40",
-     "17:10",
-     "17:40",
-     "18:00",
-     "18:30",
-     "19:00",
-     "19:30",
-     "20:00",
-     "20:30",
-     "20:50",
-     "21:20",
-     "21:50",
-     "22:20",
-     "23:00",
-     "23:20",
-     "23:40"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "奧德賽",
-    "date": "2026-08-02",
-    "times": [
-     "10:10",
-     "13:20",
-     "16:30",
-     "19:40",
-     "22:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "小小兵&大怪獸",
-    "date": "2026-08-02",
-    "times": [
-     "14:20",
-     "17:10"
-    ],
-    "format": "English",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "玩具總動員5",
-    "date": "2026-08-02",
-    "times": [
-     "18:30"
-    ],
-    "format": "English",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "蜘蛛人：重生日",
     "date": "2026-08-03",
     "times": [
      "10:00",
@@ -125,7 +43,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "奧德賽",
@@ -142,20 +60,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260803/"
-   },
-   {
-    "film": "海洋奇緣",
-    "date": "2026-08-03",
-    "times": [
-     "12:10",
-     "16:20"
-    ],
-    "format": "English",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "小小兵&大怪獸",
@@ -168,7 +73,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "玩具總動員5",
@@ -180,7 +85,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "蜘蛛人：重生日",
@@ -278,12 +183,109 @@
      "atmovies"
     ],
     "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260804/"
+   },
+   {
+    "film": "蜘蛛人：重生日",
+    "date": "2026-08-05",
+    "times": [
+     "10:00",
+     "10:30",
+     "11:00",
+     "11:30",
+     "12:00",
+     "12:20",
+     "12:50",
+     "13:20",
+     "13:50",
+     "14:20",
+     "14:50",
+     "15:10",
+     "15:40",
+     "16:10",
+     "16:40",
+     "17:10",
+     "17:40",
+     "18:00",
+     "18:30",
+     "19:00",
+     "19:30",
+     "20:00",
+     "20:30",
+     "20:50",
+     "21:20",
+     "21:50",
+     "22:20",
+     "22:40",
+     "23:00",
+     "23:20",
+     "23:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260805/"
+   },
+   {
+    "film": "奧德賽",
+    "date": "2026-08-05",
+    "times": [
+     "10:10",
+     "13:20",
+     "16:30",
+     "19:40",
+     "22:50",
+     "23:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260805/"
+   },
+   {
+    "film": "海洋奇緣",
+    "date": "2026-08-05",
+    "times": [
+     "12:10",
+     "16:20"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260805/"
+   },
+   {
+    "film": "小小兵&大怪獸",
+    "date": "2026-08-05",
+    "times": [
+     "14:30",
+     "18:40"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260805/"
+   },
+   {
+    "film": "玩具總動員5",
+    "date": "2026-08-05",
+    "times": [
+     "18:30"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260805/"
    }
   ],
   "IN89P2": [
    {
     "film": "蜘蛛人：重生日",
-    "date": "2026-08-02",
+    "date": "2026-08-03",
     "times": [
      "10:30",
      "12:20",
@@ -302,7 +304,7 @@
    },
    {
     "film": "奧德賽",
-    "date": "2026-08-02",
+    "date": "2026-08-03",
     "times": [
      "10:30",
      "13:40",
@@ -317,112 +319,6 @@
    },
    {
     "film": "赤身裸愛",
-    "date": "2026-08-02",
-    "times": [
-     "21:30"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "新浪潮",
-    "date": "2026-08-02",
-    "times": [
-     "13:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "小小兵&大怪獸",
-    "date": "2026-08-02",
-    "times": [
-     "10:30"
-    ],
-    "format": "English",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "跟蹤",
-    "date": "2026-08-02",
-    "times": [
-     "17:30"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "玩具總動員5",
-    "date": "2026-08-02",
-    "times": [
-     "20:20"
-    ],
-    "format": "English",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "The Backrooms",
-    "date": "2026-08-02",
-    "times": [
-     "14:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "蜘蛛人：重生日",
-    "date": "2026-08-03",
-    "times": [
-     "10:30",
-     "12:20",
-     "13:20",
-     "16:10",
-     "18:00",
-     "19:00",
-     "20:50",
-     "21:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260803/"
-   },
-   {
-    "film": "奧德賽",
-    "date": "2026-08-03",
-    "times": [
-     "10:30",
-     "13:40",
-     "16:50",
-     "20:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260803/"
-   },
-   {
-    "film": "赤身裸愛",
     "date": "2026-08-03",
     "times": [
      "21:30"
@@ -431,31 +327,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260803/"
-   },
-   {
-    "film": "海洋奇緣",
-    "date": "2026-08-03",
-    "times": [
-     "12:30"
-    ],
-    "format": "English",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260803/"
-   },
-   {
-    "film": "外賣",
-    "date": "2026-08-03",
-    "times": [
-     "13:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "小小兵&大怪獸",
@@ -467,7 +339,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "跟蹤",
@@ -479,7 +351,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "玩具總動員5",
@@ -491,7 +363,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "蜘蛛人：重生日",
@@ -610,183 +482,121 @@
      "atmovies"
     ],
     "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260804/"
+   },
+   {
+    "film": "蜘蛛人：重生日",
+    "date": "2026-08-05",
+    "times": [
+     "10:30",
+     "12:20",
+     "13:20",
+     "16:10",
+     "18:00",
+     "19:00",
+     "20:50",
+     "21:50"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260805/"
+   },
+   {
+    "film": "奧德賽",
+    "date": "2026-08-05",
+    "times": [
+     "10:30",
+     "13:40",
+     "16:50",
+     "20:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260805/"
+   },
+   {
+    "film": "赤身裸愛",
+    "date": "2026-08-05",
+    "times": [
+     "21:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260805/"
+   },
+   {
+    "film": "海洋奇緣",
+    "date": "2026-08-05",
+    "times": [
+     "12:30"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260805/"
+   },
+   {
+    "film": "外賣",
+    "date": "2026-08-05",
+    "times": [
+     "13:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260805/"
+   },
+   {
+    "film": "小小兵&大怪獸",
+    "date": "2026-08-05",
+    "times": [
+     "10:30"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260805/"
+   },
+   {
+    "film": "跟蹤",
+    "date": "2026-08-05",
+    "times": [
+     "19:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260805/"
+   },
+   {
+    "film": "玩具總動員5",
+    "date": "2026-08-05",
+    "times": [
+     "20:20"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260805/"
    }
   ],
   "VIESHOW": [
    {
     "film": "蜘蛛人：重生日",
-    "date": "2026-08-02",
+    "date": "2026-08-03",
     "times": [
-     "00:30",
+     "00:10",
      "01:00",
-     "09:00",
-     "10:00",
-     "10:30",
-     "11:00",
-     "11:30",
-     "11:55",
-     "12:55",
-     "13:25",
-     "13:55",
-     "14:25",
-     "14:50",
-     "15:50",
-     "16:20",
-     "16:50",
-     "17:20",
-     "17:45",
-     "18:45",
-     "19:15",
-     "19:45",
-     "20:15",
-     "20:40",
-     "21:40",
-     "22:10",
-     "22:40",
-     "23:10",
-     "23:35"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "奧德賽",
-    "date": "2026-08-02",
-    "times": [
-     "00:40",
-     "10:50",
-     "12:00",
-     "14:00",
-     "15:10",
-     "16:50",
-     "17:20",
-     "18:20",
-     "20:30",
-     "21:30",
-     "23:40"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "玩具總動員5",
-    "date": "2026-08-02",
-    "times": [
-     "09:05",
-     "14:50",
-     "17:40",
-     "22:10"
-    ],
-    "format": "English",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "小小兵&大怪獸",
-    "date": "2026-08-02",
-    "times": [
-     "09:10",
-     "13:00",
-     "17:45",
-     "21:50"
-    ],
-    "format": "English",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "The Backrooms",
-    "date": "2026-08-02",
-    "times": [
-     "23:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "奧德賽",
-    "date": "2026-08-02",
-    "times": [
-     "09:40",
-     "13:00",
-     "16:10",
-     "19:30",
-     "22:40"
-    ],
-    "format": "IMAX",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "蜘蛛人：重生日",
-    "date": "2026-08-02",
-    "times": [
-     "00:05",
-     "09:30",
-     "12:25",
-     "15:20",
-     "18:15",
-     "21:10"
-    ],
-    "format": "4DX",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "蜘蛛人：重生日",
-    "date": "2026-08-02",
-    "times": [
-     "00:40",
-     "09:00",
-     "12:00",
-     "13:40",
-     "15:00",
-     "16:45",
-     "18:10",
-     "21:30"
-    ],
-    "format": "Gold Class",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "奧德賽",
-    "date": "2026-08-02",
-    "times": [
-     "10:10",
-     "19:50",
-     "23:20"
-    ],
-    "format": "Gold Class",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "蜘蛛人：重生日",
-    "date": "2026-08-03",
-    "times": [
-     "00:10",
      "10:00",
      "10:30",
      "11:00",
@@ -817,12 +627,13 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "奧德賽",
     "date": "2026-08-03",
     "times": [
+     "00:40",
      "10:50",
      "11:50",
      "14:00",
@@ -837,7 +648,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "玩具總動員5",
@@ -851,7 +662,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "小小兵&大怪獸",
@@ -865,21 +676,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260803/"
-   },
-   {
-    "film": "海洋奇緣",
-    "date": "2026-08-03",
-    "times": [
-     "16:45",
-     "21:10",
-     "23:30"
-    ],
-    "format": "English",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "The Backrooms",
@@ -891,7 +688,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "奧德賽",
@@ -907,7 +704,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "蜘蛛人：重生日",
@@ -924,13 +721,14 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "蜘蛛人：重生日",
     "date": "2026-08-03",
     "times": [
      "00:00",
+     "00:40",
      "11:00",
      "14:20",
      "16:00",
@@ -942,7 +740,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "奧德賽",
@@ -955,7 +753,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "蜘蛛人：重生日",
@@ -1131,102 +929,186 @@
      "atmovies"
     ],
     "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260804/"
+   },
+   {
+    "film": "蜘蛛人：重生日",
+    "date": "2026-08-05",
+    "times": [
+     "00:10",
+     "10:00",
+     "10:30",
+     "11:00",
+     "11:30",
+     "11:50",
+     "12:50",
+     "13:20",
+     "13:50",
+     "14:20",
+     "14:40",
+     "15:40",
+     "16:10",
+     "16:40",
+     "17:10",
+     "17:30",
+     "18:30",
+     "19:00",
+     "19:30",
+     "20:00",
+     "20:20",
+     "21:20",
+     "21:50",
+     "22:20",
+     "22:50",
+     "23:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260805/"
+   },
+   {
+    "film": "奧德賽",
+    "date": "2026-08-05",
+    "times": [
+     "10:50",
+     "11:50",
+     "14:00",
+     "15:00",
+     "17:10",
+     "18:10",
+     "20:30",
+     "21:30",
+     "23:50"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260805/"
+   },
+   {
+    "film": "玩具總動員5",
+    "date": "2026-08-05",
+    "times": [
+     "10:20",
+     "14:35",
+     "21:20"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260805/"
+   },
+   {
+    "film": "小小兵&大怪獸",
+    "date": "2026-08-05",
+    "times": [
+     "09:40",
+     "15:35",
+     "21:55"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260805/"
+   },
+   {
+    "film": "海洋奇緣",
+    "date": "2026-08-05",
+    "times": [
+     "16:45",
+     "21:10",
+     "23:30"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260805/"
+   },
+   {
+    "film": "The Backrooms",
+    "date": "2026-08-05",
+    "times": [
+     "23:50"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260805/"
+   },
+   {
+    "film": "奧德賽",
+    "date": "2026-08-05",
+    "times": [
+     "09:40",
+     "12:50",
+     "16:00",
+     "19:10",
+     "22:20"
+    ],
+    "format": "IMAX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260805/"
+   },
+   {
+    "film": "蜘蛛人：重生日",
+    "date": "2026-08-05",
+    "times": [
+     "09:30",
+     "12:20",
+     "15:10",
+     "18:00",
+     "20:50",
+     "23:40"
+    ],
+    "format": "4DX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260805/"
+   },
+   {
+    "film": "蜘蛛人：重生日",
+    "date": "2026-08-05",
+    "times": [
+     "00:00",
+     "11:00",
+     "14:20",
+     "16:00",
+     "17:35",
+     "20:50",
+     "22:40"
+    ],
+    "format": "Gold Class",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260805/"
+   },
+   {
+    "film": "奧德賽",
+    "date": "2026-08-05",
+    "times": [
+     "12:20",
+     "19:10"
+    ],
+    "format": "Gold Class",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260805/"
    }
   ],
   "DREAM": [
    {
     "film": "蜘蛛人：重生日",
-    "date": "2026-08-02",
-    "times": [
-     "09:20",
-     "10:00",
-     "10:40",
-     "11:20",
-     "12:20",
-     "13:00",
-     "14:20",
-     "15:20",
-     "16:00",
-     "17:00",
-     "17:20",
-     "18:20",
-     "19:00",
-     "20:20",
-     "21:20",
-     "22:00",
-     "23:00",
-     "23:20"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "蜘蛛人：重生日",
-    "date": "2026-08-02",
-    "times": [
-     "10:20",
-     "13:20",
-     "16:20",
-     "19:20",
-     "22:20"
-    ],
-    "format": "3D",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "蜘蛛人：重生日",
-    "date": "2026-08-02",
-    "times": [
-     "09:00",
-     "12:00",
-     "15:00",
-     "18:00",
-     "21:00"
-    ],
-    "format": "ScreenX",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "奧德賽",
-    "date": "2026-08-02",
-    "times": [
-     "09:10",
-     "11:15",
-     "13:40",
-     "19:00",
-     "20:00",
-     "21:00",
-     "22:15"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "揭密日",
-    "date": "2026-08-02",
-    "times": [
-     "10:10"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "蜘蛛人：重生日",
     "date": "2026-08-03",
     "times": [
      "09:20",
@@ -1253,7 +1135,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "蜘蛛人：重生日",
@@ -1269,7 +1151,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "蜘蛛人：重生日",
@@ -1285,7 +1167,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "奧德賽",
@@ -1303,21 +1185,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260803/"
-   },
-   {
-    "film": "海洋奇緣",
-    "date": "2026-08-03",
-    "times": [
-     "13:20",
-     "19:50",
-     "22:10"
-    ],
-    "format": "English",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "揭密日",
@@ -1329,7 +1197,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260803/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "蜘蛛人：重生日",
@@ -1436,6 +1304,112 @@
      "atmovies"
     ],
     "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260804/"
+   },
+   {
+    "film": "蜘蛛人：重生日",
+    "date": "2026-08-05",
+    "times": [
+     "09:20",
+     "10:00",
+     "10:40",
+     "11:20",
+     "12:20",
+     "13:00",
+     "13:40",
+     "14:20",
+     "15:20",
+     "16:00",
+     "16:40",
+     "17:20",
+     "18:20",
+     "19:00",
+     "20:20",
+     "21:20",
+     "22:00",
+     "23:00",
+     "23:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260805/"
+   },
+   {
+    "film": "蜘蛛人：重生日",
+    "date": "2026-08-05",
+    "times": [
+     "10:20",
+     "13:20",
+     "16:20",
+     "19:20",
+     "22:20"
+    ],
+    "format": "3D",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260805/"
+   },
+   {
+    "film": "蜘蛛人：重生日",
+    "date": "2026-08-05",
+    "times": [
+     "09:00",
+     "12:00",
+     "15:00",
+     "18:00",
+     "21:00"
+    ],
+    "format": "ScreenX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260805/"
+   },
+   {
+    "film": "奧德賽",
+    "date": "2026-08-05",
+    "times": [
+     "09:15",
+     "12:30",
+     "15:45",
+     "19:00",
+     "20:00",
+     "21:00",
+     "22:15"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260805/"
+   },
+   {
+    "film": "海洋奇緣",
+    "date": "2026-08-05",
+    "times": [
+     "13:20",
+     "19:50",
+     "22:10"
+    ],
+    "format": "English",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260805/"
+   },
+   {
+    "film": "揭密日",
+    "date": "2026-08-05",
+    "times": [
+     "10:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260805/"
    }
   ]
  },
