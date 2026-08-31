@@ -1,153 +1,10 @@
 {
- "updatedAt": "2026-08-30T08:02:22.139870+08:00",
- "label": "cinemas auto-updated 30 Aug 2026 08:02 (Taipei)",
+ "updatedAt": "2026-08-31T08:21:56.375162+08:00",
+ "label": "cinemas auto-updated 31 Aug 2026 08:21 (Taipei)",
  "cinema": {
   "IN89": [
    {
     "film": "寂地",
-    "date": "2026-08-30",
-    "times": [
-     "11:20",
-     "13:40",
-     "16:00",
-     "18:20",
-     "20:40",
-     "23:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "尪某殺必死",
-    "date": "2026-08-30",
-    "times": [
-     "09:50",
-     "15:00",
-     "18:20",
-     "20:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "陰兒房：穿越陰深處",
-    "date": "2026-08-30",
-    "times": [
-     "10:00",
-     "14:00",
-     "18:00",
-     "23:30"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "一夜限定",
-    "date": "2026-08-30",
-    "times": [
-     "12:00",
-     "16:00",
-     "21:35"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "玩命航線",
-    "date": "2026-08-30",
-    "times": [
-     "10:00",
-     "13:50",
-     "17:40",
-     "21:30"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "橡樹街末日",
-    "date": "2026-08-30",
-    "times": [
-     "11:50",
-     "15:40",
-     "19:30",
-     "23:20"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "愛你致死不渝",
-    "date": "2026-08-30",
-    "times": [
-     "12:30",
-     "16:30",
-     "18:40",
-     "20:50",
-     "23:15"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "蜘蛛人：重生日",
-    "date": "2026-08-30",
-    "times": [
-     "10:05",
-     "12:00",
-     "13:00",
-     "14:50",
-     "15:50",
-     "17:40",
-     "18:40",
-     "20:30",
-     "22:50",
-     "23:20"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "奧德賽",
-    "date": "2026-08-30",
-    "times": [
-     "13:45",
-     "16:55",
-     "20:05",
-     "23:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "寂地",
     "date": "2026-08-31",
     "times": [
      "11:20",
@@ -161,7 +18,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "尪某殺必死",
@@ -176,7 +33,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "陰兒房：穿越陰深處",
@@ -191,7 +48,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "一夜限定",
@@ -205,7 +62,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "玩命航線",
@@ -220,7 +77,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "橡樹街末日",
@@ -235,7 +92,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "愛你致死不渝",
@@ -253,7 +110,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "蜘蛛人：重生日",
@@ -274,7 +131,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "奧德賽",
@@ -289,7 +146,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "寂地",
@@ -435,12 +292,156 @@
      "atmovies"
     ],
     "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260901/"
+   },
+   {
+    "film": "寂地",
+    "date": "2026-09-02",
+    "times": [
+     "11:20",
+     "13:40",
+     "16:00",
+     "18:20",
+     "20:40",
+     "23:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260902/"
+   },
+   {
+    "film": "尪某殺必死",
+    "date": "2026-09-02",
+    "times": [
+     "10:00",
+     "12:10",
+     "17:40",
+     "20:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260902/"
+   },
+   {
+    "film": "陰兒房：穿越陰深處",
+    "date": "2026-09-02",
+    "times": [
+     "10:00",
+     "14:00",
+     "18:00",
+     "23:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260902/"
+   },
+   {
+    "film": "一夜限定",
+    "date": "2026-09-02",
+    "times": [
+     "12:00",
+     "16:00",
+     "21:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260902/"
+   },
+   {
+    "film": "玩命航線",
+    "date": "2026-09-02",
+    "times": [
+     "10:00",
+     "13:50",
+     "17:40",
+     "21:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260902/"
+   },
+   {
+    "film": "橡樹街末日",
+    "date": "2026-09-02",
+    "times": [
+     "11:50",
+     "15:40",
+     "19:30",
+     "23:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260902/"
+   },
+   {
+    "film": "愛你致死不渝",
+    "date": "2026-09-02",
+    "times": [
+     "12:20",
+     "14:30",
+     "16:40",
+     "18:50",
+     "21:00",
+     "23:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260902/"
+   },
+   {
+    "film": "蜘蛛人：重生日",
+    "date": "2026-09-02",
+    "times": [
+     "10:30",
+     "11:30",
+     "13:00",
+     "14:20",
+     "16:10",
+     "17:00",
+     "19:00",
+     "19:50",
+     "21:50",
+     "22:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260902/"
+   },
+   {
+    "film": "奧德賽",
+    "date": "2026-09-02",
+    "times": [
+     "13:45",
+     "16:55",
+     "20:05",
+     "23:15"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20260902/"
    }
   ],
   "IN89P2": [
    {
     "film": "寂地",
-    "date": "2026-08-30",
+    "date": "2026-08-31",
     "times": [
      "10:30",
      "14:50",
@@ -456,148 +457,6 @@
    },
    {
     "film": "尪某殺必死",
-    "date": "2026-08-30",
-    "times": [
-     "12:50",
-     "17:10",
-     "19:40"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "開放性邀請",
-    "date": "2026-08-30",
-    "times": [
-     "19:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "陰兒房：穿越陰深處",
-    "date": "2026-08-30",
-    "times": [
-     "21:30"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "一夜限定",
-    "date": "2026-08-30",
-    "times": [
-     "10:30"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "玩命航線",
-    "date": "2026-08-30",
-    "times": [
-     "16:10",
-     "21:40"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "橡樹街末日",
-    "date": "2026-08-30",
-    "times": [
-     "12:20"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "超拖樂團之我要幹大事啦！",
-    "date": "2026-08-30",
-    "times": [
-     "17:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "愛你致死不渝",
-    "date": "2026-08-30",
-    "times": [
-     "13:20",
-     "17:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "蜘蛛人：重生日",
-    "date": "2026-08-30",
-    "times": [
-     "10:30",
-     "15:30",
-     "21:10"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "奧德賽",
-    "date": "2026-08-30",
-    "times": [
-     "18:20"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "寂地",
-    "date": "2026-08-31",
-    "times": [
-     "10:30",
-     "14:50",
-     "17:10",
-     "19:10",
-     "21:30"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260831/"
-   },
-   {
-    "film": "尪某殺必死",
     "date": "2026-08-31",
     "times": [
      "12:50",
@@ -608,7 +467,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "開放性邀請",
@@ -620,7 +479,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "陰兒房：穿越陰深處",
@@ -632,7 +491,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "一夜限定",
@@ -644,7 +503,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "玩命航線",
@@ -657,7 +516,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "橡樹街末日",
@@ -669,7 +528,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "超拖樂團之我要幹大事啦！",
@@ -681,7 +540,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "愛的魔樣",
@@ -693,7 +552,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "愛你致死不渝",
@@ -706,7 +565,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "蜘蛛人：重生日",
@@ -720,7 +579,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "奧德賽",
@@ -732,7 +591,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "寂地",
@@ -875,249 +734,163 @@
      "atmovies"
     ],
     "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260901/"
-   }
-  ],
-  "VIESHOW": [
+   },
    {
     "film": "寂地",
-    "date": "2026-08-30",
+    "date": "2026-09-02",
     "times": [
-     "09:50",
-     "12:10",
-     "14:35",
-     "16:55",
-     "21:10",
-     "23:30"
+     "10:30",
+     "14:50",
+     "17:10",
+     "19:10",
+     "21:30"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260902/"
    },
    {
     "film": "尪某殺必死",
-    "date": "2026-08-30",
+    "date": "2026-09-02",
     "times": [
-     "11:10",
+     "12:50",
+     "17:10",
      "19:40"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260902/"
    },
    {
     "film": "開放性邀請",
-    "date": "2026-08-30",
+    "date": "2026-09-02",
     "times": [
-     "10:00",
-     "19:30"
+     "15:00"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "蜘蛛人：重生日",
-    "date": "2026-08-30",
-    "times": [
-     "00:20",
-     "09:30",
-     "11:10",
-     "12:15",
-     "14:00",
-     "15:00",
-     "16:50",
-     "19:45",
-     "21:35",
-     "22:35"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "愛你致死不渝",
-    "date": "2026-08-30",
-    "times": [
-     "00:00",
-     "09:25",
-     "13:30",
-     "15:40",
-     "19:35",
-     "21:45"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "玩命航線",
-    "date": "2026-08-30",
-    "times": [
-     "00:00",
-     "11:40",
-     "17:40",
-     "21:55"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260902/"
    },
    {
     "film": "陰兒房：穿越陰深處",
-    "date": "2026-08-30",
+    "date": "2026-09-02",
     "times": [
-     "17:20",
-     "21:40",
-     "23:55"
+     "21:30"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "橡樹街末日",
-    "date": "2026-08-30",
-    "times": [
-     "15:45",
-     "21:50",
-     "23:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "奧德賽",
-    "date": "2026-08-30",
-    "times": [
-     "12:10",
-     "20:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260902/"
    },
    {
     "film": "一夜限定",
-    "date": "2026-08-30",
+    "date": "2026-09-02",
     "times": [
-     "23:10"
+     "10:30"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260902/"
+   },
+   {
+    "film": "玩命航線",
+    "date": "2026-09-02",
+    "times": [
+     "17:30",
+     "21:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260902/"
+   },
+   {
+    "film": "橡樹街末日",
+    "date": "2026-09-02",
+    "times": [
+     "12:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260902/"
    },
    {
     "film": "超拖樂團之我要幹大事啦！",
-    "date": "2026-08-30",
+    "date": "2026-09-02",
     "times": [
-     "13:40"
+     "17:00"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260902/"
    },
    {
-    "film": "奧德賽",
-    "date": "2026-08-30",
+    "film": "愛的魔樣",
+    "date": "2026-09-02",
     "times": [
-     "09:40",
-     "15:40",
-     "21:20"
+     "10:30"
     ],
-    "format": "IMAX",
+    "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260902/"
    },
    {
-    "film": "寂地",
-    "date": "2026-08-30",
+    "film": "愛你致死不渝",
+    "date": "2026-09-02",
     "times": [
-     "00:30",
-     "13:10",
-     "19:00"
+     "13:20",
+     "17:00"
     ],
-    "format": "IMAX",
+    "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260902/"
    },
    {
     "film": "蜘蛛人：重生日",
-    "date": "2026-08-30",
+    "date": "2026-09-02",
     "times": [
-     "23:20"
+     "10:30",
+     "15:30",
+     "21:10"
     ],
-    "format": "4DX",
+    "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "蜘蛛人：重生日",
-    "date": "2026-08-30",
-    "times": [
-     "11:20",
-     "16:10",
-     "23:20"
-    ],
-    "format": "Gold Class",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "寂地",
-    "date": "2026-08-30",
-    "times": [
-     "14:40",
-     "20:40"
-    ],
-    "format": "Gold Class",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260902/"
    },
    {
     "film": "奧德賽",
-    "date": "2026-08-30",
+    "date": "2026-09-02",
     "times": [
-     "12:40"
+     "18:20"
     ],
-    "format": "Gold Class",
+    "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20260902/"
+   }
+  ],
+  "VIESHOW": [
    {
     "film": "寂地",
     "date": "2026-08-31",
@@ -1132,7 +905,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "尪某殺必死",
@@ -1145,7 +918,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "開放性邀請",
@@ -1158,12 +931,13 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "蜘蛛人：重生日",
     "date": "2026-08-31",
     "times": [
+     "00:20",
      "09:50",
      "11:30",
      "12:35",
@@ -1179,7 +953,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "愛你致死不渝",
@@ -1196,7 +970,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "玩命航線",
@@ -1211,7 +985,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "陰兒房：穿越陰深處",
@@ -1225,7 +999,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "橡樹街末日",
@@ -1239,7 +1013,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "奧德賽",
@@ -1252,7 +1026,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "一夜限定",
@@ -1264,7 +1038,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "超拖樂團之我要幹大事啦！",
@@ -1276,7 +1050,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "奧德賽",
@@ -1290,12 +1064,13 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "寂地",
     "date": "2026-08-31",
     "times": [
+     "00:30",
      "09:50",
      "15:15",
      "20:40"
@@ -1304,7 +1079,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "奧德賽",
@@ -1316,7 +1091,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "蜘蛛人：重生日",
@@ -1329,7 +1104,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "寂地",
@@ -1342,7 +1117,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "奧德賽",
@@ -1354,7 +1129,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "寂地",
@@ -1593,12 +1368,250 @@
      "atmovies"
     ],
     "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260901/"
+   },
+   {
+    "film": "寂地",
+    "date": "2026-09-02",
+    "times": [
+     "11:00",
+     "13:15",
+     "17:10",
+     "19:25",
+     "23:55"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260902/"
+   },
+   {
+    "film": "尪某殺必死",
+    "date": "2026-09-02",
+    "times": [
+     "13:25",
+     "18:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260902/"
+   },
+   {
+    "film": "開放性邀請",
+    "date": "2026-09-02",
+    "times": [
+     "11:40",
+     "19:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260902/"
+   },
+   {
+    "film": "蜘蛛人：重生日",
+    "date": "2026-09-02",
+    "times": [
+     "09:50",
+     "11:30",
+     "12:35",
+     "14:20",
+     "15:20",
+     "17:10",
+     "20:00",
+     "21:55",
+     "22:55",
+     "23:55"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260902/"
+   },
+   {
+    "film": "愛你致死不渝",
+    "date": "2026-09-02",
+    "times": [
+     "00:00",
+     "10:00",
+     "12:10",
+     "14:20",
+     "19:40",
+     "21:50"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260902/"
+   },
+   {
+    "film": "玩命航線",
+    "date": "2026-09-02",
+    "times": [
+     "11:30",
+     "15:20",
+     "21:50",
+     "23:45"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260902/"
+   },
+   {
+    "film": "陰兒房：穿越陰深處",
+    "date": "2026-09-02",
+    "times": [
+     "17:20",
+     "21:35",
+     "23:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260902/"
+   },
+   {
+    "film": "橡樹街末日",
+    "date": "2026-09-02",
+    "times": [
+     "13:40",
+     "21:55",
+     "23:55"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260902/"
+   },
+   {
+    "film": "奧德賽",
+    "date": "2026-09-02",
+    "times": [
+     "16:30",
+     "20:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260902/"
+   },
+   {
+    "film": "一夜限定",
+    "date": "2026-09-02",
+    "times": [
+     "23:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260902/"
+   },
+   {
+    "film": "超拖樂團之我要幹大事啦！",
+    "date": "2026-09-02",
+    "times": [
+     "19:55"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260902/"
+   },
+   {
+    "film": "奧德賽",
+    "date": "2026-09-02",
+    "times": [
+     "12:05",
+     "17:30",
+     "22:55"
+    ],
+    "format": "IMAX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260902/"
+   },
+   {
+    "film": "寂地",
+    "date": "2026-09-02",
+    "times": [
+     "09:50",
+     "15:15",
+     "20:40"
+    ],
+    "format": "IMAX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260902/"
+   },
+   {
+    "film": "奧德賽",
+    "date": "2026-09-02",
+    "times": [
+     "23:20"
+    ],
+    "format": "4DX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260902/"
+   },
+   {
+    "film": "蜘蛛人：重生日",
+    "date": "2026-09-02",
+    "times": [
+     "12:10",
+     "21:50"
+    ],
+    "format": "Gold Class",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260902/"
+   },
+   {
+    "film": "寂地",
+    "date": "2026-09-02",
+    "times": [
+     "17:20",
+     "23:00"
+    ],
+    "format": "Gold Class",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260902/"
+   },
+   {
+    "film": "奧德賽",
+    "date": "2026-09-02",
+    "times": [
+     "15:20"
+    ],
+    "format": "Gold Class",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20260902/"
    }
   ],
   "DREAM": [
    {
     "film": "寂地",
-    "date": "2026-08-30",
+    "date": "2026-08-31",
     "times": [
      "09:50",
      "12:15",
@@ -1615,7 +1628,7 @@
    },
    {
     "film": "尪某殺必死",
-    "date": "2026-08-30",
+    "date": "2026-08-31",
     "times": [
      "11:30",
      "14:55",
@@ -1630,167 +1643,6 @@
    },
    {
     "film": "開放性邀請",
-    "date": "2026-08-30",
-    "times": [
-     "19:10"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "愛你致死不渝",
-    "date": "2026-08-30",
-    "times": [
-     "11:25",
-     "13:40",
-     "15:55",
-     "18:10",
-     "20:25"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "奧德賽",
-    "date": "2026-08-30",
-    "times": [
-     "15:30",
-     "18:45"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "一夜限定",
-    "date": "2026-08-30",
-    "times": [
-     "17:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "橡樹街末日",
-    "date": "2026-08-30",
-    "times": [
-     "09:40",
-     "14:05",
-     "16:10"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "蜘蛛人：重生日",
-    "date": "2026-08-30",
-    "times": [
-     "10:40",
-     "11:50",
-     "14:40",
-     "17:40",
-     "20:40",
-     "22:40"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "蜘蛛人：重生日",
-    "date": "2026-08-30",
-    "times": [
-     "09:50",
-     "12:50",
-     "15:50",
-     "18:50",
-     "21:50"
-    ],
-    "format": "ScreenX",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "陰兒房：穿越陰深處",
-    "date": "2026-08-30",
-    "times": [
-     "17:00",
-     "20:20",
-     "22:30"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "玩命航線",
-    "date": "2026-08-30",
-    "times": [
-     "12:15",
-     "16:20",
-     "20:25",
-     "22:25"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "寂地",
-    "date": "2026-08-31",
-    "times": [
-     "09:50",
-     "12:15",
-     "14:40",
-     "17:05",
-     "19:30",
-     "22:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260831/"
-   },
-   {
-    "film": "尪某殺必死",
-    "date": "2026-08-31",
-    "times": [
-     "11:30",
-     "14:55",
-     "20:35",
-     "22:35"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260831/"
-   },
-   {
-    "film": "開放性邀請",
     "date": "2026-08-31",
     "times": [
      "19:10"
@@ -1799,7 +1651,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "愛你致死不渝",
@@ -1815,7 +1667,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "奧德賽",
@@ -1828,7 +1680,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "一夜限定",
@@ -1840,7 +1692,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "橡樹街末日",
@@ -1855,7 +1707,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "蜘蛛人：重生日",
@@ -1875,7 +1727,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "蜘蛛人：重生日",
@@ -1891,7 +1743,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "陰兒房：穿越陰深處",
@@ -1905,7 +1757,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "玩命航線",
@@ -1920,7 +1772,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260831/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "寂地",
@@ -2084,6 +1936,171 @@
      "atmovies"
     ],
     "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260901/"
+   },
+   {
+    "film": "寂地",
+    "date": "2026-09-02",
+    "times": [
+     "09:50",
+     "12:15",
+     "14:40",
+     "17:05",
+     "19:30",
+     "22:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260902/"
+   },
+   {
+    "film": "尪某殺必死",
+    "date": "2026-09-02",
+    "times": [
+     "11:30",
+     "14:55",
+     "20:35",
+     "22:35"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260902/"
+   },
+   {
+    "film": "開放性邀請",
+    "date": "2026-09-02",
+    "times": [
+     "15:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260902/"
+   },
+   {
+    "film": "愛你致死不渝",
+    "date": "2026-09-02",
+    "times": [
+     "11:25",
+     "13:40",
+     "15:50",
+     "18:10",
+     "20:25"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260902/"
+   },
+   {
+    "film": "奧德賽",
+    "date": "2026-09-02",
+    "times": [
+     "15:30",
+     "18:45"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260902/"
+   },
+   {
+    "film": "一夜限定",
+    "date": "2026-09-02",
+    "times": [
+     "17:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260902/"
+   },
+   {
+    "film": "橡樹街末日",
+    "date": "2026-09-02",
+    "times": [
+     "09:40",
+     "12:00",
+     "14:05",
+     "16:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260902/"
+   },
+   {
+    "film": "蜘蛛人：重生日",
+    "date": "2026-09-02",
+    "times": [
+     "10:40",
+     "11:50",
+     "13:40",
+     "14:40",
+     "16:40",
+     "17:40",
+     "19:40",
+     "20:40",
+     "22:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260902/"
+   },
+   {
+    "film": "蜘蛛人：重生日",
+    "date": "2026-09-02",
+    "times": [
+     "09:50",
+     "12:50",
+     "15:50",
+     "18:50",
+     "21:50"
+    ],
+    "format": "ScreenX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260902/"
+   },
+   {
+    "film": "陰兒房：穿越陰深處",
+    "date": "2026-09-02",
+    "times": [
+     "16:00",
+     "20:20",
+     "22:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260902/"
+   },
+   {
+    "film": "玩命航線",
+    "date": "2026-09-02",
+    "times": [
+     "12:15",
+     "16:20",
+     "20:25",
+     "22:25"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20260902/"
    }
   ]
  },
