@@ -1,23 +1,22 @@
 {
- "updatedAt": "2026-10-21T08:29:40.242075+08:00",
- "label": "cinemas auto-updated 21 Oct 2026 08:29 (Taipei)",
+ "updatedAt": "2026-10-22T08:33:45.517877+08:00",
+ "label": "cinemas auto-updated 22 Oct 2026 08:33 (Taipei)",
  "cinema": {
   "IN89": [
    {
-    "film": "逃出鯨吞",
-    "date": "2026-10-21",
+    "film": "泥面人",
+    "date": "2026-10-22",
     "times": [
-     "10:10",
-     "12:10",
-     "13:00",
-     "14:15",
-     "16:20",
-     "17:10",
-     "18:25",
-     "20:30",
-     "21:10",
-     "22:35",
-     "23:30"
+     "10:00",
+     "12:20",
+     "14:30",
+     "15:40",
+     "16:40",
+     "18:50",
+     "20:00",
+     "21:00",
+     "22:10",
+     "23:10"
     ],
     "format": "",
     "srcs": [
@@ -26,17 +25,34 @@
     "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
-    "film": "快打旋風",
-    "date": "2026-10-21",
+    "film": "逃出鯨吞",
+    "date": "2026-10-22",
+    "times": [
+     "10:10",
+     "12:10",
+     "14:10",
+     "16:10",
+     "18:10",
+     "20:10",
+     "22:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
+   },
+   {
+    "film": "另一個媽咪",
+    "date": "2026-10-22",
     "times": [
      "10:00",
-     "12:15",
-     "14:30",
-     "16:45",
-     "19:00",
-     "20:10",
-     "21:15",
-     "22:30",
+     "12:00",
+     "13:50",
+     "15:40",
+     "17:30",
+     "19:20",
+     "21:10",
      "23:00"
     ],
     "format": "",
@@ -47,117 +63,31 @@
    },
    {
     "film": "高年級實習生",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
+    "times": [
+     "12:40",
+     "15:10",
+     "17:40",
+     "20:10",
+     "22:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
+   },
+   {
+    "film": "快打旋風",
+    "date": "2026-10-22",
     "times": [
      "10:20",
-     "12:50",
-     "15:20",
-     "17:50",
-     "20:20",
-     "22:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "駭速劫案",
-    "date": "2026-10-21",
-    "times": [
-     "12:10",
+     "12:00",
+     "14:15",
      "16:30",
-     "21:10"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "另一個媽咪",
-    "date": "2026-10-21",
-    "times": [
-     "12:10",
-     "14:00",
-     "15:50",
-     "17:40",
-     "19:30",
-     "21:20",
-     "23:20"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "不存在的罪人",
-    "date": "2026-10-21",
-    "times": [
-     "10:10",
-     "15:05",
-     "19:15",
-     "23:10"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "金劫任務",
-    "date": "2026-10-21",
-    "times": [
-     "17:15"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "挖掘者",
-    "date": "2026-10-21",
-    "times": [
-     "10:00",
-     "14:20",
-     "18:40"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "野獸之心",
-    "date": "2026-10-21",
-    "times": [
-     "10:10",
-     "12:50",
-     "14:50",
-     "16:50",
-     "18:50",
-     "20:50",
-     "23:20"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "實境誘捕",
-    "date": "2026-10-21",
-    "times": [
-     "15:00"
+     "18:45",
+     "21:00",
+     "23:15"
     ],
     "format": "",
     "srcs": [
@@ -167,16 +97,16 @@
    },
    {
     "film": "惡靈古堡：爆發夜",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
-     "12:20",
-     "13:15",
-     "14:10",
-     "16:00",
-     "17:50",
-     "19:40",
-     "21:30",
-     "23:20"
+     "10:00",
+     "12:00",
+     "13:50",
+     "15:40",
+     "17:30",
+     "19:20",
+     "21:10",
+     "23:00"
     ],
     "format": "",
     "srcs": [
@@ -185,11 +115,55 @@
     "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
-    "film": "蜘蛛人：重生日",
-    "date": "2026-10-21",
+    "film": "野獸之心",
+    "date": "2026-10-22",
+    "times": [
+     "09:50",
+     "14:00",
+     "18:00",
+     "22:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
+   },
+   {
+    "film": "挖掘者",
+    "date": "2026-10-22",
     "times": [
      "10:20",
-     "22:50"
+     "15:00",
+     "19:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
+   },
+   {
+    "film": "不存在的罪人",
+    "date": "2026-10-22",
+    "times": [
+     "13:30",
+     "17:50",
+     "22:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
+   },
+   {
+    "film": "駭速劫案",
+    "date": "2026-10-22",
+    "times": [
+     "12:30",
+     "16:50",
+     "21:10"
     ],
     "format": "",
     "srcs": [
@@ -199,9 +173,45 @@
    },
    {
     "film": "奧德賽",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
-     "10:10"
+     "10:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
+   },
+   {
+    "film": "蜘蛛人：重生日",
+    "date": "2026-10-22",
+    "times": [
+     "22:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
+   },
+   {
+    "film": "金劫任務",
+    "date": "2026-10-22",
+    "times": [
+     "12:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
+   },
+   {
+    "film": "實境誘捕",
+    "date": "2026-10-22",
+    "times": [
+     "12:50"
     ],
     "format": "",
     "srcs": [
@@ -212,14 +222,15 @@
   ],
   "IN89P2": [
    {
-    "film": "快打旋風",
-    "date": "2026-10-21",
+    "film": "泥面人",
+    "date": "2026-10-22",
     "times": [
-     "12:10",
-     "14:30",
-     "16:50",
+     "10:30",
+     "12:40",
+     "14:50",
+     "17:00",
      "19:10",
-     "21:30"
+     "21:20"
     ],
     "format": "",
     "srcs": [
@@ -229,14 +240,12 @@
    },
    {
     "film": "逃出鯨吞",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
      "10:30",
-     "12:30",
-     "14:40",
-     "16:50",
-     "19:20",
-     "21:30"
+     "12:40",
+     "14:50",
+     "19:00"
     ],
     "format": "",
     "srcs": [
@@ -246,11 +255,48 @@
    },
    {
     "film": "高年級實習生",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
+    "times": [
+     "14:50",
+     "19:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+   },
+   {
+    "film": "快打旋風",
+    "date": "2026-10-22",
     "times": [
      "10:30",
-     "14:50",
-     "19:00",
+     "15:10",
+     "19:20",
+     "21:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+   },
+   {
+    "film": "野獸之心",
+    "date": "2026-10-22",
+    "times": [
+     "10:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+   },
+   {
+    "film": "不存在的罪人",
+    "date": "2026-10-22",
+    "times": [
      "21:20"
     ],
     "format": "",
@@ -261,7 +307,7 @@
    },
    {
     "film": "駭速劫案",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
      "15:00",
      "19:00"
@@ -273,8 +319,20 @@
     "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
+    "film": "惡靈古堡：爆發夜",
+    "date": "2026-10-22",
+    "times": [
+     "17:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+   },
+   {
     "film": "進擊的鼓手",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
      "16:50",
      "20:50"
@@ -287,7 +345,7 @@
    },
    {
     "film": "吳爾芙的夜與日",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
      "17:00"
     ],
@@ -299,7 +357,7 @@
    },
    {
     "film": "紐約攝影師的日與夜",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
      "15:20"
     ],
@@ -310,35 +368,10 @@
     "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
-    "film": "不存在的罪人",
-    "date": "2026-10-21",
-    "times": [
-     "15:00",
-     "19:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "金劫任務",
-    "date": "2026-10-21",
-    "times": [
-     "14:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
     "film": "紐約藝術家的性與愛",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
-     "10:30"
+     "16:40"
     ],
     "format": "",
     "srcs": [
@@ -347,10 +380,10 @@
     "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
-    "film": "挖掘者",
-    "date": "2026-10-21",
+    "film": "實境誘捕",
+    "date": "2026-10-22",
     "times": [
-     "16:50"
+     "21:30"
     ],
     "format": "",
     "srcs": [
@@ -359,54 +392,351 @@
     "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
-    "film": "野獸之心",
-    "date": "2026-10-21",
+    "film": "泥面人",
+    "date": "2026-10-23",
     "times": [
-     "13:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "與畢諾許共舞",
-    "date": "2026-10-21",
-    "times": [
-     "10:30"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "惡靈古堡：爆發夜",
-    "date": "2026-10-21",
-    "times": [
-     "17:10",
+     "10:30",
+     "12:40",
+     "14:50",
+     "17:00",
+     "19:10",
      "21:20"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261023/"
+   },
+   {
+    "film": "社群清算",
+    "date": "2026-10-23",
+    "times": [
+     "10:30",
+     "12:40",
+     "14:50",
+     "17:00",
+     "19:10",
+     "21:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261023/"
+   },
+   {
+    "film": "逃出鯨吞",
+    "date": "2026-10-23",
+    "times": [
+     "12:50",
+     "17:00",
+     "21:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261023/"
+   },
+   {
+    "film": "高年級實習生",
+    "date": "2026-10-23",
+    "times": [
+     "12:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261023/"
+   },
+   {
+    "film": "快打旋風",
+    "date": "2026-10-23",
+    "times": [
+     "10:30",
+     "15:00",
+     "19:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261023/"
+   },
+   {
+    "film": "不存在的罪人",
+    "date": "2026-10-23",
+    "times": [
+     "21:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261023/"
+   },
+   {
+    "film": "惡靈古堡：爆發夜",
+    "date": "2026-10-23",
+    "times": [
+     "17:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261023/"
+   },
+   {
+    "film": "進擊的鼓手",
+    "date": "2026-10-23",
+    "times": [
+     "20:50"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261023/"
+   },
+   {
+    "film": "吳爾芙的夜與日",
+    "date": "2026-10-23",
+    "times": [
+     "20:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261023/"
+   },
+   {
+    "film": "紐約攝影師的日與夜",
+    "date": "2026-10-23",
+    "times": [
+     "17:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261023/"
+   },
+   {
+    "film": "愛你致死不渝",
+    "date": "2026-10-23",
+    "times": [
+     "10:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261023/"
+   },
+   {
+    "film": "泥面人",
+    "date": "2026-10-24",
+    "times": [
+     "10:30",
+     "12:40",
+     "14:50",
+     "17:00",
+     "19:10",
+     "21:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261024/"
+   },
+   {
+    "film": "社群清算",
+    "date": "2026-10-24",
+    "times": [
+     "10:30",
+     "12:40",
+     "14:50",
+     "17:00",
+     "19:10",
+     "21:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261024/"
+   },
+   {
+    "film": "逃出鯨吞",
+    "date": "2026-10-24",
+    "times": [
+     "12:50",
+     "17:00",
+     "21:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261024/"
+   },
+   {
+    "film": "高年級實習生",
+    "date": "2026-10-24",
+    "times": [
+     "12:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261024/"
+   },
+   {
+    "film": "快打旋風",
+    "date": "2026-10-24",
+    "times": [
+     "10:30",
+     "15:00",
+     "19:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261024/"
+   },
+   {
+    "film": "野獸之心",
+    "date": "2026-10-24",
+    "times": [
+     "10:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261024/"
+   },
+   {
+    "film": "不存在的罪人",
+    "date": "2026-10-24",
+    "times": [
+     "21:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261024/"
+   },
+   {
+    "film": "惡靈古堡：爆發夜",
+    "date": "2026-10-24",
+    "times": [
+     "17:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261024/"
+   },
+   {
+    "film": "進擊的鼓手",
+    "date": "2026-10-24",
+    "times": [
+     "20:50"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261024/"
+   },
+   {
+    "film": "與畢諾許共舞",
+    "date": "2026-10-24",
+    "times": [
+     "20:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261024/"
    }
   ],
   "VIESHOW": [
    {
-    "film": "快打旋風",
-    "date": "2026-10-21",
+    "film": "泥面人",
+    "date": "2026-10-22",
     "times": [
-     "00:00",
+     "10:00",
+     "12:10",
+     "14:20",
+     "16:30",
+     "18:40",
+     "20:50",
+     "23:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+   },
+   {
+    "film": "另一個媽咪",
+    "date": "2026-10-22",
+    "times": [
+     "10:10",
+     "12:05",
+     "14:00",
+     "15:55",
+     "17:50",
+     "19:45",
+     "21:40",
+     "23:35"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+   },
+   {
+    "film": "惡靈古堡：爆發夜",
+    "date": "2026-10-22",
+    "times": [
+     "10:05",
+     "14:05",
+     "18:05",
+     "20:00",
+     "21:55",
+     "23:50"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+   },
+   {
+    "film": "快打旋風",
+    "date": "2026-10-22",
+    "times": [
      "10:00",
      "12:20",
-     "17:00",
-     "19:20",
-     "21:40"
+     "16:45",
+     "19:05",
+     "21:25",
+     "23:45"
     ],
     "format": "",
     "srcs": [
@@ -416,11 +746,11 @@
    },
    {
     "film": "逃出鯨吞",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
-     "11:45",
-     "15:35",
-     "19:30",
+     "12:00",
+     "16:00",
+     "19:10",
      "21:40",
      "23:50"
     ],
@@ -432,7 +762,7 @@
    },
    {
     "film": "高年級實習生",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
      "10:10",
      "14:50",
@@ -446,8 +776,86 @@
     "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
+    "film": "野獸之心",
+    "date": "2026-10-22",
+    "times": [
+     "14:15",
+     "17:25",
+     "22:45"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+   },
+   {
+    "film": "進擊的鼓手",
+    "date": "2026-10-22",
+    "times": [
+     "14:40",
+     "19:00"
+    ],
+    "format": "4K Restored",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+   },
+   {
+    "film": "挖掘者",
+    "date": "2026-10-22",
+    "times": [
+     "18:40",
+     "23:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+   },
+   {
+    "film": "不存在的罪人",
+    "date": "2026-10-22",
+    "times": [
+     "16:40",
+     "21:15",
+     "23:50"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+   },
+   {
+    "film": "蜘蛛人：重生日",
+    "date": "2026-10-22",
+    "times": [
+     "10:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+   },
+   {
+    "film": "愛你致死不渝",
+    "date": "2026-10-22",
+    "times": [
+     "21:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+   },
+   {
     "film": "駭速劫案",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
      "13:00",
      "21:50"
@@ -459,33 +867,8 @@
     "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
-    "film": "進擊的鼓手",
-    "date": "2026-10-21",
-    "times": [
-     "14:45",
-     "19:00"
-    ],
-    "format": "4K Restored",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "紐約攝影師的日與夜",
-    "date": "2026-10-21",
-    "times": [
-     "17:20"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
     "film": "吳爾芙的夜與日",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
      "12:45"
     ],
@@ -496,78 +879,10 @@
     "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
-    "film": "惡靈古堡：爆發夜",
-    "date": "2026-10-21",
+    "film": "紐約攝影師的日與夜",
+    "date": "2026-10-22",
     "times": [
-     "10:25",
-     "12:20",
-     "14:15",
-     "16:10",
-     "18:05",
-     "20:00",
-     "21:55",
-     "23:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "另一個媽咪",
-    "date": "2026-10-21",
-    "times": [
-     "10:25",
-     "12:20",
-     "14:15",
-     "16:10",
-     "18:05",
-     "20:00",
-     "21:55",
-     "23:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "野獸之心",
-    "date": "2026-10-21",
-    "times": [
-     "10:00",
-     "16:05",
-     "20:05",
-     "22:10"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "不存在的罪人",
-    "date": "2026-10-21",
-    "times": [
-     "16:40",
-     "21:00",
-     "23:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "愛你致死不渝",
-    "date": "2026-10-21",
-    "times": [
-     "12:00",
-     "16:30"
+     "17:20"
     ],
     "format": "",
     "srcs": [
@@ -577,47 +892,9 @@
    },
    {
     "film": "金劫任務",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
-     "14:10",
-     "18:05"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "挖掘者",
-    "date": "2026-10-21",
-    "times": [
-     "18:40",
-     "21:10"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "蜘蛛人：重生日",
-    "date": "2026-10-21",
-    "times": [
-     "10:30"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "復仇者聯盟：終局之戰",
-    "date": "2026-10-21",
-    "times": [
-     "22:45"
+     "23:30"
     ],
     "format": "",
     "srcs": [
@@ -627,7 +904,7 @@
    },
    {
     "film": "快打旋風",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
      "13:40",
      "18:30",
@@ -641,7 +918,7 @@
    },
    {
     "film": "奧德賽",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
      "10:25"
     ],
@@ -653,7 +930,7 @@
    },
    {
     "film": "挖掘者",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
      "16:00"
     ],
@@ -665,7 +942,7 @@
    },
    {
     "film": "惡靈古堡：爆發夜",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
      "20:50"
     ],
@@ -676,12 +953,12 @@
     "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
-    "film": "快打旋風",
-    "date": "2026-10-21",
+    "film": "泥面人",
+    "date": "2026-10-22",
     "times": [
-     "11:00",
-     "15:40",
-     "20:20"
+     "15:20",
+     "19:50",
+     "22:10"
     ],
     "format": "4DX",
     "srcs": [
@@ -690,10 +967,10 @@
     "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
-    "film": "逃出鯨吞",
-    "date": "2026-10-21",
+    "film": "快打旋風",
+    "date": "2026-10-22",
     "times": [
-     "13:25"
+     "10:50"
     ],
     "format": "4DX",
     "srcs": [
@@ -703,9 +980,9 @@
    },
    {
     "film": "惡靈古堡：爆發夜",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
-     "22:40"
+     "13:10"
     ],
     "format": "4DX",
     "srcs": [
@@ -714,12 +991,38 @@
     "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
+    "film": "逃出鯨吞",
+    "date": "2026-10-22",
+    "times": [
+     "17:30"
+    ],
+    "format": "4DX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+   },
+   {
+    "film": "泥面人",
+    "date": "2026-10-22",
+    "times": [
+     "14:40",
+     "17:10",
+     "19:35",
+     "23:00"
+    ],
+    "format": "Gold Class",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+   },
+   {
     "film": "快打旋風",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
      "12:00",
      "15:40",
-     "19:20",
      "22:00"
     ],
     "format": "Gold Class",
@@ -730,9 +1033,9 @@
    },
    {
     "film": "逃出鯨吞",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
-     "13:10",
+     "13:15",
      "20:35"
     ],
     "format": "Gold Class",
@@ -742,10 +1045,9 @@
     "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
-    "film": "另一個媽咪",
-    "date": "2026-10-21",
+    "film": "惡靈古堡：爆發夜",
+    "date": "2026-10-22",
     "times": [
-     "14:40",
      "18:20"
     ],
     "format": "Gold Class",
@@ -755,31 +1057,741 @@
     "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
-    "film": "惡靈古堡：爆發夜",
-    "date": "2026-10-21",
+    "film": "泥面人",
+    "date": "2026-10-23",
     "times": [
-     "17:00",
+     "10:00",
+     "12:10",
+     "14:20",
+     "16:30",
+     "18:40",
+     "20:50",
+     "23:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "社群清算",
+    "date": "2026-10-23",
+    "times": [
+     "10:15",
+     "12:25",
+     "15:30",
+     "20:20",
+     "23:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "嘟嘟魚的冒險",
+    "date": "2026-10-23",
+    "times": [
+     "16:45"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "蒙克聲音拼貼",
+    "date": "2026-10-23",
+    "times": [
+     "20:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "另一個媽咪",
+    "date": "2026-10-23",
+    "times": [
+     "12:10",
+     "16:00",
+     "17:55",
+     "19:50",
+     "21:45",
+     "23:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "惡靈古堡：爆發夜",
+    "date": "2026-10-23",
+    "times": [
+     "10:35",
+     "12:35",
+     "17:05",
+     "21:30",
+     "23:25"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "快打旋風",
+    "date": "2026-10-23",
+    "times": [
+     "12:15",
+     "16:40",
+     "20:15"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "逃出鯨吞",
+    "date": "2026-10-23",
+    "times": [
+     "10:10",
+     "14:35",
+     "19:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "高年級實習生",
+    "date": "2026-10-23",
+    "times": [
+     "14:30",
+     "22:55"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "野獸之心",
+    "date": "2026-10-23",
+    "times": [
+     "11:30",
+     "18:15"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "進擊的鼓手",
+    "date": "2026-10-23",
+    "times": [
+     "13:35",
+     "21:05"
+    ],
+    "format": "4K Restored",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "挖掘者",
+    "date": "2026-10-23",
+    "times": [
+     "14:15",
+     "22:35"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "不存在的罪人",
+    "date": "2026-10-23",
+    "times": [
+     "10:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "蜘蛛人：重生日",
+    "date": "2026-10-23",
+    "times": [
+     "22:35"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "愛你致死不渝",
+    "date": "2026-10-23",
+    "times": [
+     "14:15"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "快打旋風",
+    "date": "2026-10-23",
+    "times": [
+     "13:40",
+     "18:30",
+     "22:45"
+    ],
+    "format": "IMAX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "奧德賽",
+    "date": "2026-10-23",
+    "times": [
+     "10:25"
+    ],
+    "format": "IMAX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "挖掘者",
+    "date": "2026-10-23",
+    "times": [
+     "16:00"
+    ],
+    "format": "IMAX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "惡靈古堡：爆發夜",
+    "date": "2026-10-23",
+    "times": [
+     "20:50"
+    ],
+    "format": "IMAX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "泥面人",
+    "date": "2026-10-23",
+    "times": [
+     "00:10",
+     "13:10",
+     "19:40"
+    ],
+    "format": "4DX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "快打旋風",
+    "date": "2026-10-23",
+    "times": [
+     "10:50",
+     "21:50"
+    ],
+    "format": "4DX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "惡靈古堡：爆發夜",
+    "date": "2026-10-23",
+    "times": [
+     "15:25"
+    ],
+    "format": "4DX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "逃出鯨吞",
+    "date": "2026-10-23",
+    "times": [
+     "17:30"
+    ],
+    "format": "4DX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "泥面人",
+    "date": "2026-10-23",
+    "times": [
+     "14:40",
+     "17:10",
+     "19:35",
      "23:00"
     ],
     "format": "Gold Class",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "快打旋風",
+    "date": "2026-10-23",
+    "times": [
+     "12:00",
+     "15:40",
+     "22:00"
+    ],
+    "format": "Gold Class",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "逃出鯨吞",
+    "date": "2026-10-23",
+    "times": [
+     "13:15",
+     "20:35"
+    ],
+    "format": "Gold Class",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "野獸之心",
+    "date": "2026-10-23",
+    "times": [
+     "18:15"
+    ],
+    "format": "Gold Class",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261023/"
+   },
+   {
+    "film": "泥面人",
+    "date": "2026-10-24",
+    "times": [
+     "10:00",
+     "12:10",
+     "13:10",
+     "14:20",
+     "16:30",
+     "18:40",
+     "20:50",
+     "23:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "社群清算",
+    "date": "2026-10-24",
+    "times": [
+     "10:45",
+     "15:30",
+     "18:00",
+     "20:20",
+     "23:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "嘟嘟魚的冒險",
+    "date": "2026-10-24",
+    "times": [
+     "13:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "蒙克聲音拼貼",
+    "date": "2026-10-24",
+    "times": [
+     "14:50"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "另一個媽咪",
+    "date": "2026-10-24",
+    "times": [
+     "12:10",
+     "16:00",
+     "17:55",
+     "19:50",
+     "21:45",
+     "23:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "惡靈古堡：爆發夜",
+    "date": "2026-10-24",
+    "times": [
+     "10:00",
+     "13:40",
+     "17:20",
+     "21:30",
+     "23:25"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "快打旋風",
+    "date": "2026-10-24",
+    "times": [
+     "12:15",
+     "16:40",
+     "20:15"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "逃出鯨吞",
+    "date": "2026-10-24",
+    "times": [
+     "10:10",
+     "14:35",
+     "19:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "高年級實習生",
+    "date": "2026-10-24",
+    "times": [
+     "16:45",
+     "22:55"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "野獸之心",
+    "date": "2026-10-24",
+    "times": [
+     "11:30",
+     "18:15"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "進擊的鼓手",
+    "date": "2026-10-24",
+    "times": [
+     "13:35",
+     "21:05"
+    ],
+    "format": "4K Restored",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "挖掘者",
+    "date": "2026-10-24",
+    "times": [
+     "14:25",
+     "23:05"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "不存在的罪人",
+    "date": "2026-10-24",
+    "times": [
+     "10:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "蜘蛛人：重生日",
+    "date": "2026-10-24",
+    "times": [
+     "22:35"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "愛你致死不渝",
+    "date": "2026-10-24",
+    "times": [
+     "23:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "快打旋風",
+    "date": "2026-10-24",
+    "times": [
+     "13:40",
+     "18:30",
+     "22:45"
+    ],
+    "format": "IMAX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "奧德賽",
+    "date": "2026-10-24",
+    "times": [
+     "10:25"
+    ],
+    "format": "IMAX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "挖掘者",
+    "date": "2026-10-24",
+    "times": [
+     "16:00"
+    ],
+    "format": "IMAX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "惡靈古堡：爆發夜",
+    "date": "2026-10-24",
+    "times": [
+     "20:50"
+    ],
+    "format": "IMAX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "泥面人",
+    "date": "2026-10-24",
+    "times": [
+     "00:10",
+     "19:40"
+    ],
+    "format": "4DX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "快打旋風",
+    "date": "2026-10-24",
+    "times": [
+     "10:50",
+     "21:50"
+    ],
+    "format": "4DX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "惡靈古堡：爆發夜",
+    "date": "2026-10-24",
+    "times": [
+     "15:25"
+    ],
+    "format": "4DX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "逃出鯨吞",
+    "date": "2026-10-24",
+    "times": [
+     "17:30"
+    ],
+    "format": "4DX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "泥面人",
+    "date": "2026-10-24",
+    "times": [
+     "14:40",
+     "17:10",
+     "19:35",
+     "23:00"
+    ],
+    "format": "Gold Class",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "快打旋風",
+    "date": "2026-10-24",
+    "times": [
+     "12:00",
+     "15:40",
+     "22:00"
+    ],
+    "format": "Gold Class",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "逃出鯨吞",
+    "date": "2026-10-24",
+    "times": [
+     "13:15",
+     "20:35"
+    ],
+    "format": "Gold Class",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
+   },
+   {
+    "film": "惡靈古堡：爆發夜",
+    "date": "2026-10-24",
+    "times": [
+     "18:20"
+    ],
+    "format": "Gold Class",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261024/"
    }
   ],
   "DREAM": [
    {
-    "film": "快打旋風",
-    "date": "2026-10-21",
+    "film": "泥面人",
+    "date": "2026-10-22",
     "times": [
-     "10:00",
-     "12:25",
+     "10:20",
+     "12:35",
      "14:50",
-     "15:30",
-     "17:20",
-     "20:00",
-     "22:25"
+     "17:10",
+     "19:25",
+     "21:40"
     ],
     "format": "",
     "srcs": [
@@ -788,11 +1800,11 @@
     "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
-    "film": "快打旋風",
-    "date": "2026-10-21",
+    "film": "泥面人",
+    "date": "2026-10-22",
     "times": [
-     "16:20",
-     "21:40"
+     "20:35",
+     "22:50"
     ],
     "format": "ScreenX",
     "srcs": [
@@ -802,14 +1814,31 @@
    },
    {
     "film": "逃出鯨吞",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
-     "10:50",
-     "13:00",
-     "15:10",
+     "11:40",
+     "13:50",
      "16:00",
      "17:20",
-     "19:30",
+     "18:10",
+     "20:20",
+     "21:50",
+     "22:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
+   },
+   {
+    "film": "快打旋風",
+    "date": "2026-10-22",
+    "times": [
+     "11:40",
+     "14:10",
+     "16:40",
+     "19:10",
      "21:40"
     ],
     "format": "",
@@ -819,12 +1848,74 @@
     "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
-    "film": "駭速劫案",
-    "date": "2026-10-21",
+    "film": "快打旋風",
+    "date": "2026-10-22",
     "times": [
-     "14:10",
-     "16:10",
+     "10:25",
+     "15:30"
+    ],
+    "format": "ScreenX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
+   },
+   {
+    "film": "高年級實習生",
+    "date": "2026-10-22",
+    "times": [
+     "10:40",
+     "13:20",
+     "16:00",
+     "18:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
+   },
+   {
+    "film": "高年級實習生",
+    "date": "2026-10-22",
+    "times": [
+     "12:50",
+     "18:00"
+    ],
+    "format": "ScreenX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
+   },
+   {
+    "film": "駭速劫案",
+    "date": "2026-10-22",
+    "times": [
+     "15:00",
+     "19:15"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
+   },
+   {
+    "film": "另一個媽咪",
+    "date": "2026-10-22",
+    "times": [
+     "11:00",
+     "13:00",
+     "14:00",
+     "15:00",
+     "16:00",
+     "17:00",
+     "18:00",
+     "19:00",
+     "20:00",
      "21:00",
+     "22:00",
      "23:00"
     ],
     "format": "",
@@ -834,57 +1925,10 @@
     "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
-    "film": "高年級實習生",
-    "date": "2026-10-21",
-    "times": [
-     "10:40",
-     "13:20",
-     "22:10"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "高年級實習生",
-    "date": "2026-10-21",
-    "times": [
-     "11:00",
-     "19:00"
-    ],
-    "format": "ScreenX",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "另一個媽咪",
-    "date": "2026-10-21",
-    "times": [
-     "10:20",
-     "12:20",
-     "14:20",
-     "16:20",
-     "18:20",
-     "20:20",
-     "22:20"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
     "film": "不存在的罪人",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
-     "10:50",
-     "13:10",
-     "20:10"
+     "21:15"
     ],
     "format": "",
     "srcs": [
@@ -894,10 +1938,9 @@
    },
    {
     "film": "挖掘者",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
-     "16:45",
-     "22:00"
+     "21:25"
     ],
     "format": "",
     "srcs": [
@@ -907,15 +1950,17 @@
    },
    {
     "film": "惡靈古堡：爆發夜",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
-     "10:10",
-     "11:00",
-     "15:00",
+     "10:00",
+     "12:00",
+     "14:00",
+     "15:30",
      "16:00",
-     "17:00",
-     "19:00",
+     "18:00",
+     "20:00",
      "21:00",
+     "22:00",
      "23:00"
     ],
     "format": "",
@@ -926,24 +1971,9 @@
    },
    {
     "film": "野獸之心",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
-     "18:10",
-     "20:10"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "金劫任務",
-    "date": "2026-10-21",
-    "times": [
-     "18:25",
-     "20:30",
-     "22:35"
+     "10:50"
     ],
     "format": "",
     "srcs": [
@@ -953,11 +1983,11 @@
    },
    {
     "film": "Linkin Park: Unshatter",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
-     "13:40"
+     "19:10"
     ],
-    "format": "ScreenX",
+    "format": "",
     "srcs": [
      "atmovies"
     ],
@@ -965,12 +1995,10 @@
    },
    {
     "film": "復仇者聯盟：終局之戰",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
-     "10:40",
-     "12:30",
-     "18:00",
-     "21:30"
+     "12:00",
+     "17:30"
     ],
     "format": "",
     "srcs": [
@@ -980,21 +2008,9 @@
    },
    {
     "film": "蜘蛛人：重生日",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
-     "18:10"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "奧德賽",
-    "date": "2026-10-21",
-    "times": [
-     "21:10"
+     "21:20"
     ],
     "format": "",
     "srcs": [
@@ -1004,10 +2020,9 @@
    },
    {
     "film": "愛你致死不渝",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "times": [
-     "16:35",
-     "18:50"
+     "17:00"
     ],
     "format": "",
     "srcs": [
