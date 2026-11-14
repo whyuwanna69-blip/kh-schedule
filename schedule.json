@@ -1,11 +1,11 @@
 {
- "updatedAt": "2026-11-13T10:30:58.768611+08:00",
- "label": "cinemas auto-updated 13 Nov 2026 10:30 (Taipei)",
+ "updatedAt": "2026-11-14T10:10:03.562432+08:00",
+ "label": "cinemas auto-updated 14 Nov 2026 10:10 (Taipei)",
  "cinema": {
   "IN89": [
    {
     "film": "搶銀行先修班",
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "times": [
      "10:30",
      "12:45",
@@ -22,110 +22,6 @@
    },
    {
     "film": "聖誕驚奇夜",
-    "date": "2026-11-13",
-    "times": [
-     "10:30",
-     "12:45",
-     "15:00",
-     "17:20",
-     "19:40",
-     "22:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "泥面人",
-    "date": "2026-11-13",
-    "times": [
-     "10:20",
-     "14:20",
-     "18:20",
-     "22:20"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "快打旋風",
-    "date": "2026-11-13",
-    "times": [
-     "13:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "惡靈古堡：爆發夜",
-    "date": "2026-11-13",
-    "times": [
-     "21:30"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "暮光禁地",
-    "date": "2026-11-13",
-    "times": [
-     "23:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "野獸之心",
-    "date": "2026-11-13",
-    "times": [
-     "16:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "即刻狂飆",
-    "date": "2026-11-13",
-    "times": [
-     "14:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "嘟嘟魚的冒險",
-    "date": "2026-11-13",
-    "times": [
-     "13:40"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "搶銀行先修班",
     "date": "2026-11-14",
     "times": [
      "10:30",
@@ -139,24 +35,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261114/"
-   },
-   {
-    "film": "聖誕驚奇夜",
-    "date": "2026-11-14",
-    "times": [
-     "10:30",
-     "12:45",
-     "15:00",
-     "17:20",
-     "19:40",
-     "22:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "泥面人",
@@ -171,7 +50,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "快打旋風",
@@ -183,7 +62,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "惡靈古堡：爆發夜",
@@ -195,7 +74,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "暮光禁地",
@@ -207,7 +86,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "野獸之心",
@@ -219,7 +98,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "即刻狂飆",
@@ -231,7 +110,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "嘟嘟魚的冒險",
@@ -243,7 +122,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
    },
    {
     "film": "搶銀行先修班",
@@ -366,81 +245,96 @@
      "atmovies"
     ],
     "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261115/"
-   }
-  ],
-  "IN89P2": [
+   },
    {
     "film": "搶銀行先修班",
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "times": [
      "10:30",
-     "12:40",
-     "15:10",
-     "19:20",
-     "21:40"
+     "12:45",
+     "15:00",
+     "17:20",
+     "19:40",
+     "22:00"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261116/"
    },
    {
     "film": "聖誕驚奇夜",
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "times": [
      "10:30",
-     "12:40",
-     "14:50",
-     "17:00",
-     "19:10",
-     "21:20"
+     "12:45",
+     "15:00",
+     "17:20",
+     "19:40",
+     "22:00"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261116/"
    },
    {
     "film": "泥面人",
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "times": [
-     "17:00"
+     "10:20",
+     "14:20",
+     "18:20",
+     "22:20"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261116/"
    },
    {
-    "film": "即刻狂飆",
-    "date": "2026-11-13",
+    "film": "快打旋風",
+    "date": "2026-11-16",
     "times": [
-     "17:30"
+     "13:50"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261116/"
    },
    {
-    "film": "與達賴喇嘛談心：尋找幸福的智慧",
-    "date": "2026-11-13",
+    "film": "惡靈古堡：爆發夜",
+    "date": "2026-11-16",
     "times": [
-     "17:30"
+     "18:40",
+     "23:30"
     ],
     "format": "",
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261116/"
    },
    {
-    "film": "屍控片場性愛死",
-    "date": "2026-11-13",
+    "film": "暮光禁地",
+    "date": "2026-11-16",
+    "times": [
+     "23:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261116/"
+   },
+   {
+    "film": "野獸之心",
+    "date": "2026-11-16",
     "times": [
      "12:40"
     ],
@@ -448,8 +342,34 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261116/"
    },
+   {
+    "film": "即刻狂飆",
+    "date": "2026-11-16",
+    "times": [
+     "20:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261116/"
+   },
+   {
+    "film": "嘟嘟魚的冒險",
+    "date": "2026-11-16",
+    "times": [
+     "13:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261116/"
+   }
+  ],
+  "IN89P2": [
    {
     "film": "搶銀行先修班",
     "date": "2026-11-14",
@@ -464,7 +384,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "聖誕驚奇夜",
@@ -481,7 +401,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "泥面人",
@@ -493,7 +413,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "即刻狂飆",
@@ -505,7 +425,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "與達賴喇嘛談心：尋找幸福的智慧",
@@ -517,7 +437,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "CVF2026貓貓影片節",
@@ -529,7 +449,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "歐威爾：2+2=5",
@@ -541,7 +461,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "搶銀行先修班",
@@ -611,12 +531,105 @@
      "atmovies"
     ],
     "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261115/"
+   },
+   {
+    "film": "搶銀行先修班",
+    "date": "2026-11-16",
+    "times": [
+     "10:30",
+     "12:50",
+     "15:10",
+     "19:20",
+     "21:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261116/"
+   },
+   {
+    "film": "聖誕驚奇夜",
+    "date": "2026-11-16",
+    "times": [
+     "10:30",
+     "12:30",
+     "15:40",
+     "17:00",
+     "19:10",
+     "21:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261116/"
+   },
+   {
+    "film": "泥面人",
+    "date": "2026-11-16",
+    "times": [
+     "17:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261116/"
+   },
+   {
+    "film": "即刻狂飆",
+    "date": "2026-11-16",
+    "times": [
+     "16:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261116/"
+   },
+   {
+    "film": "與達賴喇嘛談心：尋找幸福的智慧",
+    "date": "2026-11-16",
+    "times": [
+     "17:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261116/"
+   },
+   {
+    "film": "CVF2026貓貓影片節",
+    "date": "2026-11-16",
+    "times": [
+     "18:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261116/"
+   },
+   {
+    "film": "歐威爾：2+2=5",
+    "date": "2026-11-16",
+    "times": [
+     "21:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261116/"
    }
   ],
   "VIESHOW": [
    {
     "film": "聖誕驚奇夜",
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "times": [
      "00:25",
      "09:00",
@@ -633,12 +646,12 @@
    },
    {
     "film": "搶銀行先修班",
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "times": [
-     "00:10",
      "10:00",
      "14:45",
-     "19:20"
+     "19:20",
+     "23:40"
     ],
     "format": "",
     "srcs": [
@@ -648,9 +661,8 @@
    },
    {
     "film": "泥面人",
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "times": [
-     "09:15",
      "13:25",
      "19:35",
      "23:50"
@@ -663,7 +675,7 @@
    },
    {
     "film": "惡靈古堡：爆發夜",
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "times": [
      "00:30",
      "22:40"
@@ -676,163 +688,6 @@
    },
    {
     "film": "與達賴喇嘛談心：尋找幸福的智慧",
-    "date": "2026-11-13",
-    "times": [
-     "14:30"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "即刻狂飆",
-    "date": "2026-11-13",
-    "times": [
-     "00:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "另一個媽咪",
-    "date": "2026-11-13",
-    "times": [
-     "23:40"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "蜘蛛人：重生日",
-    "date": "2026-11-13",
-    "times": [
-     "10:10"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "沙丘",
-    "date": "2026-11-13",
-    "times": [
-     "20:00"
-    ],
-    "format": "IMAX",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "沙丘：第二部",
-    "date": "2026-11-13",
-    "times": [
-     "23:10"
-    ],
-    "format": "IMAX",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "聖誕驚奇夜",
-    "date": "2026-11-13",
-    "times": [
-     "00:10",
-     "13:25",
-     "17:30"
-    ],
-    "format": "Gold Class",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "搶銀行先修班",
-    "date": "2026-11-13",
-    "times": [
-     "16:00",
-     "21:30"
-    ],
-    "format": "Gold Class",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "聖誕驚奇夜",
-    "date": "2026-11-14",
-    "times": [
-     "00:25",
-     "09:00",
-     "13:20",
-     "17:40",
-     "19:55",
-     "22:10"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261114/"
-   },
-   {
-    "film": "搶銀行先修班",
-    "date": "2026-11-14",
-    "times": [
-     "10:00",
-     "14:45",
-     "19:20",
-     "23:40"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261114/"
-   },
-   {
-    "film": "泥面人",
-    "date": "2026-11-14",
-    "times": [
-     "13:25",
-     "19:35",
-     "23:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261114/"
-   },
-   {
-    "film": "惡靈古堡：爆發夜",
-    "date": "2026-11-14",
-    "times": [
-     "22:40"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261114/"
-   },
-   {
-    "film": "與達賴喇嘛談心：尋找幸福的智慧",
     "date": "2026-11-14",
     "times": [
      "11:20"
@@ -841,7 +696,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "即刻狂飆",
@@ -853,7 +708,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "另一個媽咪",
@@ -865,7 +720,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "沙丘",
@@ -877,7 +732,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "沙丘：第二部",
@@ -889,7 +744,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "聖誕驚奇夜",
@@ -903,7 +758,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "搶銀行先修班",
@@ -916,7 +771,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "聖誕驚奇夜",
@@ -1050,12 +905,155 @@
      "atmovies"
     ],
     "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261115/"
+   },
+   {
+    "film": "聖誕驚奇夜",
+    "date": "2026-11-16",
+    "times": [
+     "11:40",
+     "15:25",
+     "19:00",
+     "21:15",
+     "23:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261116/"
+   },
+   {
+    "film": "搶銀行先修班",
+    "date": "2026-11-16",
+    "times": [
+     "12:20",
+     "16:45",
+     "19:05",
+     "23:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261116/"
+   },
+   {
+    "film": "泥面人",
+    "date": "2026-11-16",
+    "times": [
+     "00:05",
+     "13:00",
+     "19:50"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261116/"
+   },
+   {
+    "film": "惡靈古堡：爆發夜",
+    "date": "2026-11-16",
+    "times": [
+     "22:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261116/"
+   },
+   {
+    "film": "與達賴喇嘛談心：尋找幸福的智慧",
+    "date": "2026-11-16",
+    "times": [
+     "12:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261116/"
+   },
+   {
+    "film": "即刻狂飆",
+    "date": "2026-11-16",
+    "times": [
+     "23:25"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261116/"
+   },
+   {
+    "film": "另一個媽咪",
+    "date": "2026-11-16",
+    "times": [
+     "23:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261116/"
+   },
+   {
+    "film": "沙丘",
+    "date": "2026-11-16",
+    "times": [
+     "10:50"
+    ],
+    "format": "IMAX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261116/"
+   },
+   {
+    "film": "沙丘：第二部",
+    "date": "2026-11-16",
+    "times": [
+     "14:00"
+    ],
+    "format": "IMAX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261116/"
+   },
+   {
+    "film": "聖誕驚奇夜",
+    "date": "2026-11-16",
+    "times": [
+     "13:55",
+     "20:35"
+    ],
+    "format": "Gold Class",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261116/"
+   },
+   {
+    "film": "搶銀行先修班",
+    "date": "2026-11-16",
+    "times": [
+     "16:30",
+     "22:00"
+    ],
+    "format": "Gold Class",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261116/"
    }
   ],
   "DREAM": [
    {
     "film": "聖誕驚奇夜",
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "times": [
      "10:20",
      "12:40",
@@ -1072,7 +1070,7 @@
    },
    {
     "film": "搶銀行先修班",
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "times": [
      "10:35",
      "13:00",
@@ -1089,7 +1087,7 @@
    },
    {
     "film": "沙丘",
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "times": [
      "12:50"
     ],
@@ -1101,129 +1099,6 @@
    },
    {
     "film": "沙丘：第二部",
-    "date": "2026-11-13",
-    "times": [
-     "17:25"
-    ],
-    "format": "ScreenX",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "泥面人",
-    "date": "2026-11-13",
-    "times": [
-     "16:00",
-     "18:15",
-     "22:35"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "惡靈古堡：爆發夜",
-    "date": "2026-11-13",
-    "times": [
-     "17:10",
-     "21:20"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "即刻狂飆",
-    "date": "2026-11-13",
-    "times": [
-     "10:40",
-     "20:30"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "另一個媽咪",
-    "date": "2026-11-13",
-    "times": [
-     "17:00",
-     "22:15"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "蜘蛛人：重生日",
-    "date": "2026-11-13",
-    "times": [
-     "12:30"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "聖誕驚奇夜",
-    "date": "2026-11-14",
-    "times": [
-     "10:20",
-     "12:40",
-     "15:00",
-     "17:20",
-     "19:40",
-     "22:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261114/"
-   },
-   {
-    "film": "搶銀行先修班",
-    "date": "2026-11-14",
-    "times": [
-     "10:35",
-     "13:00",
-     "15:25",
-     "17:50",
-     "20:15",
-     "22:40"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261114/"
-   },
-   {
-    "film": "沙丘",
-    "date": "2026-11-14",
-    "times": [
-     "12:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261114/"
-   },
-   {
-    "film": "沙丘：第二部",
     "date": "2026-11-14",
     "times": [
      "17:25"
@@ -1232,7 +1107,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "泥面人",
@@ -1246,7 +1121,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "惡靈古堡：爆發夜",
@@ -1259,7 +1134,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "即刻狂飆",
@@ -1272,7 +1147,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "另一個媽咪",
@@ -1285,7 +1160,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "蜘蛛人：重生日",
@@ -1297,7 +1172,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261114/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "聖誕驚奇夜",
@@ -1422,6 +1297,129 @@
      "atmovies"
     ],
     "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261115/"
+   },
+   {
+    "film": "聖誕驚奇夜",
+    "date": "2026-11-16",
+    "times": [
+     "10:20",
+     "12:40",
+     "15:00",
+     "17:20",
+     "19:40",
+     "22:00"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261116/"
+   },
+   {
+    "film": "搶銀行先修班",
+    "date": "2026-11-16",
+    "times": [
+     "10:35",
+     "13:00",
+     "15:25",
+     "17:50",
+     "20:15",
+     "22:40"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261116/"
+   },
+   {
+    "film": "沙丘",
+    "date": "2026-11-16",
+    "times": [
+     "12:50"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261116/"
+   },
+   {
+    "film": "沙丘：第二部",
+    "date": "2026-11-16",
+    "times": [
+     "17:25"
+    ],
+    "format": "ScreenX",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261116/"
+   },
+   {
+    "film": "泥面人",
+    "date": "2026-11-16",
+    "times": [
+     "16:00",
+     "18:15",
+     "22:35"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261116/"
+   },
+   {
+    "film": "惡靈古堡：爆發夜",
+    "date": "2026-11-16",
+    "times": [
+     "17:10",
+     "21:20"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261116/"
+   },
+   {
+    "film": "即刻狂飆",
+    "date": "2026-11-16",
+    "times": [
+     "10:40",
+     "20:30"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261116/"
+   },
+   {
+    "film": "另一個媽咪",
+    "date": "2026-11-16",
+    "times": [
+     "17:00",
+     "22:15"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261116/"
+   },
+   {
+    "film": "蜘蛛人：重生日",
+    "date": "2026-11-16",
+    "times": [
+     "17:10"
+    ],
+    "format": "",
+    "srcs": [
+     "atmovies"
+    ],
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261116/"
    }
   ]
  },
