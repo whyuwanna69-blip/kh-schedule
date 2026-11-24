@@ -1,11 +1,11 @@
 {
- "updatedAt": "2026-11-23T10:26:39.661028+08:00",
- "label": "cinemas auto-updated 23 Nov 2026 10:26 (Taipei)",
+ "updatedAt": "2026-11-24T13:50:46.734376+08:00",
+ "label": "cinemas auto-updated 24 Nov 2026 13:50 (Taipei)",
  "cinema": {
   "IN89": [
    {
     "film": "飢餓遊戲：黎明收割",
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "times": [
      "10:00",
      "11:00",
@@ -26,7 +26,7 @@
    },
    {
     "film": "聖誕驚奇夜",
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "times": [
      "10:20",
      "14:40",
@@ -41,7 +41,7 @@
    },
    {
     "film": "搶銀行先修班",
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "times": [
      "10:20",
      "14:40",
@@ -56,7 +56,7 @@
    },
    {
     "film": "泥面人",
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "times": [
      "12:10",
      "16:30",
@@ -71,7 +71,7 @@
    },
    {
     "film": "野獸之心",
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "times": [
      "12:40"
     ],
@@ -83,7 +83,7 @@
    },
    {
     "film": "惡靈古堡：爆發夜",
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "times": [
      "21:30"
     ],
@@ -95,7 +95,7 @@
    },
    {
     "film": "嘟嘟魚的冒險",
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "times": [
      "15:00"
     ],
@@ -104,114 +104,12 @@
      "atmovies"
     ],
     "source": "https://www.atmovies.com.tw/showtime/t07728/a07/"
-   },
-   {
-    "film": "飢餓遊戲：黎明收割",
-    "date": "2026-11-24",
-    "times": [
-     "10:00",
-     "11:00",
-     "13:00",
-     "14:00",
-     "16:00",
-     "17:00",
-     "19:00",
-     "20:00",
-     "22:00",
-     "23:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261124/"
-   },
-   {
-    "film": "聖誕驚奇夜",
-    "date": "2026-11-24",
-    "times": [
-     "10:20",
-     "14:40",
-     "19:00",
-     "23:20"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261124/"
-   },
-   {
-    "film": "搶銀行先修班",
-    "date": "2026-11-24",
-    "times": [
-     "10:20",
-     "14:40",
-     "19:10",
-     "23:20"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261124/"
-   },
-   {
-    "film": "泥面人",
-    "date": "2026-11-24",
-    "times": [
-     "12:10",
-     "16:30",
-     "21:10",
-     "23:20"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261124/"
-   },
-   {
-    "film": "野獸之心",
-    "date": "2026-11-24",
-    "times": [
-     "12:40"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261124/"
-   },
-   {
-    "film": "惡靈古堡：爆發夜",
-    "date": "2026-11-24",
-    "times": [
-     "21:30"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261124/"
-   },
-   {
-    "film": "嘟嘟魚的冒險",
-    "date": "2026-11-24",
-    "times": [
-     "15:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07728/a07/20261124/"
    }
   ],
   "IN89P2": [
    {
     "film": "飢餓遊戲：黎明收割",
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "times": [
      "10:30",
      "15:30",
@@ -226,97 +124,6 @@
    },
    {
     "film": "紙老虎",
-    "date": "2026-11-23",
-    "times": [
-     "14:50",
-     "19:10"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "聖誕驚奇夜",
-    "date": "2026-11-23",
-    "times": [
-     "10:30",
-     "12:40",
-     "17:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "搶銀行先修班",
-    "date": "2026-11-23",
-    "times": [
-     "12:20",
-     "21:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "泥面人",
-    "date": "2026-11-23",
-    "times": [
-     "16:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "與達賴喇嘛談心：尋找幸福的智慧",
-    "date": "2026-11-23",
-    "times": [
-     "16:10"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "屍控片場性愛死",
-    "date": "2026-11-23",
-    "times": [
-     "16:20"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
-   },
-   {
-    "film": "飢餓遊戲：黎明收割",
-    "date": "2026-11-24",
-    "times": [
-     "10:30",
-     "15:30",
-     "18:30",
-     "21:30"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261124/"
-   },
-   {
-    "film": "紙老虎",
     "date": "2026-11-24",
     "times": [
      "14:50",
@@ -326,7 +133,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "聖誕驚奇夜",
@@ -340,7 +147,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "搶銀行先修班",
@@ -353,7 +160,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "泥面人",
@@ -365,7 +172,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "與達賴喇嘛談心：尋找幸福的智慧",
@@ -377,7 +184,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07702/a07/"
    },
    {
     "film": "飢餓遊戲：黎明收割",
@@ -474,7 +281,7 @@
   "VIESHOW": [
    {
     "film": "飢餓遊戲：黎明收割",
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "times": [
      "11:40",
      "14:40",
@@ -491,155 +298,6 @@
    },
    {
     "film": "紙老虎",
-    "date": "2026-11-23",
-    "times": [
-     "14:40"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "聖誕驚奇夜",
-    "date": "2026-11-23",
-    "times": [
-     "16:10",
-     "21:20",
-     "23:35"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "泥面人",
-    "date": "2026-11-23",
-    "times": [
-     "14:50",
-     "17:25"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "與達賴喇嘛談心：尋找幸福的智慧",
-    "date": "2026-11-23",
-    "times": [
-     "10:25",
-     "16:50"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "搶銀行先修班",
-    "date": "2026-11-23",
-    "times": [
-     "12:10",
-     "21:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "惡靈古堡：爆發夜",
-    "date": "2026-11-23",
-    "times": [
-     "23:40"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "飢餓遊戲：黎明收割",
-    "date": "2026-11-23",
-    "times": [
-     "10:00",
-     "16:15",
-     "21:50"
-    ],
-    "format": "IMAX",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "沙丘：第二部",
-    "date": "2026-11-23",
-    "times": [
-     "13:00"
-    ],
-    "format": "IMAX",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "飢餓遊戲：黎明收割",
-    "date": "2026-11-23",
-    "times": [
-     "10:50",
-     "13:55",
-     "19:35"
-    ],
-    "format": "4DX",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "飢餓遊戲：黎明收割",
-    "date": "2026-11-23",
-    "times": [
-     "12:30",
-     "15:45",
-     "19:00",
-     "22:15"
-    ],
-    "format": "Gold Class",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
-   },
-   {
-    "film": "飢餓遊戲：黎明收割",
-    "date": "2026-11-24",
-    "times": [
-     "11:40",
-     "14:40",
-     "17:40",
-     "20:40",
-     "22:50",
-     "23:40"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261124/"
-   },
-   {
-    "film": "紙老虎",
     "date": "2026-11-24",
     "times": [
      "14:40"
@@ -648,7 +306,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "聖誕驚奇夜",
@@ -662,7 +320,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "泥面人",
@@ -675,7 +333,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "與達賴喇嘛談心：尋找幸福的智慧",
@@ -688,7 +346,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "搶銀行先修班",
@@ -701,7 +359,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "惡靈古堡：爆發夜",
@@ -713,7 +371,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "危險關係—Lesley Manville版 (英國國家劇院現場)",
@@ -725,7 +383,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "飢餓遊戲：黎明收割",
@@ -739,7 +397,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "飢餓遊戲：黎明收割",
@@ -753,7 +411,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    },
    {
     "film": "飢餓遊戲：黎明收割",
@@ -768,145 +426,12 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07703/a07/"
    }
   ],
   "DREAM": [
    {
     "film": "飢餓遊戲：黎明收割",
-    "date": "2026-11-23",
-    "times": [
-     "10:00",
-     "10:30",
-     "13:30",
-     "15:40",
-     "16:40",
-     "17:15",
-     "19:40",
-     "21:20",
-     "22:40"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "飢餓遊戲：黎明收割",
-    "date": "2026-11-23",
-    "times": [
-     "14:00",
-     "19:10"
-    ],
-    "format": "ScreenX",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "聖誕驚奇夜",
-    "date": "2026-11-23",
-    "times": [
-     "11:00",
-     "15:50",
-     "20:40"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "搶銀行先修班",
-    "date": "2026-11-23",
-    "times": [
-     "13:20",
-     "18:15",
-     "23:00"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "即刻狂飆",
-    "date": "2026-11-23",
-    "times": [
-     "22:45"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "惡靈古堡：爆發夜",
-    "date": "2026-11-23",
-    "times": [
-     "18:35"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "沙丘",
-    "date": "2026-11-23",
-    "times": [
-     "22:25"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "沙丘：第二部",
-    "date": "2026-11-23",
-    "times": [
-     "10:40"
-    ],
-    "format": "ScreenX",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "泥面人",
-    "date": "2026-11-23",
-    "times": [
-     "22:25"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "另一個媽咪",
-    "date": "2026-11-23",
-    "times": [
-     "22:10"
-    ],
-    "format": "",
-    "srcs": [
-     "atmovies"
-    ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
-   },
-   {
-    "film": "飢餓遊戲：黎明收割",
     "date": "2026-11-24",
     "times": [
      "10:00",
@@ -923,7 +448,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "飢餓遊戲：黎明收割",
@@ -936,7 +461,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "聖誕驚奇夜",
@@ -950,7 +475,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "搶銀行先修班",
@@ -964,7 +489,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "即刻狂飆",
@@ -976,7 +501,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "惡靈古堡：爆發夜",
@@ -988,7 +513,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "沙丘",
@@ -1000,7 +525,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "沙丘：第二部",
@@ -1012,7 +537,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "泥面人",
@@ -1024,7 +549,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "另一個媽咪",
@@ -1036,7 +561,7 @@
     "srcs": [
      "atmovies"
     ],
-    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/20261124/"
+    "source": "https://www.atmovies.com.tw/showtime/t07707/a07/"
    },
    {
     "film": "飢餓遊戲：黎明收割",
